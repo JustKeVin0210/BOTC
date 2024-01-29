@@ -1,12 +1,12 @@
-## Environment
-### With conda
+## 环境配置
+### conda
 ```shell script
 conda create -n botc python=3.8 -y
 conda activate botc
 pip install -r requirements.txt
 ```
 
-## 染·钟楼谜团角色
+## 染钟楼谜团角色
 ### 图标下载
 python img_download.py
 ### 角色行动顺序表
