@@ -11,7 +11,7 @@ pip install -r requirements.txt
 python img_download.py
 ### 角色行动顺序表
 python write_md.py
-### json文件(更新至村夫)
+### json文件(更新至召唤师)
 全角色.json
 
 
