@@ -2714,7 +2714,8 @@
     "setup": false,
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。"
   },
-  {"id": "ojoTRANS",
+  {
+    "id": "ojoTRANS",
     "image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/96/Ojo.png/400px-Ojo.png",
     "name": "奥赫",
     "edition": "custom",
@@ -2728,7 +2729,8 @@
     "setup": false,
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。"
   },
-  {"id": "hatterTRANS",
+  {
+    "id": "hatterTRANS",
     "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/ee/Hatter.png/400px-Hatter.png",
     "name": "帽匠",
     "edition": "custom",
@@ -2742,7 +2744,8 @@
     "setup": false,
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。"
   },
-  {"id": "kazaliTRANS",
+  {
+    "id": "kazaliTRANS",
     "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/46/Kazali.png/400px-Kazali.png",
     "name": "卡扎力",
     "edition": "custom",
@@ -2756,7 +2759,8 @@
     "setup": true,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]"
   },
-  {"id": "villageidiotTRANS",
+  {
+    "id": "villageidiotTRANS",
     "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/78/Villageidiot.png/400px-Villageidiot.png",
     "name": "村夫",
     "edition": "custom",
@@ -2770,7 +2774,8 @@
     "setup": true,
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]"
   },
-  {"id": "yaggababbleTRANS",
+  {
+    "id": "yaggababbleTRANS",
     "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/50/Yaggababble.png/400px-Yaggababble.png",
     "name": "牙噶巴卜",
     "edition": "custom",
@@ -2784,7 +2789,8 @@
     "setup": false,
     "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。"
   },
-  {"id": "summonerTRANS",
+  {
+    "id": "summonerTRANS",
     "image": "https://clocktower-wiki.gstonegames.com/images/thumb/2/2f/Summoner.png/400px-Summoner.png",
     "name": "召唤师",
     "edition": "custom",
@@ -2797,5 +2803,20 @@
     "remindersGlobal": [],
     "setup": true,
     "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]"
+  },
+  {
+    "id": "bansheeTRANS",
+    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/d3/Banshee.png/400px-Banshee.png",
+    "name": "报丧女妖",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 10400,
+    "otherNightReminder": "如果报丧女妖被恶魔杀死，在报丧女妖的角色标记旁放置“具有能力”提示标记，并宣布“报丧女妖觉醒了”或是类似的有戏剧性的台词。",
+    "reminders": ["具有能力"],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。"
   }
 ]

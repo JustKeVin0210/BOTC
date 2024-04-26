@@ -24,7 +24,7 @@ def chunk_download(image_dir, image_url, name):
             f.write(chunk)
 
     t = time.time()
-    print("{}图标已经下载完成，用时{}s".format(name, t - t0))
+    print(f"{name}图标已经下载完成，用时{t - t0:.6f}s")
 
 
 if __name__ == '__main__':
