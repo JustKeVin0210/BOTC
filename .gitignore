@@ -1,5 +1,7 @@
 .DS_Store
 .idea/
+
+image_cn/
 image/color_blue
 image/color_red
 change_color.py

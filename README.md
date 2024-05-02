@@ -66,7 +66,11 @@ pip install -r requirements.txt
 python img_download.py
 ### 角色行动顺序表
 python write_md.py
-### json文件(更新至召唤师)
+### 角色变换阵营图标生成
+python token_change_team.py
+### 角色获取能力图标生成
+python token_get_ability.py
+### json文件(更新至报丧女妖)
 全角色.json
 
 
