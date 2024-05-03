@@ -1,6 +1,7 @@
 import os
 import numpy as np
 import cv2
+from utils import image_watermark
 
 
 role_path_list = [
@@ -13,6 +14,16 @@ role_path_list = [
         "id": "Lunatic",
         "real_role_path": "origin/outsider/Lunatic.png",
         "ability_role_path_list": ["change_team/demon"],  # "origin/demon",
+    },
+    {
+        "id": "Apprentice",
+        "real_role_path": "origin/traveler/Apprentice.png",
+        "ability_role_path_list": ["origin/townsfolk", "origin/minion"],
+    },
+    {
+        "id": "Philosopher",
+        "real_role_path": "origin/townsfolk/Philosopher.png",
+        "ability_role_path_list": ["origin/townsfolk", "origin/outsider"],
     },
     {
         "id": "Alchemist",
@@ -72,7 +83,7 @@ def image_merge(img_real, img_ability):
     return img_ability
 
 
-def get_ability_role(img_real_dir, ability_role_folder, save_folder):
+def get_ability_role(img_real_dir, ability_role_folder, save_folder, watermark=""):
     assert os.path.exists(img_real_dir), f"{os.path.basename(img_real_dir)}图片不存在"
     img_real = cv2.imread(img_real_dir, -1)
 
@@ -83,21 +94,26 @@ def get_ability_role(img_real_dir, ability_role_folder, save_folder):
         img_ability = cv2.imread(img_ability_dir, -1)
         img_ability = image_merge(img_real, img_ability)
         img_ability_new_name = f"{os.path.splitext(os.path.basename(img_real_dir))[0]}_{img_ability_name}"
+        if os.path.exists(watermark):
+            img_ability = image_watermark(img_ability, cv2.imread(watermark, -1))
         cv2.imwrite(os.path.join(save_folder, img_ability_new_name), img_ability)
         print(f"{img_ability_new_name}图片处理完成")
 
 
-def get_ability(img_origin_folder, save_path, role_path_list=role_path_list):
+def get_ability(img_origin_folder, save_path, role_path_list=role_path_list, watermark=""):
+    if os.path.exists(watermark):
+        save_path = save_path + "_watermark"
     for role_path in role_path_list:
         img_real_dir = os.path.join(img_origin_folder, role_path["real_role_path"])
         for ability_role_path in role_path["ability_role_path_list"]:
             ability_role_folder = os.path.join(img_origin_folder, ability_role_path)
             save_folder = os.path.join(save_path, "get_ability", role_path["id"], ability_role_path)
             os.makedirs(save_folder, exist_ok=True)
-            get_ability_role(img_real_dir, ability_role_folder, save_folder)
+            get_ability_role(img_real_dir, ability_role_folder, save_folder, watermark=watermark)
 
 
 if __name__ == '__main__':
     img_origin_folder = r"./image"
     save_path = r"./image"
-    get_ability(img_origin_folder, save_path)
+    watermark = r"./image_all/watermark/Just_KeVin.png"
+    get_ability(img_origin_folder, save_path, watermark=watermark)

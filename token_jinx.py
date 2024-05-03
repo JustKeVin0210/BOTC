@@ -2,14 +2,16 @@ import os
 import numpy as np
 import cv2
 import json
+from utils import image_watermark
 
 
-def merge_image(img_base_bgr, img_base_alpha, img_1, img_2):
+def merge_image(img_base, img_1, img_2):
     img_h_1, img_w_1 = img_1.shape[:2]
     img_h_2, img_w_2 = img_2.shape[:2]
     img_h, img_w = min(img_h_1, img_h_2), min(img_w_1, img_w_2)
     img_base_zeros = np.zeros((img_h * 2, img_w * 2, 4), dtype=np.uint8)
-    if img_base_bgr is not None and img_base_alpha is not None:
+    if img_base is not None:
+        img_base_bgr, img_base_alpha = img_base[:, :, :3], img_base[:, :, 3:]
         img_base_h, img_base_w = img_base_bgr.shape[:2]
         h_start, w_start = (img_h * 2 - img_base_h) // 2, (img_w * 2 - img_base_w) // 2
         h_end, w_end = h_start + img_base_h, w_start + img_base_w
@@ -23,15 +25,13 @@ def merge_image(img_base_bgr, img_base_alpha, img_1, img_2):
     return img_out
 
 
-def jinx(img_origin_folder, save_path, jinx_json):
+def jinx(img_origin_folder, save_path, jinx_json, watermark=""):
+    if os.path.exists(watermark):
+        save_path = save_path + "_watermark"
     img_base_dir = os.path.join(img_origin_folder, "jinx", "jinx.png")
     save_folder = os.path.join(save_path, "jinx")
     os.makedirs(save_folder, exist_ok=True)
-    if not os.path.exists(img_base_dir):
-        img_base_bgr, img_base_alpha = None, None
-    else:
-        img_base = cv2.imread(img_base_dir, -1)
-        img_base_bgr, img_base_alpha = img_base[:, :, :3], img_base[:, :, 3:]
+    img_base = cv2.imread(img_base_dir, -1)
     with open(jinx_json, "r", encoding='utf-8') as f:
         jinx_info_list = json.load(f)
     if jinx_info_list[0].get("id") == "_meta":
@@ -44,7 +44,9 @@ def jinx(img_origin_folder, save_path, jinx_json):
         assert os.path.exists(jinx_name_2), f"{os.path.basename(jinx_name_2)}图片不存在"
         img_1 = cv2.imread(jinx_name_1, -1)
         img_2 = cv2.imread(jinx_name_2, -1)
-        img_out = merge_image(img_base_bgr, img_base_alpha, img_1, img_2)
+        img_out = merge_image(img_base, img_1, img_2)
+        if os.path.exists(watermark):
+            img_out = image_watermark(img_out, cv2.imread(watermark, -1), scale=1.5)
         cv2.imwrite(os.path.join(save_folder, img_jinx_name), img_out)
         print(f"{img_jinx_name}图片处理完成")
     return
@@ -53,5 +55,6 @@ def jinx(img_origin_folder, save_path, jinx_json):
 if __name__ == '__main__':
     img_origin_folder = r"./image_all"
     save_path = r"./image"
-    jinx_json = r"./冲突规则.json"
-    jinx(img_origin_folder, save_path, jinx_json)
+    jinx_json = r"json/冲突规则.json"
+    watermark = r"./image_all/watermark/Just_KeVin.png"
+    jinx(img_origin_folder, save_path, jinx_json, watermark=watermark)

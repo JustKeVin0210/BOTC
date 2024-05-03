@@ -44,6 +44,6 @@ def write_md(file_dir, json_dir, output_dir):
 
 if __name__ == '__main__':
     file_dir = r"角色行动顺序表.xlsx"
-    json_dir = r"./全角色.json"
+    json_dir = r"json/全角色.json"
     output_dir = r"./角色行动顺序表.md"
     write_md(file_dir, json_dir, output_dir)

@@ -75,7 +75,7 @@ python token_get_ability.py
 ### 相克规则图标生成
 python token_get_jinx.py
 ### json文件(更新至报丧女妖)
-全角色.json
+json/全角色.json
 
 
 角色夜间行动顺序如需高清无水印版请联系邮箱just_kevin2022@163.com

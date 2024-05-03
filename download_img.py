@@ -71,13 +71,13 @@ def download_image_all(image_dir, json_file):
 
 if __name__ == '__main__':
     save_path = r"./image"
-    js_file = r"./全角色.json"
+    js_file = r"json/全角色.json"
     download_image(save_path, js_file)
 
     save_path = r"./image_cn"
-    js_file = r"./全角色.json"
+    js_file = r"json/全角色.json"
     download_image_cn(save_path, js_file)
 
     save_path = r"./image_all"
-    js_file = r"./全角色.json"
+    js_file = r"json/全角色.json"
     download_image_all(save_path, js_file)

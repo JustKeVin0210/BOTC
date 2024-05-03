@@ -6,10 +6,10 @@ from bs4 import BeautifulSoup
 from bisect import bisect_left
 
 
-URL = "https://clocktower-wiki.gstonegames.com/index.php?title=%E7%9B%B8%E5%85%8B%E8%A7%84%E5%88%99"
+JINX_URL = "https://clocktower-wiki.gstonegames.com/index.php?title=%E7%9B%B8%E5%85%8B%E8%A7%84%E5%88%99"
 
 
-def crawl_info(jinx_url=URL):
+def crawl_info(jinx_url=JINX_URL):
     response = requests.get(jinx_url)
     response.encoding = "utf-8"
     html_txt = BeautifulSoup(response.text, "html.parser")
@@ -40,26 +40,37 @@ def get_role_info(role_file):
     return role_info
 
 
-def download_jinx(role_file, save_file):
+def download_jinx(role_file, save_file, url_file=None):
+    if url_file is not None:
+        with open(url_file, "r", encoding='utf-8') as f:
+            url_list = [i[:-1] for i in f.readlines() if i.startswith("https")]
+        url_basename_list = [os.path.basename(url) for url in url_list]
     jinx_dict_list = [
         {
             "id": "_meta",
             "name": "相克规则",
             "author": "Just_KeVin",
-            "logo": "https://github.com/JustKeVin0210/BOTC/blob/main/image/get_ability/Marionette/change_team/townsfolk/Marionette_Atheist.png?raw=true",
+            "logo": "https://i.postimg.cc/HxddzTWc/Marionette-Atheist.png",
             "ability_jinx": "相克规则",
             "ability_role": "衍生角色"
         }
     ]
     role_info = get_role_info(role_file)
-    jinx_role_list, jinx_ability_list = crawl_info(jinx_url=URL)
+    jinx_role_list, jinx_ability_list = crawl_info(jinx_url=JINX_URL)
     for (jinx_role_1, jinx_role_2), jinx_ability in zip(jinx_role_list, jinx_ability_list):
         jinx_dict = {}
         index_1 = bisect_left(role_info, jinx_role_1, key=lambda x: x.get("name"))
         index_2 = bisect_left(role_info, jinx_role_2, key=lambda x: x.get("name"))
 
         jinx_dict["id"] = role_info[index_1].get("id").replace("TRANS", "") + "+" + role_info[index_2].get("id").replace("TRANS", "")
-        jinx_dict["image"] = f"https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/{jinx_dict['id'].replace('+', '_')}.png?raw=true"
+        jinx_image = f"{jinx_dict['id'].replace('+', '_')}.png"
+        if url_file is not None:
+            url_basename = jinx_image.replace('_', '-')
+            image_index = bisect_left(url_basename_list, f"{url_basename}")
+            assert url_basename_list[image_index] == url_basename, f"{url_basename}图片url异常"
+            jinx_dict["image"] = f"{url_list[image_index]}"
+        else:
+            jinx_dict["image"] = f"https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/{jinx_image}?raw=true"
         jinx_dict["edition"] = "custom"
         jinx_dict["team"] = "ability_jinx"
         jinx_dict["name"] = role_info[index_1].get("name") + "&" + role_info[index_2].get("name")
@@ -73,6 +84,7 @@ def download_jinx(role_file, save_file):
 
 
 if __name__ == '__main__':
-    role_file = r"./全角色.json"
-    save_file = r"./冲突规则.json"
-    download_jinx(role_file, save_file)
+    role_file = r"json/全角色.json"
+    save_file = r"json/冲突规则_水印.json"
+    url_file = r"url/url_jinx_wm.txt"
+    download_jinx(role_file, save_file, url_file)

@@ -5,5 +5,15 @@ image_cn/
 image_all/
 image/color_blue
 image/color_red
+
 change_color.py
 token_jinx_tri.py
+
+json/冲突规则.json
+json/冲突规则_github.json
+json/全员失忆.json
+
+url/url_change_team.txt
+url/url_get_ability.txt
+url/url_get_ability_wm.txt
+url/url_jinx.txt
