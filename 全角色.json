@@ -1,5 +1,13 @@
 [
   {
+    "id": "_meta",
+    "name": "全员失忆",
+    "author": "Just_KeVin",
+    "logo": "https://github.com/JustKeVin0210/BOTC/blob/main/image/get_ability/Marionette/change_team/townsfolk/Marionette_Atheist.png?raw=true",
+    "ability_jinx": "相克规则",
+    "ability_role": "衍生角色"
+  },
+  {
     "id": "washerwomanTRANS",
     "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/45/Washerwoman.png/180px-Washerwoman.png",
     "name": "洗衣妇",
@@ -9,8 +17,7 @@
     "firstNightReminder": "展示那个镇民角色标记。指向被你标记“镇民”和“错误”的两名玩家。",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["镇民",
-        "错误"],
+    "reminders": ["镇民", "错误"],
     "remindersGlobal": [],
     "setup": false,
     "ability": "在你的首个夜晚，你会得知两名玩家和一个镇民角色：这两名玩家之一是该角色。"
@@ -25,8 +32,7 @@
     "firstNightReminder": "展示那个外来者角色标记。指向被你标记“外来者”和“错误”的两名玩家。",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["外来者",
-        "错误"],
+    "reminders": ["外来者", "错误"],
     "remindersGlobal": [],
     "setup": false,
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。"
@@ -41,8 +47,7 @@
     "firstNightReminder": "展示那个爪牙角色标记。指向被你标记“爪牙”和“错误”的两名玩家。",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["爪牙",
-        "错误"],
+    "reminders": ["爪牙", "错误"],
     "remindersGlobal": [],
     "setup": false,
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。"
