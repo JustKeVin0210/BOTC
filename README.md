@@ -74,6 +74,8 @@ python token_change_team.py
 python token_get_ability.py
 ### 相克规则图标生成
 python token_get_jinx.py
+### 官方剧本工具转化
+python transform_json.py
 ### json文件(更新至报丧女妖)
 json/全角色.json
 
