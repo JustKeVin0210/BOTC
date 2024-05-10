@@ -9,6 +9,7 @@ image/color_red
 change_color.py
 token_jinx_tri.py
 
+json/全角色_冲突规则.json
 json/冲突规则.json
 json/冲突规则_github.json
 json/全员失忆.json
