@@ -12,8 +12,8 @@ def transform_json(origin_json_file, all_rloe_json_file, save_path, logo_url="")
         {
             "id": "_meta",
             "name": f"{os.path.basename(origin_json_file).split('.')[0]}",
-            "ability_jinx": "相克规则",
-            "ability_role": "衍生角色"
+            "a jinxed": "相克规则",
+            "a role": "衍生角色"
         }
     ]
     if all_role_json[0].get("id") == "_meta":
@@ -36,7 +36,7 @@ def transform_json(origin_json_file, all_rloe_json_file, save_path, logo_url="")
 
 if __name__ == '__main__':
     origin_json_file = r"json/心理博弈.json"
-    all_rloe_json_file = r"json/全角色.json"
+    all_role_json_file = r"json/全角色.json"
     save_path = r"./json"
     logo_url = r"https://oss.gstonegames.com/data_file/clocktower/upload/1689598305_197011_6023.png"
-    transform_json(origin_json_file, all_rloe_json_file, save_path, logo_url=logo_url)
+    transform_json(origin_json_file, all_role_json_file, save_path, logo_url=logo_url)

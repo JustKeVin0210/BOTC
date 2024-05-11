@@ -18,6 +18,7 @@ def crawl_info(jinx_url=JINX_URL):
     jinx_ability_list = []
     for html_find in html_find_all[1:]:
         jinx_roles = []
+        jinx_ability = html_find.contents[-1][1:-1]
         for html_a in html_find.find_all("a"):
             jinx_roles.append(html_a.get('title'))
         if len(jinx_roles) != 2:
@@ -26,7 +27,6 @@ def crawl_info(jinx_url=JINX_URL):
                 jinx_ability_list.append(jinx_ability)
             continue
         jinx_role_list.append(jinx_roles)
-        jinx_ability = html_find.contents[-1][1:-1]
         jinx_ability_list.append(jinx_ability)
     return jinx_role_list, jinx_ability_list
 
@@ -44,15 +44,16 @@ def download_jinx(role_file, save_file, url_file=None):
     if url_file is not None:
         with open(url_file, "r", encoding='utf-8') as f:
             url_list = [i[:-1] for i in f.readlines() if i.startswith("https")]
-        url_basename_list = [os.path.basename(url) for url in url_list]
+        url_list = sorted(url_list, key=lambda x: os.path.basename(x))
+        url_basename_list = sorted(os.path.basename(url) for url in url_list)
     jinx_dict_list = [
         {
             "id": "_meta",
             "name": "相克规则",
             "author": "Just_KeVin",
             "logo": "https://i.postimg.cc/HxddzTWc/Marionette-Atheist.png",
-            "ability_jinx": "相克规则",
-            "ability_role": "衍生角色"
+            "a jinxed": "相克规则",
+            "a role": "衍生角色"
         }
     ]
     role_info = get_role_info(role_file)
@@ -67,12 +68,15 @@ def download_jinx(role_file, save_file, url_file=None):
         if url_file is not None:
             url_basename = jinx_image.replace('_', '-')
             image_index = bisect_left(url_basename_list, f"{url_basename}")
-            assert url_basename_list[image_index] == url_basename, f"{url_basename}图片url异常"
-            jinx_dict["image"] = f"{url_list[image_index]}"
+
+            if image_index < len(url_basename_list) and url_basename_list[image_index] == url_basename:
+                jinx_dict["image"] = f"{url_list[image_index]}"
+            else:
+                jinx_dict["image"] = f"https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/{jinx_image}?raw=true"
         else:
             jinx_dict["image"] = f"https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/{jinx_image}?raw=true"
         jinx_dict["edition"] = "custom"
-        jinx_dict["team"] = "ability_jinx"
+        jinx_dict["team"] = "a jinxed"
         jinx_dict["name"] = role_info[index_1].get("name") + "&" + role_info[index_2].get("name")
         jinx_dict["ability"] = jinx_ability
         jinx_dict_list.append(jinx_dict)
@@ -87,4 +91,9 @@ if __name__ == '__main__':
     role_file = r"json/全角色.json"
     save_file = r"json/冲突规则_水印.json"
     url_file = r"url/url_jinx_wm.txt"
+    download_jinx(role_file, save_file, url_file)
+
+    role_file = r"json/全角色.json"
+    save_file = r"json/冲突规则.json"
+    url_file = r"url/url_jinx.txt"
     download_jinx(role_file, save_file, url_file)
