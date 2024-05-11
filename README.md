@@ -76,8 +76,12 @@ python token_get_ability.py
 python token_get_jinx.py
 ### 官方剧本工具转化
 python transform_json.py
-### json文件(更新至报丧女妖)
+### json文件融合
+python merge_json.py
+### json文件(角色更新至新版国王，相克规则更新至召唤师)
 json/全角色.json
+json/冲突规则_水印.json
+json/全角色_冲突规则_水印.json
 
 
 角色夜间行动顺序如需高清无水印版请联系邮箱just_kevin2022@163.com
