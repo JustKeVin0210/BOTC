@@ -3234,7 +3234,23 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "麻脸巫婆&政客",
-    "ability": "麻脸巫婆无法将一名邪恶玩家变成政客。"
+    "ability": "被麻脸巫婆创造的邪恶政客无法因为自身能力转变为善良阵营。"
+  },
+  {
+    "id": "pit-hag+cult_leader",
+    "image": "https://i.postimg.cc/VN5nGFJc/pit-hag-cult-leader.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "麻脸巫婆&异教领袖",
+    "ability": "被麻脸巫婆创造的邪恶异教领袖无法因为自身能力转变为善良阵营。"
+  },
+  {
+    "id": "pit-hag+goon",
+    "image": "https://i.postimg.cc/qqHK7Vjk/pit-hag-goon.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "麻脸巫婆&莽夫",
+    "ability": "被麻脸巫婆创造的邪恶莽夫无法因为自身能力转变为善良阵营。"
   },
   {
     "id": "pit-hag+villageidiot",
@@ -3526,7 +3542,7 @@
   },
   {
     "id": "summoner+kazali",
-    "image": "https://i.postimg.cc/sfL8ZmBh/summoner-kazali.png",
+    "image": "https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/summoner_kazali.png?raw=true",
     "edition": "custom",
     "team": "a jinxed",
     "name": "召唤师&卡扎力",
@@ -3534,7 +3550,7 @@
   },
   {
     "id": "summoner+hatter",
-    "image": "https://i.postimg.cc/j5g1cQZB/summoner-hatter.png",
+    "image": "https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/summoner_hatter.png?raw=true",
     "edition": "custom",
     "team": "a jinxed",
     "name": "召唤师&帽匠",
@@ -3542,7 +3558,7 @@
   },
   {
     "id": "summoner+courtier",
-    "image": "https://i.postimg.cc/vmvkgd9Y/summoner-courtier.png",
+    "image": "https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/summoner_courtier.png?raw=true",
     "edition": "custom",
     "team": "a jinxed",
     "name": "召唤师&侍臣",
@@ -3550,7 +3566,7 @@
   },
   {
     "id": "summoner+zombuul",
-    "image": "https://i.postimg.cc/qqN55hFq/summoner-zombuul.png",
+    "image": "https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/summoner_zombuul.png?raw=true",
     "edition": "custom",
     "team": "a jinxed",
     "name": "召唤师&僵怖",
@@ -3558,7 +3574,7 @@
   },
   {
     "id": "summoner+pukka",
-    "image": "https://i.postimg.cc/pr36bVNZ/summoner-pukka.png",
+    "image": "https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/summoner_pukka.png?raw=true",
     "edition": "custom",
     "team": "a jinxed",
     "name": "召唤师&普卡",
@@ -3566,7 +3582,7 @@
   },
   {
     "id": "summoner+engineer",
-    "image": "https://i.postimg.cc/Y9qVQyf1/summoner-engineer.png",
+    "image": "https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/summoner_engineer.png?raw=true",
     "edition": "custom",
     "team": "a jinxed",
     "name": "召唤师&工程师",
@@ -4075,22 +4091,6 @@
     "team": "a jinxed",
     "name": "涡流&报丧女妖",
     "ability": "如果恶魔杀死报丧女妖时涡流在场，玩家仍然会得知正确信息。（中文百科上的“通用简化原则”已涵盖包括多角色互动下的涡流信息的简化处理方式，此条仅做说明。）"
-  },
-  {
-    "id": "pit-hag+cult_leader",
-    "image": "https://i.postimg.cc/VN5nGFJc/pit-hag-cult-leader.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "麻脸巫婆&异教领袖",
-    "ability": "如果麻脸巫婆能将自己变成异教领袖，便能通过变成善良阵营来获胜。建议“麻脸巫婆无法将一名邪恶玩家变成异教领袖”。"
-  },
-  {
-    "id": "pit-hag+goon",
-    "image": "https://i.postimg.cc/qqHK7Vjk/pit-hag-goon.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "麻脸巫婆&莽夫",
-    "ability": "如果麻脸巫婆能将自己变成莽夫，便能通过变成善良阵营来获胜。建议“麻脸巫婆无法将一名邪恶玩家变成莽夫”。"
   },
   {
     "id": "pit-hag+lycanthrope",

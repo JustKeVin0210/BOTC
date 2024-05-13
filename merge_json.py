@@ -17,7 +17,7 @@ def merge_json(json_list, json_save_path):
     json_save_file = os.path.join(json_save_path, json_name)
     with open(json_save_file, "w", encoding='utf-8') as f:
         json.dump(data_list, f, ensure_ascii=False, indent=2)
-    print("json文件合并完成")
+    print(f"json文件{json_name}合并完成")
 
 
 if __name__ == '__main__':
