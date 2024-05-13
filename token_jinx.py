@@ -47,8 +47,14 @@ def jinx(img_origin_folder, save_path, jinx_json, watermark=""):
         img_out = merge_image(img_base, img_1, img_2)
         if os.path.exists(watermark):
             img_out = image_watermark(img_out, cv2.imread(watermark, -1), scale=1.5)
-        cv2.imwrite(os.path.join(save_folder, img_jinx_name), img_out)
-        print(f"{img_jinx_name}图片处理完成")
+        if not os.path.exists(os.path.join(save_folder, img_jinx_name)):
+            cv2.imwrite(os.path.join(save_folder, img_jinx_name), img_out)
+            save_folder_new = save_folder.replace("jinx", "jinx_new")
+            os.makedirs(save_folder_new, exist_ok=True)
+            cv2.imwrite(os.path.join(save_folder_new, img_jinx_name), img_out)
+            print(f"{img_jinx_name}图片处理完成")
+        else:
+            print(f"{img_jinx_name}图片已存在")
     return
 
 
@@ -58,3 +64,5 @@ if __name__ == '__main__':
     jinx_json = r"json/冲突规则.json"
     watermark = r"./image_all/watermark/Just_KeVin.png"
     jinx(img_origin_folder, save_path, jinx_json, watermark=watermark)
+
+    jinx(img_origin_folder, save_path, jinx_json)

@@ -34,3 +34,17 @@ if __name__ == '__main__':
     ]
     json_save_path = r"json"
     merge_json(json_list, json_save_path)
+
+    json_list = [
+        r"json/全角色_hr.json",
+        r"json/冲突规则_水印.json"
+    ]
+    json_save_path = r"json"
+    merge_json(json_list, json_save_path)
+
+    json_list = [
+        r"json/全角色_hr.json",
+        r"json/冲突规则.json"
+    ]
+    json_save_path = r"json"
+    merge_json(json_list, json_save_path)

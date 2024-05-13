@@ -8,62 +8,62 @@ role_path_list = [
     {
         "id": "Drunk",
         "real_role_path": "origin/outsider/Drunk.png",
-        "a role_path_list": ["origin/townsfolk"],
+        "ability_role_path_list": ["origin/townsfolk"],
     },
     {
         "id": "Lunatic",
         "real_role_path": "origin/outsider/Lunatic.png",
-        "a role_path_list": ["change_team/demon"],  # "origin/demon",
+        "ability_role_path_list": ["change_team/demon"],  # "origin/demon",
     },
     {
         "id": "Apprentice",
         "real_role_path": "origin/traveler/Apprentice.png",
-        "a role_path_list": ["origin/townsfolk", "origin/minion"],
+        "ability_role_path_list": ["origin/townsfolk", "origin/minion"],
     },
     {
         "id": "Philosopher",
         "real_role_path": "origin/townsfolk/Philosopher.png",
-        "a role_path_list": ["origin/townsfolk", "origin/outsider"],
+        "ability_role_path_list": ["origin/townsfolk", "origin/outsider"],
     },
     {
         "id": "Alchemist",
         "real_role_path": "origin/townsfolk/Alchemist.png",
-        "a role_path_list": ["change_team/minion"],  # "origin/minion",
+        "ability_role_path_list": ["change_team/minion"],  # "origin/minion",
     },
     {
         "id": "Pixie",
         "real_role_path": "origin/townsfolk/Pixie.png",
-        "a role_path_list": ["origin/townsfolk"],
+        "ability_role_path_list": ["origin/townsfolk"],
     },
     {
         "id": "Cannibal",
         "real_role_path": "origin/townsfolk/Cannibal.png",
-        "a role_path_list": ["origin/townsfolk", "origin/outsider"],
+        "ability_role_path_list": ["origin/townsfolk", "origin/outsider"],
     },
     {
         "id": "Marionette",
         "real_role_path": "origin/minion/Marionette.png",
-        "a role_path_list": ["change_team/townsfolk", "change_team/outsider"],  # "origin/townsfolk", "origin/outsider"
+        "ability_role_path_list": ["change_team/townsfolk", "change_team/outsider"],  # "origin/townsfolk", "origin/outsider"
     },
     {
         "id": "Bianlianshi",
         "real_role_path": "origin/townsfolk/Bianlianshi.png",
-        "a role_path_list": ["origin/townsfolk", "origin/outsider"],
+        "ability_role_path_list": ["origin/townsfolk", "origin/outsider"],
     },
     {
         "id": "Wudaozhe",
         "real_role_path": "origin/townsfolk/Wudaozhe.png",
-        "a role_path_list": ["origin/outsider"],
+        "ability_role_path_list": ["origin/outsider"],
     },
     {
         "id": "Jiaohuazi",
         "real_role_path": "origin/traveler/Jiaohuazi.png",
-        "a role_path_list": ["origin/townsfolk", "origin/outsider", "origin/minion"],
+        "ability_role_path_list": ["origin/townsfolk", "origin/outsider", "origin/minion"],
     },
     {
         "id": "Plague_doctor",
         "real_role_path": "origin/outsider/Plague_doctor.png",
-        "a role_path_list": ["origin/minion"],
+        "ability_role_path_list": ["origin/minion"],
     },
 ]
 
@@ -96,8 +96,14 @@ def get_ability_role(img_real_dir, ability_role_folder, save_folder, watermark="
         img_ability_new_name = f"{os.path.splitext(os.path.basename(img_real_dir))[0]}_{img_ability_name}"
         if os.path.exists(watermark):
             img_ability = image_watermark(img_ability, cv2.imread(watermark, -1))
-        cv2.imwrite(os.path.join(save_folder, img_ability_new_name), img_ability)
-        print(f"{img_ability_new_name}图片处理完成")
+        if not os.path.exists(os.path.join(save_folder, img_ability_new_name)):
+            cv2.imwrite(os.path.join(save_folder, img_ability_new_name), img_ability)
+            save_folder_new = save_folder.replace("get_ability", "get_ability_new")
+            os.makedirs(save_folder_new, exist_ok=True)
+            cv2.imwrite(os.path.join(save_folder_new, img_ability_new_name), img_ability)
+            print(f"{img_ability_new_name}图片处理完成")
+        else:
+            print(f"{img_ability_new_name}图片已存在")
 
 
 def get_ability(img_origin_folder, save_path, role_path_list=role_path_list, watermark=""):
@@ -105,7 +111,7 @@ def get_ability(img_origin_folder, save_path, role_path_list=role_path_list, wat
         save_path = save_path + "_watermark"
     for role_path in role_path_list:
         img_real_dir = os.path.join(img_origin_folder, role_path["real_role_path"])
-        for ability_role_path in role_path["a role_path_list"]:
+        for ability_role_path in role_path["ability_role_path_list"]:
             ability_role_folder = os.path.join(img_origin_folder, ability_role_path)
             save_folder = os.path.join(save_path, "get_ability", role_path["id"], ability_role_path)
             os.makedirs(save_folder, exist_ok=True)
@@ -117,3 +123,5 @@ if __name__ == '__main__':
     save_path = r"./image"
     watermark = r"./image_all/watermark/Just_KeVin.png"
     get_ability(img_origin_folder, save_path, watermark=watermark)
+
+    get_ability(img_origin_folder, save_path)
