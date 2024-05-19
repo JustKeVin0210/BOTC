@@ -1771,7 +1771,7 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["已公开声明"],
+    "reminders": ["已宣称"],
     "remindersGlobal": [],
     "setup": false,
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。"

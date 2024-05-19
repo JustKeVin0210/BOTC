@@ -9,7 +9,7 @@
   },
   {
     "id": "washerwomanTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/45/Washerwoman.png/180px-Washerwoman.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/washerwoman.png",
     "name": "洗衣妇",
     "edition": "custom",
     "team": "townsfolk",
@@ -27,7 +27,7 @@
   },
   {
     "id": "librarianTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/55/Librarian.png/180px-Librarian.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/librarian.png",
     "name": "图书管理员",
     "edition": "custom",
     "team": "townsfolk",
@@ -45,7 +45,7 @@
   },
   {
     "id": "investigatorTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/c/cb/Investigator.png/180px-Investigator.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/investigator.png",
     "name": "调查员",
     "edition": "custom",
     "team": "townsfolk",
@@ -63,7 +63,7 @@
   },
   {
     "id": "chefTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/e5/Chef.png/180px-Chef.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/chef.png",
     "name": "厨师",
     "edition": "custom",
     "team": "townsfolk",
@@ -78,7 +78,7 @@
   },
   {
     "id": "empathTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/4e/Empath.png/180px-Empath.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/empath.png",
     "name": "共情者",
     "edition": "custom",
     "team": "townsfolk",
@@ -93,7 +93,7 @@
   },
   {
     "id": "fortune_tellerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/6/67/Fortuneteller.png/180px-Fortuneteller.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/fortune_teller.png",
     "name": "占卜师",
     "edition": "custom",
     "team": "townsfolk",
@@ -110,7 +110,7 @@
   },
   {
     "id": "undertakerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/c/c7/Undertaker.png/180px-Undertaker.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/undertaker.png",
     "name": "送葬者",
     "edition": "custom",
     "team": "townsfolk",
@@ -127,7 +127,7 @@
   },
   {
     "id": "monkTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/44/Monk.png/180px-Monk.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/monk.png",
     "name": "僧侣",
     "edition": "custom",
     "team": "townsfolk",
@@ -144,7 +144,7 @@
   },
   {
     "id": "ravenkeeperTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/3/37/Ravenkeeper.png/180px-Ravenkeeper.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/ravenkeeper.png",
     "name": "守鸦人",
     "edition": "custom",
     "team": "townsfolk",
@@ -159,7 +159,7 @@
   },
   {
     "id": "virginTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/43/Virgin.png/180px-Virgin.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/virgin.png",
     "name": "贞洁者",
     "edition": "custom",
     "team": "townsfolk",
@@ -176,7 +176,7 @@
   },
   {
     "id": "slayerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/6/6e/Slayer.png/180px-Slayer.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/slayer.png",
     "name": "猎手",
     "edition": "custom",
     "team": "townsfolk",
@@ -193,7 +193,7 @@
   },
   {
     "id": "soldierTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/7b/Soldier.png/180px-Soldier.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/soldier.png",
     "name": "士兵",
     "edition": "custom",
     "team": "townsfolk",
@@ -208,7 +208,7 @@
   },
   {
     "id": "mayorTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/2/20/Mayor.png/180px-Mayor.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/mayor.png",
     "name": "镇长",
     "edition": "custom",
     "team": "townsfolk",
@@ -223,7 +223,7 @@
   },
   {
     "id": "butlerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/82/Butler.png/180px-Butler.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/butler.png",
     "name": "管家",
     "edition": "custom",
     "team": "outsider",
@@ -236,11 +236,17 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。"
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
+    "jinxes": [
+      {
+        "id": "cannibalTRANS",
+        "reason": "如果食人族获得了管家的能力，他会得知这一信息。"
+      }
+    ]
   },
   {
     "id": "drunkTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/14/Drunk.png/180px-Drunk.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/drunk.png",
     "name": "酒鬼",
     "edition": "custom",
     "team": "outsider",
@@ -257,7 +263,7 @@
   },
   {
     "id": "recluseTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/0/02/Recluse.png/180px-Recluse.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/recluse.png",
     "name": "陌客",
     "edition": "custom",
     "team": "outsider",
@@ -272,7 +278,7 @@
   },
   {
     "id": "saintTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/b/bc/Saint.png/180px-Saint.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/saint.png",
     "name": "圣徒",
     "edition": "custom",
     "team": "outsider",
@@ -287,7 +293,7 @@
   },
   {
     "id": "poisonerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/74/Poisoner.png/180px-Poisoner.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/poisoner.png",
     "name": "投毒者",
     "edition": "custom",
     "team": "minion",
@@ -304,7 +310,7 @@
   },
   {
     "id": "spyTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/3/36/Spy.png/180px-Spy.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/spy.png",
     "name": "间谍",
     "edition": "custom",
     "team": "minion",
@@ -315,11 +321,33 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。"
+    "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
+    "jinxes": [
+      {
+        "id": "magicianTRANS",
+        "reason": "当间谍查看魔典时，魔术师和恶魔的角色标记会被说书人移除。"
+      },
+      {
+        "id": "alchemistTRANS",
+        "reason": "炼金术士无法获得间谍的能力。"
+      },
+      {
+        "id": "poppy_growerTRANS",
+        "reason": "如果罂粟种植者在场，直到其死亡前间谍无法查看魔典。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "如果间谍正在场或曾经在场，落难少女中毒。"
+      },
+      {
+        "id": "hereticTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      }
+    ]
   },
   {
     "id": "scarlet_womanTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/a/ac/Scarletwoman.png/180px-Scarletwoman.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/scarlet_woman.png",
     "name": "红唇女郎",
     "edition": "custom",
     "team": "minion",
@@ -336,7 +364,7 @@
   },
   {
     "id": "baronTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/40/Baron.png/180px-Baron.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/baron.png",
     "name": "男爵",
     "edition": "custom",
     "team": "minion",
@@ -347,11 +375,17 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "会有额外的外来者在场。[+2外来者]"
+    "ability": "会有额外的外来者在场。[+2外来者]",
+    "jinxes": [
+      {
+        "id": "hereticTRANS",
+        "reason": "如果异端分子在剧本中，男爵的效果可能会只增加一个而非两个外来者。"
+      }
+    ]
   },
   {
     "id": "impTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/b/b3/Imp.png/180px-Imp.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/imp.png",
     "name": "小恶魔",
     "edition": "custom",
     "team": "demon",
@@ -368,7 +402,7 @@
   },
   {
     "id": "bureaucratTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/5c/Bureaucrat.png/180px-Bureaucrat.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/bureaucrat.png",
     "name": "官员",
     "edition": "custom",
     "team": "traveler",
@@ -385,7 +419,7 @@
   },
   {
     "id": "beggarTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/f/fa/Beggar.png/180px-Beggar.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/beggar.png",
     "name": "乞丐",
     "edition": "custom",
     "team": "traveler",
@@ -400,7 +434,7 @@
   },
   {
     "id": "gunslingerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/c/c2/Gunslinger.png/180px-Gunslinger.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/gunslinger.png",
     "name": "枪手",
     "edition": "custom",
     "team": "traveler",
@@ -415,7 +449,7 @@
   },
   {
     "id": "thiefTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/f/fc/Thief.png/180px-Thief.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/thief.png",
     "name": "窃贼",
     "edition": "custom",
     "team": "traveler",
@@ -432,7 +466,7 @@
   },
   {
     "id": "scapegoatTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/0/0b/Scapegoat.png/180px-Scapegoat.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/scapegoat.png",
     "name": "替罪羊",
     "edition": "custom",
     "team": "traveler",
@@ -447,7 +481,7 @@
   },
   {
     "id": "grandmotherTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/6/66/Grandmother.png/180px-Grandmother.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/grandmother.png",
     "name": "祖母",
     "edition": "custom",
     "team": "townsfolk",
@@ -465,7 +499,7 @@
   },
   {
     "id": "sailorTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/c/ce/Sailor.png/180px-Sailor.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/sailor.png",
     "name": "水手",
     "edition": "custom",
     "team": "townsfolk",
@@ -482,7 +516,7 @@
   },
   {
     "id": "chambermaidTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/0/00/Chambermaid.png/180px-Chambermaid.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/chambermaid.png",
     "name": "侍女",
     "edition": "custom",
     "team": "townsfolk",
@@ -493,11 +527,17 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。"
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+    "jinxes": [
+      {
+        "id": "mathematicianTRANS",
+        "reason": "侍女会得知数学家是否醒来，即使她是在数学家之前醒来。"
+      }
+    ]
   },
   {
     "id": "exorcistTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/a/ac/Exorcist.png/180px-Exorcist.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/exorcist.png",
     "name": "驱魔人",
     "edition": "custom",
     "team": "townsfolk",
@@ -514,7 +554,7 @@
   },
   {
     "id": "innkeeperTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/3/32/Innkeeper.png/180px-Innkeeper.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/innkeeper.png",
     "name": "旅店老板",
     "edition": "custom",
     "team": "townsfolk",
@@ -532,7 +572,7 @@
   },
   {
     "id": "gamblerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/8a/Gambler.png/180px-Gambler.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/gambler.png",
     "name": "赌徒",
     "edition": "custom",
     "team": "townsfolk",
@@ -549,7 +589,7 @@
   },
   {
     "id": "gossipTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/a/a4/Gossip.png/180px-Gossip.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/gossip.png",
     "name": "造谣者",
     "edition": "custom",
     "team": "townsfolk",
@@ -566,7 +606,7 @@
   },
   {
     "id": "courtierTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/d9/Courtier.png/180px-Courtier.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/courtier.png",
     "name": "侍臣",
     "edition": "custom",
     "team": "townsfolk",
@@ -586,7 +626,7 @@
   },
   {
     "id": "professorTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/b/b1/Professor.png/180px-Professor.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/professor.png",
     "name": "教授",
     "edition": "custom",
     "team": "townsfolk",
@@ -604,7 +644,7 @@
   },
   {
     "id": "minstrelTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/6/66/Minstrel.png/180px-Minstrel.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/minstrel.png",
     "name": "吟游诗人",
     "edition": "custom",
     "team": "townsfolk",
@@ -621,7 +661,7 @@
   },
   {
     "id": "tea_ladyTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/b/bc/Tealady.png/180px-Tealady.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/tea_lady.png",
     "name": "茶艺师",
     "edition": "custom",
     "team": "townsfolk",
@@ -638,7 +678,7 @@
   },
   {
     "id": "pacifistTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/4a/Pacifist.png/180px-Pacifist.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/pacifist.png",
     "name": "和平主义者",
     "edition": "custom",
     "team": "townsfolk",
@@ -653,7 +693,7 @@
   },
   {
     "id": "foolTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/70/Fool.png/180px-Fool.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/fool.png",
     "name": "弄臣",
     "edition": "custom",
     "team": "townsfolk",
@@ -670,7 +710,7 @@
   },
   {
     "id": "tinkerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/ec/Tinker.png/180px-Tinker.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/tinker.png",
     "name": "修补匠",
     "edition": "custom",
     "team": "outsider",
@@ -687,7 +727,7 @@
   },
   {
     "id": "moonchildTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/7d/Moonchild.png/180px-Moonchild.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/moonchild.png",
     "name": "月之子",
     "edition": "custom",
     "team": "outsider",
@@ -704,7 +744,7 @@
   },
   {
     "id": "goonTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/c/cd/Goon.png/180px-Goon.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/goon.png",
     "name": "莽夫",
     "edition": "custom",
     "team": "outsider",
@@ -721,7 +761,7 @@
   },
   {
     "id": "lunaticTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/89/Lunatic.png/180px-Lunatic.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lunatic.png",
     "name": "疯子",
     "edition": "custom",
     "team": "outsider",
@@ -736,11 +776,17 @@
       "是疯子"
     ],
     "setup": false,
-    "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。"
+    "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
+    "jinxes": [
+      {
+        "id": "mathematicianTRANS",
+        "reason": "数学家会得知疯子是否攻击了与真正的恶魔不同的目标。"
+      }
+    ]
   },
   {
     "id": "godfatherTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/dd/Godfather.png/180px-Godfather.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/godfather.png",
     "name": "教父",
     "edition": "custom",
     "team": "minion",
@@ -754,11 +800,17 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]"
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "jinxes": [
+      {
+        "id": "hereticTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      }
+    ]
   },
   {
     "id": "devils_advocateTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/5d/Devilsadvocate.png/180px-Devilsadvocate.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/devils_advocate.png",
     "name": "魔鬼代言人",
     "edition": "custom",
     "team": "minion",
@@ -775,7 +827,7 @@
   },
   {
     "id": "assassinTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/6/69/Assassin.png/180px-Assassin.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/assassin.png",
     "name": "刺客",
     "edition": "custom",
     "team": "minion",
@@ -793,7 +845,7 @@
   },
   {
     "id": "mastermindTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/19/Mastermind.png/180px-Mastermind.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/mastermind.png",
     "name": "主谋",
     "edition": "custom",
     "team": "minion",
@@ -808,7 +860,7 @@
   },
   {
     "id": "zombuulTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/7b/Zombuul.png/180px-Zombuul.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/zombuul.png",
     "name": "僵怖",
     "edition": "custom",
     "team": "demon",
@@ -826,7 +878,7 @@
   },
   {
     "id": "pukkaTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/45/Pukka.png/180px-Pukka.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/pukka.png",
     "name": "普卡",
     "edition": "custom",
     "team": "demon",
@@ -844,7 +896,7 @@
   },
   {
     "id": "shabalothTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/5c/Shabaloth.png/180px-Shabaloth.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/shabaloth.png",
     "name": "沙巴洛斯",
     "edition": "custom",
     "team": "demon",
@@ -862,7 +914,7 @@
   },
   {
     "id": "poTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/b/bf/Po.png/180px-Po.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/po.png",
     "name": "珀",
     "edition": "custom",
     "team": "demon",
@@ -880,7 +932,7 @@
   },
   {
     "id": "judgeTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/8a/Judge.png/180px-Judge.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/judge.png",
     "name": "法官",
     "edition": "custom",
     "team": "traveler",
@@ -897,7 +949,7 @@
   },
   {
     "id": "matronTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/85/Matron.png/180px-Matron.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/matron.png",
     "name": "女舍监",
     "edition": "custom",
     "team": "traveler",
@@ -912,7 +964,7 @@
   },
   {
     "id": "voudonTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/6/62/Voudon.png/180px-Voudon.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/voudon.png",
     "name": "巫毒师",
     "edition": "custom",
     "team": "traveler",
@@ -927,7 +979,7 @@
   },
   {
     "id": "apprenticeTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/6/66/Apprentice.png/180px-Apprentice.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/apprentice.png",
     "name": "学徒",
     "edition": "custom",
     "team": "traveler",
@@ -944,7 +996,7 @@
   },
   {
     "id": "bishopTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/f/f0/Bishop.png/180px-Bishop.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/bishop.png",
     "name": "主教",
     "edition": "custom",
     "team": "traveler",
@@ -962,7 +1014,7 @@
   },
   {
     "id": "clockmakerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/74/Clockmaker.png/180px-Clockmaker.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/clockmaker.png",
     "name": "钟表匠",
     "edition": "custom",
     "team": "townsfolk",
@@ -977,7 +1029,7 @@
   },
   {
     "id": "dreamerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/2/29/Dreamer.png/180px-Dreamer.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/dreamer.png",
     "name": "筑梦师",
     "edition": "custom",
     "team": "townsfolk",
@@ -992,7 +1044,7 @@
   },
   {
     "id": "snake_charmerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/a/ab/Snakecharmer.png/180px-Snakecharmer.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/snake_charmer.png",
     "name": "舞蛇人",
     "edition": "custom",
     "team": "townsfolk",
@@ -1009,7 +1061,7 @@
   },
   {
     "id": "mathematicianTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/0/06/Mathematician.png/180px-Mathematician.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/mathematician.png",
     "name": "数学家",
     "edition": "custom",
     "team": "townsfolk",
@@ -1026,7 +1078,7 @@
   },
   {
     "id": "flowergirlTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/5b/Flowergirl.png/180px-Flowergirl.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/flowergirl.png",
     "name": "卖花女孩",
     "edition": "custom",
     "team": "townsfolk",
@@ -1044,7 +1096,7 @@
   },
   {
     "id": "town_crierTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/b/b7/Towncrier.png/180px-Towncrier.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/town_crier.png",
     "name": "城镇公告员",
     "edition": "custom",
     "team": "townsfolk",
@@ -1062,7 +1114,7 @@
   },
   {
     "id": "oracleTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/17/Oracle.png/180px-Oracle.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/oracle.png",
     "name": "神谕者",
     "edition": "custom",
     "team": "townsfolk",
@@ -1077,7 +1129,7 @@
   },
   {
     "id": "savantTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/53/Savant.png/180px-Savant.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/savant.png",
     "name": "博学者",
     "edition": "custom",
     "team": "townsfolk",
@@ -1092,7 +1144,7 @@
   },
   {
     "id": "seamstressTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/a/ae/Seamstress.png/180px-Seamstress.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/seamstress.png",
     "name": "女裁缝",
     "edition": "custom",
     "team": "townsfolk",
@@ -1109,7 +1161,7 @@
   },
   {
     "id": "philosopherTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/e0/Philosopher.png/180px-Philosopher.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/philosopher.png",
     "name": "哲学家",
     "edition": "custom",
     "team": "townsfolk",
@@ -1128,7 +1180,7 @@
   },
   {
     "id": "artistTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/a/a5/Artist.png/180px-Artist.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/artist.png",
     "name": "艺术家",
     "edition": "custom",
     "team": "townsfolk",
@@ -1145,7 +1197,7 @@
   },
   {
     "id": "jugglerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/b/be/Juggler.png/180px-Juggler.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/juggler.png",
     "name": "杂耍艺人",
     "edition": "custom",
     "team": "townsfolk",
@@ -1162,7 +1214,7 @@
   },
   {
     "id": "sageTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/f/f8/Sage.png/180px-Sage.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/sage.png",
     "name": "贤者",
     "edition": "custom",
     "team": "townsfolk",
@@ -1177,7 +1229,7 @@
   },
   {
     "id": "mutantTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/58/Mutant.png/180px-Mutant.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/mutant.png",
     "name": "畸形秀演员",
     "edition": "custom",
     "team": "outsider",
@@ -1192,7 +1244,7 @@
   },
   {
     "id": "sweetheartTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/c/c2/Sweetheart.png/180px-Sweetheart.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/sweetheart.png",
     "name": "心上人",
     "edition": "custom",
     "team": "outsider",
@@ -1209,7 +1261,7 @@
   },
   {
     "id": "barberTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/3/3a/Barber.png/180px-Barber.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/barber.png",
     "name": "理发师",
     "edition": "custom",
     "team": "outsider",
@@ -1222,11 +1274,29 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。"
+    "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
+    "jinxes": [
+      {
+        "id": "cult_leaderTRANS",
+        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+      },
+      {
+        "id": "goonTRANS",
+        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+      },
+      {
+        "id": "politicianTRANS",
+        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "参考麻脸巫婆。建议“如果恶魔选择交换落难少女的角色，参与角色交换的另一名玩家改为由说书人来决定”。"
+      }
+    ]
   },
   {
     "id": "klutzTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/f/f6/Klutz.png/180px-Klutz.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/klutz.png",
     "name": "呆瓜",
     "edition": "custom",
     "team": "outsider",
@@ -1241,7 +1311,7 @@
   },
   {
     "id": "evil_twinTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/8e/Eviltwin.png/180px-Eviltwin.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/evil_twin.png",
     "name": "镜像双子",
     "edition": "custom",
     "team": "minion",
@@ -1258,7 +1328,7 @@
   },
   {
     "id": "witchTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/e6/Witch.png/180px-Witch.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/witch.png",
     "name": "女巫",
     "edition": "custom",
     "team": "minion",
@@ -1275,7 +1345,7 @@
   },
   {
     "id": "cerenovusTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/4d/Cerenovus.png/180px-Cerenovus.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/cerenovus.png",
     "name": "洗脑师",
     "edition": "custom",
     "team": "minion",
@@ -1288,11 +1358,17 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。"
+    "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
+    "jinxes": [
+      {
+        "id": "goblinTRANS",
+        "reason": "洗脑师可以选择将玩家洗脑成哥布林。"
+      }
+    ]
   },
   {
     "id": "pit-hagTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/de/Pithag.png/180px-Pithag.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/pit-hag.png",
     "name": "麻脸巫婆",
     "edition": "custom",
     "team": "minion",
@@ -1303,11 +1379,41 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。"
+    "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
+    "jinxes": [
+      {
+        "id": "hereticTRANS",
+        "reason": "麻脸巫婆无法创造异端分子。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "如果麻脸巫婆创造了落难少女，改为由说书人来决定哪一名玩家变成落难少女。"
+      },
+      {
+        "id": "politicianTRANS",
+        "reason": "被麻脸巫婆创造的邪恶政客无法因为自身能力转变为善良阵营。"
+      },
+      {
+        "id": "cult_leaderTRANS",
+        "reason": "被麻脸巫婆创造的邪恶异教领袖无法因为自身能力转变为善良阵营。"
+      },
+      {
+        "id": "goonTRANS",
+        "reason": "被麻脸巫婆创造的邪恶莽夫无法因为自身能力转变为善良阵营。"
+      },
+      {
+        "id": "villageidiotTRANS",
+        "reason": "如果村夫在场数量不足3人，麻脸巫婆可以创造新的村夫。如果她这么做，村夫的醉酒效果可能会更换目标。"
+      },
+      {
+        "id": "lycanthropeTRANS",
+        "reason": "如果半兽人使得当晚无法造成额外的死亡，麻脸巫婆便能肆无忌惮地创造更多的邪恶恶魔。建议“如果半兽人攻击了善良玩家，当晚麻脸巫婆无法将非恶魔玩家变成恶魔角色”。（等到半兽人行动后再通知相应的角色变化即可）"
+      }
+    ]
   },
   {
     "id": "fang_guTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/97/Fanggu.png/180px-Fanggu.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/fang_gu.png",
     "name": "方古",
     "edition": "custom",
     "team": "demon",
@@ -1322,11 +1428,17 @@
       "限一次"
     ],
     "setup": true,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]"
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
+    "jinxes": [
+      {
+        "id": "scarlet_womanTRANS",
+        "reason": "如果方古成功转化了外来者并因此死去，红唇女郎不会变成方古。"
+      }
+    ]
   },
   {
     "id": "vigormortisTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/f/fc/Vigormortis.png/180px-Vigormortis.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/vigormortis.png",
     "name": "亡骨魔",
     "edition": "custom",
     "team": "demon",
@@ -1345,7 +1457,7 @@
   },
   {
     "id": "no_dashiiTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/16/Nodashii.png/180px-Nodashii.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/no_dashii.png",
     "name": "诺-达鲺",
     "edition": "custom",
     "team": "demon",
@@ -1363,7 +1475,7 @@
   },
   {
     "id": "vortoxTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/78/Vortox.png/180px-Vortox.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/vortox.png",
     "name": "涡流",
     "edition": "custom",
     "team": "demon",
@@ -1376,11 +1488,17 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。"
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
+    "jinxes": [
+      {
+        "id": "bansheeTRANS",
+        "reason": "如果恶魔杀死报丧女妖时涡流在场，玩家仍然会得知正确信息。（中文百科上的“通用简化原则”已涵盖包括多角色互动下的涡流信息的简化处理方式，此条仅做说明。）"
+      }
+    ]
   },
   {
     "id": "deviantTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/d5/Deviant.png/180px-Deviant.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/deviant.png",
     "name": "怪咖",
     "edition": "custom",
     "team": "traveler",
@@ -1395,7 +1513,7 @@
   },
   {
     "id": "bone_collectorTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/48/Bonecollector.png/180px-Bonecollector.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/bone_collector.png",
     "name": "集骨者",
     "edition": "custom",
     "team": "traveler",
@@ -1413,7 +1531,7 @@
   },
   {
     "id": "baristaTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/0/05/Barista.png/180px-Barista.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/barista.png",
     "name": "咖啡师",
     "edition": "custom",
     "team": "traveler",
@@ -1431,7 +1549,7 @@
   },
   {
     "id": "harlotTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/89/Harlot.png/180px-Harlot.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/harlot.png",
     "name": "流莺",
     "edition": "custom",
     "team": "traveler",
@@ -1448,7 +1566,7 @@
   },
   {
     "id": "butcherTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/f/fb/Butcher.png/180px-Butcher.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/butcher.png",
     "name": "屠夫",
     "edition": "custom",
     "team": "traveler",
@@ -1463,7 +1581,7 @@
   },
   {
     "id": "lycanthropeTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/c/c1/Lycanthrope.png/180px-Lycanthrope.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lycanthrope.png",
     "name": "半兽人",
     "edition": "custom",
     "team": "townsfolk",
@@ -1476,11 +1594,25 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名存活的玩家，如果他是善良的，他死亡，并且当晚不会再有其他玩家死亡。"
+    "ability": "每个夜晚*，你要选择一名存活的玩家，如果他是善良的，他死亡，并且当晚不会再有其他玩家死亡。",
+    "jinxes": [
+      {
+        "id": "gamblerTRANS",
+        "reason": "赌徒会先于半兽人行动。如果赌徒赌博失败且半兽人存活，那么无论半兽人选择了哪名玩家，当晚只会有赌徒死亡。"
+      },
+      {
+        "id": "dagengrenTRANS",
+        "reason": "如果打更人猜测正确的玩家是半兽人攻击的玩家，那么当晚只会有打更人死亡。"
+      },
+      {
+        "id": "jinyiweiTRANS",
+        "reason": "如果半兽人选择了锦衣卫保护的善良玩家，那么当晚只会有锦衣卫死亡。"
+      }
+    ]
   },
   {
     "id": "choirboyTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/f/f3/Choirboy.png/180px-Choirboy.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/choirboy.png",
     "name": "唱诗男孩",
     "edition": "custom",
     "team": "townsfolk",
@@ -1495,7 +1627,7 @@
   },
   {
     "id": "preacherTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/44/Preacher.png/180px-Preacher.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/preacher.png",
     "name": "传教士",
     "edition": "custom",
     "team": "townsfolk",
@@ -1512,7 +1644,7 @@
   },
   {
     "id": "engineerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/d8/Engineer.png/180px-Engineer.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/engineer.png",
     "name": "工程师",
     "edition": "custom",
     "team": "townsfolk",
@@ -1529,7 +1661,7 @@
   },
   {
     "id": "nobleTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/59/Noble.png/180px-Noble.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/noble.png",
     "name": "贵族",
     "edition": "custom",
     "team": "townsfolk",
@@ -1546,7 +1678,7 @@
   },
   {
     "id": "kingTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/1d/King.png/180px-King.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/king.png",
     "name": "国王",
     "edition": "custom",
     "team": "townsfolk",
@@ -1561,7 +1693,7 @@
   },
   {
     "id": "generalTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/6/6d/General.png/180px-General.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/general.png",
     "name": "将军",
     "edition": "custom",
     "team": "townsfolk",
@@ -1576,7 +1708,7 @@
   },
   {
     "id": "alchemistTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/5b/Alchemist.png/180px-Alchemist.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/alchemist.png",
     "name": "炼金术士",
     "edition": "custom",
     "team": "townsfolk",
@@ -1593,7 +1725,7 @@
   },
   {
     "id": "magicianTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/c/ca/Magician.png/180px-Magician.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/magician.png",
     "name": "魔术师",
     "edition": "custom",
     "team": "townsfolk",
@@ -1608,7 +1740,7 @@
   },
   {
     "id": "farmerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/3/3d/Farmer.png/180px-Farmer.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/farmer.png",
     "name": "农夫",
     "edition": "custom",
     "team": "townsfolk",
@@ -1623,7 +1755,7 @@
   },
   {
     "id": "balloonistTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/3/35/Balloonist.png/180px-Balloonist.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/balloonist.png",
     "name": "气球驾驶员",
     "edition": "custom",
     "team": "townsfolk",
@@ -1644,7 +1776,7 @@
   },
   {
     "id": "bounty_hunterTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/ee/Bountyhunter.png/180px-Bountyhunter.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/bounty_hunter.png",
     "name": "赏金猎人",
     "edition": "custom",
     "team": "townsfolk",
@@ -1662,7 +1794,7 @@
   },
   {
     "id": "amnesiacTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/55/Amnesiac.png/180px-Amnesiac.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/amnesiac.png",
     "name": "失忆者",
     "edition": "custom",
     "team": "townsfolk",
@@ -1679,7 +1811,7 @@
   },
   {
     "id": "cannibalTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/ed/Cannibal.png/180px-Cannibal.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/cannibal.png",
     "name": "食人族",
     "edition": "custom",
     "team": "townsfolk",
@@ -1697,7 +1829,7 @@
   },
   {
     "id": "nightwatchmanTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/3/3f/Nightwatchman.png/180px-Nightwatchman.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/nightwatchman.png",
     "name": "守夜人",
     "edition": "custom",
     "team": "townsfolk",
@@ -1714,7 +1846,7 @@
   },
   {
     "id": "atheistTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/d7/Atheist.png/180px-Atheist.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/atheist.png",
     "name": "无神论者",
     "edition": "custom",
     "team": "townsfolk",
@@ -1729,7 +1861,7 @@
   },
   {
     "id": "pixieTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/2/22/Pixie.png/180px-Pixie.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/pixie.png",
     "name": "小精灵",
     "edition": "custom",
     "team": "townsfolk",
@@ -1748,7 +1880,7 @@
   },
   {
     "id": "huntsmanTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/75/Huntsman.png/180px-Huntsman.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/huntsman.png",
     "name": "巡山人",
     "edition": "custom",
     "team": "townsfolk",
@@ -1765,7 +1897,7 @@
   },
   {
     "id": "cult_leaderTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/e1/Cultleader.png/180px-Cultleader.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/cult_leader.png",
     "name": "异教领袖",
     "edition": "custom",
     "team": "townsfolk",
@@ -1780,7 +1912,7 @@
   },
   {
     "id": "poppy_growerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/42/Poppygrower.png/180px-Poppygrower.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/poppy_grower.png",
     "name": "罂粟种植者",
     "edition": "custom",
     "team": "townsfolk",
@@ -1797,7 +1929,7 @@
   },
   {
     "id": "fishermanTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/f/f0/Fisherman.png/180px-Fisherman.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/fisherman.png",
     "name": "渔夫",
     "edition": "custom",
     "team": "townsfolk",
@@ -1814,7 +1946,7 @@
   },
   {
     "id": "snitchTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/0/0c/Snitch.png/180px-Snitch.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/snitch.png",
     "name": "告密者",
     "edition": "custom",
     "team": "outsider",
@@ -1829,7 +1961,7 @@
   },
   {
     "id": "puzzlemasterTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/1b/Puzzlemaster.png/180px-Puzzlemaster.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/puzzlemaster.png",
     "name": "解谜大师",
     "edition": "custom",
     "team": "outsider",
@@ -1847,7 +1979,7 @@
   },
   {
     "id": "damselTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/b/b6/Damsel.png/180px-Damsel.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/damsel.png",
     "name": "落难少女",
     "edition": "custom",
     "team": "outsider",
@@ -1864,7 +1996,7 @@
   },
   {
     "id": "golemTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/c/ce/Golem.png/180px-Golem.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/golem.png",
     "name": "魔像",
     "edition": "custom",
     "team": "outsider",
@@ -1881,7 +2013,7 @@
   },
   {
     "id": "hereticTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/81/Heretic.png/180px-Heretic.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/heretic.png",
     "name": "异端分子",
     "edition": "custom",
     "team": "outsider",
@@ -1892,11 +2024,17 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "所有本来获胜的玩家，改为落败；所有本来落败的玩家，改为获胜，即使你已死亡。"
+    "ability": "所有本来获胜的玩家，改为落败；所有本来落败的玩家，改为获胜，即使你已死亡。",
+    "jinxes": [
+      {
+        "id": "humeiniangTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      }
+    ]
   },
   {
     "id": "acrobatTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/8f/Acrobat.png/180px-Acrobat.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/acrobat.png",
     "name": "杂技演员",
     "edition": "custom",
     "team": "outsider",
@@ -1913,7 +2051,7 @@
   },
   {
     "id": "politicianTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/91/Politician.png/180px-Politician.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/politician.png",
     "name": "政客",
     "edition": "custom",
     "team": "outsider",
@@ -1928,7 +2066,7 @@
   },
   {
     "id": "goblinTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/d2/Goblin.png/180px-Goblin.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/goblin.png",
     "name": "哥布林",
     "edition": "custom",
     "team": "minion",
@@ -1937,7 +2075,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "已公开声明"
+      "已宣称"
     ],
     "remindersGlobal": [],
     "setup": false,
@@ -1945,7 +2083,7 @@
   },
   {
     "id": "widowTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/1e/Widow.png/180px-Widow.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/widow.png",
     "name": "寡妇",
     "edition": "custom",
     "team": "minion",
@@ -1959,11 +2097,33 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。"
+    "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
+    "jinxes": [
+      {
+        "id": "magicianTRANS",
+        "reason": "当寡妇查看魔典时，魔术师和恶魔的标记会被说书人移除。"
+      },
+      {
+        "id": "poppy_growerTRANS",
+        "reason": "如果罂粟种植者在场，直到其死亡前寡妇无法查看魔典。寡妇会在罂粟种植者死后的首个夜晚触发自身的能力。"
+      },
+      {
+        "id": "alchemistTRANS",
+        "reason": "炼金术士无法获得寡妇的能力。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "如果寡妇正在场或曾经在场，落难少女中毒。"
+      },
+      {
+        "id": "hereticTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      }
+    ]
   },
   {
     "id": "psychopathTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/6/63/Psychopath.png/180px-Psychopath.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/psychopath.png",
     "name": "精神病患者",
     "edition": "custom",
     "team": "minion",
@@ -1978,7 +2138,7 @@
   },
   {
     "id": "fearmongerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/77/Fearmonger.png/180px-Fearmonger.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/fearmonger.png",
     "name": "恐惧之灵",
     "edition": "custom",
     "team": "minion",
@@ -1995,7 +2155,7 @@
   },
   {
     "id": "mezephelesTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/19/Mezepheles.png/180px-Mezepheles.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/mezepheles.png",
     "name": "灵言师",
     "edition": "custom",
     "team": "minion",
@@ -2013,7 +2173,7 @@
   },
   {
     "id": "marionetteTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/3/3d/Marionette.png/180px-Marionette.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/marionette.png",
     "name": "提线木偶",
     "edition": "custom",
     "team": "minion",
@@ -2026,11 +2186,37 @@
       "是提线木偶"
     ],
     "setup": true,
-    "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]"
+    "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
+    "jinxes": [
+      {
+        "id": "lil_monstaTRANS",
+        "reason": "提线木偶会与一名爪牙玩家邻座，而不是恶魔。提线木偶不会被唤醒来决定是否照看小怪宝，也不会在照看小怪宝时得知自己是提线木偶。"
+      },
+      {
+        "id": "poppy_growerTRANS",
+        "reason": "当罂粟种植者死亡后，恶魔会知道谁是提线木偶，但提线木偶什么都不会知道。"
+      },
+      {
+        "id": "snitchTRANS",
+        "reason": "提线木偶不会得知三个不在场的角色，如果提线木偶与告密者均在场，改为由恶魔额外得知三个不在场角色。"
+      },
+      {
+        "id": "balloonistTRANS",
+        "reason": "如果提线木偶抽到了气球驾驶员，也会+1外来者。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "提线木偶不会得知落难少女在场。"
+      },
+      {
+        "id": "huntsmanTRANS",
+        "reason": "如果提线木偶抽到了巡山人，也会增加落难少女。"
+      }
+    ]
   },
   {
     "id": "boomdandyTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/b/b0/Boomdandy.png/180px-Boomdandy.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/boomdandy.png",
     "name": "炸弹人",
     "edition": "custom",
     "team": "minion",
@@ -2045,7 +2231,7 @@
   },
   {
     "id": "riotTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/c/c0/Riot.png/180px-Riot.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/riot.png",
     "name": "暴乱",
     "edition": "custom",
     "team": "demon",
@@ -2056,11 +2242,153 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "被提名的玩家死亡，但他可以立刻再次发起提名（第三天白天他必须这么做）。在第三个白天结束时，邪恶阵营获胜。[所有爪牙都是暴乱]"
+    "ability": "被提名的玩家死亡，但他可以立刻再次发起提名（第三天白天他必须这么做）。在第三个白天结束时，邪恶阵营获胜。[所有爪牙都是暴乱]",
+    "jinxes": [
+      {
+        "id": "engineerTRANS",
+        "reason": "暴乱和工程师不能在初始时同时在场。如果工程师创造了暴乱，所有邪恶玩家都会变成暴乱。"
+      },
+      {
+        "id": "golemTRANS",
+        "reason": "如果魔像提名了暴乱，暴乱不会死亡。"
+      },
+      {
+        "id": "snitchTRANS",
+        "reason": "如果告密者在场，所有暴乱玩家都会分别得知三个不在场角色。"
+      },
+      {
+        "id": "saintTRANS",
+        "reason": "如果善良玩家提名并杀死了圣徒，圣徒的阵营落败。"
+      },
+      {
+        "id": "butlerTRANS",
+        "reason": "管家无法提名主人。"
+      },
+      {
+        "id": "mayorTRANS",
+        "reason": "如果在第三天开始时只有三名玩家存活，所有玩家可以针对今天不发起提名进行表决。如果表决通过且镇长存活，镇长的阵营获胜。"
+      },
+      {
+        "id": "monkTRANS",
+        "reason": "如果暴乱提名了一名前一晚曾被僧侣成功保护的玩家，那名玩家不会死亡。"
+      },
+      {
+        "id": "farmerTRANS",
+        "reason": "如果暴乱提名并杀死了农夫，当晚会有一名存活的善良玩家变成农夫。"
+      },
+      {
+        "id": "innkeeperTRANS",
+        "reason": "如果暴乱提名了一名前一晚曾被旅店老板成功保护的玩家，那名玩家不会死亡。"
+      },
+      {
+        "id": "sageTRANS",
+        "reason": "如果暴乱提名并杀死了贤者，当晚贤者会被唤醒并使用其能力。"
+      },
+      {
+        "id": "ravenkeeperTRANS",
+        "reason": "如果暴乱提名并杀死了守鸦人，当晚守鸦人会被唤醒并使用其能力。"
+      },
+      {
+        "id": "bansheeTRANS",
+        "reason": "如果暴乱提名并杀死了报丧女妖，所有玩家都会得知报丧女妖死亡，随后报丧女妖可以立即提名两名玩家。（同时或按顺序结算这两条提名链。）"
+      },
+      {
+        "id": "soldierTRANS",
+        "reason": "如果暴乱提名了士兵，士兵不会死亡。"
+      },
+      {
+        "id": "grandmotherTRANS",
+        "reason": "如果暴乱提名并杀死了孙子，祖母会一同死亡。"
+      },
+      {
+        "id": "kingTRANS",
+        "reason": "如果暴乱提名并杀死了国王且唱诗男孩存活，当晚唱诗男孩会被唤醒并使用其能力。"
+      },
+      {
+        "id": "exorcistTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "minstrelTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "flowergirlTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "undertakerTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      },
+      {
+        "id": "cannibalTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      },
+      {
+        "id": "pacifistTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      },
+      {
+        "id": "devils_advocateTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      },
+      {
+        "id": "investigatorTRANS",
+        "reason": "暴乱被调查员当作爪牙。"
+      },
+      {
+        "id": "clockmakerTRANS",
+        "reason": "暴乱被钟表匠当作爪牙。"
+      },
+      {
+        "id": "town_crierTRANS",
+        "reason": "暴乱被城镇公告员当作爪牙。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "暴乱被落难少女当作爪牙。"
+      },
+      {
+        "id": "preacherTRANS",
+        "reason": "暴乱被传教士当作爪牙。"
+      },
+      {
+        "id": "pit-hagTRANS",
+        "reason": "如果麻脸巫婆创造了暴乱，所有邪恶玩家都会变成暴乱。如果麻脸巫婆在游戏的第三天之后创造了暴乱，则游戏还会再进行一天。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "如果帽匠死亡时暴乱在场，一名暴乱选择变成其他恶魔，则其他所有暴乱需要选择变成其他爪牙。如果帽匠死亡时恶魔选择变成暴乱，所有爪牙会一同变成暴乱（如果发生在第三天后，则游戏会多进行一天）。"
+      },
+      {
+        "id": "summonerTRANS",
+        "reason": "如果召唤师创造了暴乱，被选择的玩家和所有邪恶玩家都变成邪恶的暴乱。被选择的玩家必须是与召唤师邻近的存活善良玩家。"
+      },
+      {
+        "id": "banxianTRANS",
+        "reason": "当且仅当暴乱提名了半仙时，半仙不会死亡，而是让另一名存活的邪恶玩家死亡。（随后那名死亡的邪恶玩家可以立即发起新的提名。如果场上已经没有其他存活的邪恶玩家，那么半仙在被唯一存活的暴乱提名时会正常死亡。）"
+      },
+      {
+        "id": "dagengrenTRANS",
+        "reason": "如果在夜晚无人死亡，打更人的能力能保护下一个白天首次死亡的玩家（如果打更人的猜测正确）。然而集体免死的效果不会在白天触发，打更人也不会因此在白天死亡。"
+      },
+      {
+        "id": "heshangTRANS",
+        "reason": "如果暴乱提名了与和尚邻近的存活玩家，那么那名玩家不会死亡，并且当晚和尚得知他的能力被触发。（如常在和尚旁放置“已生效”提示标记，因为黎明时才会移除此标记，因此当晚和尚无法再触发他的能力。）"
+      },
+      {
+        "id": "nichenTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      },
+      {
+        "id": "humeiniangTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      }
+    ]
   },
   {
     "id": "al-hadikhiaTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/0/09/Alhadikhia.png/180px-Alhadikhia.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/al-hadikhia.png",
     "name": "哈迪寂亚",
     "edition": "custom",
     "team": "demon",
@@ -2077,11 +2405,21 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。"
+    "ability": "每个夜晚*，你要选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
+    "jinxes": [
+      {
+        "id": "scarlet_womanTRANS",
+        "reason": "如果出现两名存活的哈迪寂亚，则红唇女郎变成的哈迪寂亚会变回红唇女郎。"
+      },
+      {
+        "id": "mastermindTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。邪恶阵营玩家在游戏开始时知道这两者中是什么角色在场，是哪一名玩家。"
+      }
+    ]
   },
   {
     "id": "legionTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/2/25/Legion.png/180px-Legion.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/legion.png",
     "name": "军团",
     "edition": "custom",
     "team": "demon",
@@ -2095,11 +2433,29 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[半数以上玩家为军团]"
+    "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[半数以上玩家为军团]",
+    "jinxes": [
+      {
+        "id": "engineerTRANS",
+        "reason": "军团和工程师不能在初始时同时在场。如果工程师创造了军团，那么包括所有邪恶玩家在内的绝大多数玩家都会变成邪恶的军团。"
+      },
+      {
+        "id": "preacherTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "如果帽匠死亡时军团在场，则无事发生。如果帽匠死亡时一名邪恶玩家选择变成军团，当前所有邪恶玩家都会一同变成军团。"
+      },
+      {
+        "id": "summonerTRANS",
+        "reason": "如果召唤师创造了军团，包括所有邪恶玩家在内的绝大多数玩家都会变成邪恶的军团。"
+      }
+    ]
   },
   {
     "id": "leviathanTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/0/0a/Leviathan.png/180px-Leviathan.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/leviathan.png",
     "name": "利维坦",
     "edition": "custom",
     "team": "demon",
@@ -2118,11 +2474,57 @@
       "第五天"
     ],
     "setup": false,
-    "ability": "如果多于一名善良玩家被处决，邪恶阵营获胜。所有玩家都知道利维坦在场。在第五个白天结束时，邪恶阵营获胜。"
+    "ability": "如果多于一名善良玩家被处决，邪恶阵营获胜。所有玩家都知道利维坦在场。在第五个白天结束时，邪恶阵营获胜。",
+    "jinxes": [
+      {
+        "id": "soldierTRANS",
+        "reason": "如果利维坦发起的提名中士兵被处决，士兵不会死亡。"
+      },
+      {
+        "id": "monkTRANS",
+        "reason": "如果利维坦发起的提名中被处决的玩家在前一晚曾被僧侣成功保护，那么那名玩家不会死亡。"
+      },
+      {
+        "id": "innkeeperTRANS",
+        "reason": "如果利维坦发起的提名中被处决的玩家在前一晚曾被旅店老板成功保护，那么那名玩家不会死亡。"
+      },
+      {
+        "id": "ravenkeeperTRANS",
+        "reason": "如果利维坦在场且守鸦人死于处决，那么他当晚会被唤醒并使用自己的能力。如果提名者是善良阵营，守鸦人会醉酒。"
+      },
+      {
+        "id": "sageTRANS",
+        "reason": "如果利维坦在场且贤者死于处决，那么他当晚会被唤醒并使用自己的能力。如果提名者是善良阵营，贤者会醉酒。"
+      },
+      {
+        "id": "bansheeTRANS",
+        "reason": "如果利维坦在场且报丧女妖死于处决，所有玩家都会得知报丧女妖死亡，随后报丧女妖获得她死亡后的能力。"
+      },
+      {
+        "id": "farmerTRANS",
+        "reason": "如果利维坦在场且农夫死于处决，当晚会有一名存活的善良玩家变成农夫。"
+      },
+      {
+        "id": "mayorTRANS",
+        "reason": "如果利维坦在场，镇长存活且第五天没有处决发生，则善良阵营获胜。"
+      },
+      {
+        "id": "pit-hagTRANS",
+        "reason": "在第五个白天之后，麻脸巫婆无法创造利维坦。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "如果帽匠在第五个白天或之后死亡，恶魔不能选择变成利维坦。"
+      },
+      {
+        "id": "heshangTRANS",
+        "reason": "如果利维坦发起的提名中被处决的玩家是与和尚邻近的存活玩家，那么那名玩家不会死亡，并且当晚和尚得知他的能力被触发。（如常在和尚旁放置“已生效”提示标记，因为黎明时才会移除此标记，因此当晚和尚无法再触发他的能力。）"
+      }
+    ]
   },
   {
     "id": "lleechTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/70/Lleech.png/180px-Lleech.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lleech.png",
     "name": "痢蛭",
     "edition": "custom",
     "team": "demon",
@@ -2136,11 +2538,25 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有他死亡时你才会一同死亡。"
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有他死亡时你才会一同死亡。",
+    "jinxes": [
+      {
+        "id": "mastermindTRANS",
+        "reason": "如果主谋存活且痢蛭的宿主死于处决，痢蛭存活但失去能力。"
+      },
+      {
+        "id": "slayerTRANS",
+        "reason": "如果猎手选择了痢蛭的宿主，则宿主会死亡。"
+      },
+      {
+        "id": "hereticTRANS",
+        "reason": "如果痢蛭选择异端分子作为宿主，痢蛭死亡时异端分子仍会中毒。"
+      }
+    ]
   },
   {
     "id": "lil_monstaTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/3/39/Lilmonsta.png/180px-Lilmonsta.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lil_monsta.png",
     "name": "小怪宝",
     "edition": "custom",
     "team": "demon",
@@ -2154,11 +2570,37 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]"
+    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
+    "jinxes": [
+      {
+        "id": "poppy_growerTRANS",
+        "reason": "如果罂粟种植者在场，爪牙们不会同时醒来选择照看小怪宝。他们会依次单独被唤醒，直到其中一人选择照看小怪宝。"
+      },
+      {
+        "id": "magicianTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "scarlet_womanTRANS",
+        "reason": "如果在五名及以上的玩家存活时照看小怪宝的玩家死亡，当晚红唇女郎必须要照看小怪宝。"
+      },
+      {
+        "id": "organ_grinderTRANS",
+        "reason": "如果街头风琴手在照看小怪宝，对街头风琴手的提名即使他自己没有投票，票数也会被统计。"
+      },
+      {
+        "id": "vizierTRANS",
+        "reason": "照看小怪宝的维齐尔能够死于处决。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "如果恶魔选择了小怪宝，则还需要选择一个爪牙角色，他变成这个爪牙且当晚照看小怪宝。"
+      }
+    ]
   },
   {
     "id": "gangsterTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/44/Gangster.png/180px-Gangster.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/gangster.png",
     "name": "黑帮",
     "edition": "custom",
     "team": "traveler",
@@ -2403,7 +2845,7 @@
   },
   {
     "id": "banxianTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/b/b7/Banxian.png/240px-Banxian.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/banxian.png",
     "name": "半仙",
     "edition": "custom",
     "team": "townsfolk",
@@ -2418,7 +2860,7 @@
   },
   {
     "id": "bianlianshiTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/49/Bianlianshi.png/240px-Bianlianshi.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/bianlianshi.png",
     "name": "变脸师",
     "edition": "custom",
     "team": "townsfolk",
@@ -2437,7 +2879,7 @@
   },
   {
     "id": "dagengrenTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/db/Dagengren.png/240px-Dagengren.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/dagengren.png",
     "name": "打更人",
     "edition": "custom",
     "team": "townsfolk",
@@ -2455,7 +2897,7 @@
   },
   {
     "id": "dianxiaoerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/8d/Dianxiaoer.png/240px-Dianxiaoer.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/dianxiaoer.png",
     "name": "店小二",
     "edition": "custom",
     "team": "townsfolk",
@@ -2473,7 +2915,7 @@
   },
   {
     "id": "gelingTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/54/Geling.png/240px-Geling.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/geling.png",
     "name": "歌伶",
     "edition": "custom",
     "team": "townsfolk",
@@ -2492,7 +2934,7 @@
   },
   {
     "id": "heshangTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/a/ae/Heshang.png/240px-Heshang.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/heshang.png",
     "name": "和尚",
     "edition": "custom",
     "team": "townsfolk",
@@ -2509,7 +2951,7 @@
   },
   {
     "id": "jinyiweiTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/3/38/Jinyiwei.png/240px-Jinyiwei.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/jinyiwei.png",
     "name": "锦衣卫",
     "edition": "custom",
     "team": "townsfolk",
@@ -2526,7 +2968,7 @@
   },
   {
     "id": "langzhongTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/eb/Langzhong.png/240px-Langzhong.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/langzhong.png",
     "name": "郎中",
     "edition": "custom",
     "team": "townsfolk",
@@ -2541,7 +2983,7 @@
   },
   {
     "id": "qintianjianTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/13/Qintianjian.png/240px-Qintianjian.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/qintianjian.png",
     "name": "钦天监",
     "edition": "custom",
     "team": "townsfolk",
@@ -2556,7 +2998,7 @@
   },
   {
     "id": "wudaozheTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/a/a7/Wudaozhe.png/240px-Wudaozhe.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/wudaozhe.png",
     "name": "悟道者",
     "edition": "custom",
     "team": "townsfolk",
@@ -2569,11 +3011,17 @@
       "是悟道者"
     ],
     "setup": false,
-    "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，你会立即变成一个不在场的镇民角色。"
+    "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，你会立即变成一个不在场的镇民角色。",
+    "jinxes": [
+      {
+        "id": "villageidiotTRANS",
+        "reason": "如果村夫在场数量不足3人，悟道者可以变成新的村夫。如果因此使得村夫的在场数量超过1人，会有一名村夫醉酒。"
+      }
+    ]
   },
   {
     "id": "xiziTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/13/Xizi.png/240px-Xizi.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/xizi.png",
     "name": "戏子",
     "edition": "custom",
     "team": "townsfolk",
@@ -2584,11 +3032,73 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "所有戏子互相认识。不论在场的戏子数量多少或存活与否，胜负结果会被对调。[所有善良玩家都是戏子]"
+    "ability": "所有戏子互相认识。不论在场的戏子数量多少或存活与否，胜负结果会被对调。[所有善良玩家都是戏子]",
+    "jinxes": [
+      {
+        "id": "spyTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "godfatherTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "evil_twinTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "widowTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "summonerTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "riotTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "legionTRANS",
+        "reason": "在戏子存在于剧本中时，军团可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在夜晚一同唤醒所有军团，并询问他们是否要一同死亡。"
+      },
+      {
+        "id": "leviathanTRANS",
+        "reason": "在戏子存在于剧本中时，利维坦可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在当晚杀死这名玩家。"
+      },
+      {
+        "id": "lil_monstaTRANS",
+        "reason": "在戏子存在于剧本中时，照看小怪宝的玩家可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在当晚将小怪宝从游戏中移除。"
+      },
+      {
+        "id": "pukkaTRANS",
+        "reason": "在戏子存在于剧本中时，普卡可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在当晚杀死这名玩家。"
+      },
+      {
+        "id": "kazaliTRANS",
+        "reason": "卡扎力和戏子不能在初始时同时在场。如果有角色能力能够使得善良玩家在第一个夜晚变成戏子，卡扎力会在这一效果生效之前先进行转变爪牙的行动。"
+      },
+      {
+        "id": "pit-hagTRANS",
+        "reason": "麻脸巫婆无法创造戏子。"
+      },
+      {
+        "id": "atheistTRANS",
+        "reason": "无神论者在剧本中时，处决说书人导致的胜负结果不会被反转。"
+      },
+      {
+        "id": "goblinTRANS",
+        "reason": "戏子无法反转由哥布林的能力产生的胜负结果。"
+      },
+      {
+        "id": "fearmongerTRANS",
+        "reason": "戏子无法反转由恐惧之灵的能力产生的胜负结果。"
+      }
+    ]
   },
   {
     "id": "xionghaiziTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/7a/Xionghaizi.png/240px-Xionghaizi.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/xionghaizi.png",
     "name": "熊孩子",
     "edition": "custom",
     "team": "townsfolk",
@@ -2605,7 +3115,7 @@
   },
   {
     "id": "yinyangshiTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/d2/Yinyangshi.png/240px-Yinyangshi.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/yinyangshi.png",
     "name": "阴阳师",
     "edition": "custom",
     "team": "townsfolk",
@@ -2623,7 +3133,7 @@
   },
   {
     "id": "nichenTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/51/Nichen.png/240px-Nichen.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/nichen.png",
     "name": "逆臣",
     "edition": "custom",
     "team": "outsider",
@@ -2640,7 +3150,7 @@
   },
   {
     "id": "shaxingTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/b/b9/Shaxing.png/240px-Shaxing.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/shaxing.png",
     "name": "煞星",
     "edition": "custom",
     "team": "outsider",
@@ -2657,7 +3167,7 @@
   },
   {
     "id": "shijieTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/6/67/Shijie.png/240px-Shijie.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/shijie.png",
     "name": "使节",
     "edition": "custom",
     "team": "outsider",
@@ -2674,7 +3184,7 @@
   },
   {
     "id": "shushengTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/db/Shusheng.png/240px-Shusheng.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/shusheng.png",
     "name": "书生",
     "edition": "custom",
     "team": "outsider",
@@ -2693,7 +3203,7 @@
   },
   {
     "id": "ganshirenTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/7f/Ganshiren.png/240px-Ganshiren.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/ganshiren.png",
     "name": "赶尸人",
     "edition": "custom",
     "team": "minion",
@@ -2710,7 +3220,7 @@
   },
   {
     "id": "humeiniangTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/94/Humeiniang.png/240px-Humeiniang.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/humeiniang.png",
     "name": "狐媚娘",
     "edition": "custom",
     "team": "minion",
@@ -2727,7 +3237,7 @@
   },
   {
     "id": "jinweijunTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/55/Jinweijun.png/240px-Jinweijun.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/jinweijun.png",
     "name": "禁卫军",
     "edition": "custom",
     "team": "minion",
@@ -2742,7 +3252,7 @@
   },
   {
     "id": "yanggurenTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/80/Yangguren.png/240px-Yangguren.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/yangguren.png",
     "name": "养蛊人",
     "edition": "custom",
     "team": "minion",
@@ -2760,7 +3270,7 @@
   },
   {
     "id": "hundunTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/49/Hundun.png/240px-Hundun.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/hundun.png",
     "name": "混沌",
     "edition": "custom",
     "team": "demon",
@@ -2778,7 +3288,7 @@
   },
   {
     "id": "qiongqiTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/13/Qiongqi.png/240px-Qiongqi.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/qiongqi.png",
     "name": "穷奇",
     "edition": "custom",
     "team": "demon",
@@ -2797,7 +3307,7 @@
   },
   {
     "id": "taotieTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/85/Taotie.png/240px-Taotie.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/taotie.png",
     "name": "饕餮",
     "edition": "custom",
     "team": "demon",
@@ -2814,7 +3324,7 @@
   },
   {
     "id": "taowuTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/52/Taowu.png/240px-Taowu.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/taowu.png",
     "name": "梼杌",
     "edition": "custom",
     "team": "demon",
@@ -2828,11 +3338,53 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你将要死亡时，改为一名存活且具有能力的爪牙失去能力。你不会得知恶魔信息。"
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你将要死亡时，改为一名存活且具有能力的爪牙失去能力。你不会得知恶魔信息。",
+    "jinxes": [
+      {
+        "id": "scarlet_womanTRANS",
+        "reason": "红唇女郎在梼杌的能力判断中被当作“不具有能力”。"
+      },
+      {
+        "id": "evil_twinTRANS",
+        "reason": "镜像双子在梼杌的能力判断中被当作“不具有能力”。"
+      },
+      {
+        "id": "mastermindTRANS",
+        "reason": "主谋在梼杌的能力判断中被当作“不具有能力”。"
+      },
+      {
+        "id": "organ_grinderTRANS",
+        "reason": "当梼杌被处决时，如果街头风琴手具有能力，说书人会宣布“无人被处决”。"
+      },
+      {
+        "id": "marionetteTRANS",
+        "reason": "梼杌不会得知谁是提线木偶。在梼杌使得提线木偶失去能力后，梼杌会得知对应的那一名提线木偶是谁，但提线木偶会仍然以为自己是一个善良角色。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "如果梼杌变成了其他角色，因为梼杌而失去能力的爪牙会立即死亡。"
+      },
+      {
+        "id": "pit-hagTRANS",
+        "reason": "如果梼杌变成了其他角色，因为梼杌而失去能力的爪牙会立即死亡。"
+      },
+      {
+        "id": "engineerTRANS",
+        "reason": "如果梼杌变成了其他恶魔，因为梼杌而失去能力的爪牙会立即死亡。"
+      },
+      {
+        "id": "snake_charmerTRANS",
+        "reason": "如果梼杌的角色发生了交换，不会因此移除原本梼杌的“失去能力”提示标记。"
+      },
+      {
+        "id": "barberTRANS",
+        "reason": "如果梼杌的角色发生了交换，不会因此移除原本梼杌的“失去能力”提示标记。"
+      }
+    ]
   },
   {
     "id": "jiaohuaziTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/2/22/Jiaohuazi.png/240px-Jiaohuazi.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/jiaohuazi.png",
     "name": "叫花子",
     "edition": "custom",
     "team": "traveler",
@@ -2866,7 +3418,7 @@
   },
   {
     "id": "organ_grinderTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/f/ff/Organgrinder.png/240px-Organgrinder.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/organ_grinder.png",
     "name": "街头风琴手",
     "edition": "custom",
     "team": "minion",
@@ -2879,11 +3431,29 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "所有玩家在投票时闭眼，且票数会秘密统计。对你的提名只在你投票时才会统计票数。"
+    "ability": "所有玩家在投票时闭眼，且票数会秘密统计。对你的提名只在你投票时才会统计票数。",
+    "jinxes": [
+      {
+        "id": "butlerTRANS",
+        "reason": "如果街头风琴手使得玩家需要闭眼投票，管家可以自由举手投票，但只在他的主人投票时他的票才会被统计。"
+      },
+      {
+        "id": "flowergirlTRANS",
+        "reason": "如果街头风琴手使得玩家需要闭眼投票，卖花女孩在夜晚会改为得知恶魔在白天投票的总次数。"
+      },
+      {
+        "id": "minstrelTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "preacherTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      }
+    ]
   },
   {
     "id": "vizierTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/0/09/Vizier.png/240px-Vizier.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/vizier.png",
     "name": "维齐尔",
     "edition": "custom",
     "team": "minion",
@@ -2894,11 +3464,41 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "所有玩家都知道你是维齐尔。你在白天时不会死亡。如果一次提名中有善良玩家投票，你可以让被提名者立即被处决。"
+    "ability": "所有玩家都知道你是维齐尔。你在白天时不会死亡。如果一次提名中有善良玩家投票，你可以让被提名者立即被处决。",
+    "jinxes": [
+      {
+        "id": "investigatorTRANS",
+        "reason": "如果调查员的能力使其得知了维齐尔，则说书人不会告知所有人维齐尔在场。"
+      },
+      {
+        "id": "preacherTRANS",
+        "reason": "如果维齐尔失去能力，他会得知这一信息。如果传教士在剧本列表中，且维齐尔在具有能力时被处决，他的阵营获胜。"
+      },
+      {
+        "id": "courtierTRANS",
+        "reason": "如果维齐尔失去能力，他会得知这一信息。如果侍臣在剧本列表中，且维齐尔在具有能力时被处决，他的阵营获胜。"
+      },
+      {
+        "id": "alchemistTRANS",
+        "reason": "如果炼金术士拥有维齐尔的能力，他只能在三名或更多玩家投票时选择立即处决，不论这些玩家的阵营如何。（不仅如此，实际上所有初始阵营为善良的玩家获得维齐尔的能力，都应该参照这种方式来执行。）"
+      },
+      {
+        "id": "magicianTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "fearmongerTRANS",
+        "reason": "在恐惧之灵因为自己的能力被唤醒时，维齐尔会一同被唤醒。他会得知恐惧之灵选择了哪名玩家，并且无法使用自己的能力让那名玩家立即被处决。"
+      },
+      {
+        "id": "politicianTRANS",
+        "reason": "维齐尔的能力可能会将政客当作邪恶阵营。"
+      }
+    ]
   },
   {
     "id": "knightTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/6/6b/Knight.png/240px-Knight.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/knight.png",
     "name": "骑士",
     "edition": "custom",
     "team": "townsfolk",
@@ -2915,7 +3515,7 @@
   },
   {
     "id": "stewardTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/ee/Steward.png/240px-Steward.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/steward.png",
     "name": "事务官",
     "edition": "custom",
     "team": "townsfolk",
@@ -2932,7 +3532,7 @@
   },
   {
     "id": "high_priestessTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/86/Highpriestess.png/240px-Highpriestess.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/high_priestess.png",
     "name": "女祭司",
     "edition": "custom",
     "team": "townsfolk",
@@ -2947,7 +3547,7 @@
   },
   {
     "id": "harpyTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/1b/Harpy.png/240px-Harpy.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/harpy.png",
     "name": "鹰身女妖",
     "edition": "custom",
     "team": "minion",
@@ -2965,7 +3565,7 @@
   },
   {
     "id": "plague_doctorTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/2/2d/Plaguedoctor.png/240px-Plaguedoctor.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/plague_doctor.png",
     "name": "瘟疫医生",
     "edition": "custom",
     "team": "outsider",
@@ -2978,11 +3578,57 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "如果你死亡，说书人获得一个不在场的爪牙能力。"
+    "ability": "如果你死亡，说书人获得一个不在场的爪牙能力。",
+    "jinxes": [
+      {
+        "id": "baronTRANS",
+        "reason": "如果说书人获得了男爵的能力，至多两名玩家会变成不在场的外来者。"
+      },
+      {
+        "id": "boomdandyTRANS",
+        "reason": "如果瘟疫医生死于处决且说书人会因此获得炸弹人的能力，那么炸弹人的能力会立即被触发。"
+      },
+      {
+        "id": "evil_twinTRANS",
+        "reason": "说书人无法在瘟疫医生死亡时获得镜像双子的能力。"
+      },
+      {
+        "id": "marionetteTRANS",
+        "reason": "如果在瘟疫医生死亡时说书人获得了提线木偶的能力，且与恶魔邻座的存活玩家中有镇民或外来者，其中一名玩家会变成邪恶的提线木偶。如果此时场上的邪恶玩家数量比初始设置时的数量超出一名或更多，改为无事发生。"
+      },
+      {
+        "id": "fearmongerTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得恐惧之灵的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "goblinTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得哥布林的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "scarlet_womanTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得红唇女郎的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "spyTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得间谍的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "ganshirenTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得赶尸人的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "humeiniangTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得狐媚娘的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "yanggurenTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得养蛊人的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      }
+    ]
   },
   {
     "id": "shugenjaTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/3/3e/Shugenja.png/400px-Shugenja.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/shugenja.png",
     "name": "修行者",
     "edition": "custom",
     "team": "townsfolk",
@@ -2997,7 +3643,7 @@
   },
   {
     "id": "ojoTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/9/96/Ojo.png/400px-Ojo.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/ojo.png",
     "name": "奥赫",
     "edition": "custom",
     "team": "demon",
@@ -3014,7 +3660,7 @@
   },
   {
     "id": "hatterTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/e/ee/Hatter.png/400px-Hatter.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/hatter.png",
     "name": "帽匠",
     "edition": "custom",
     "team": "outsider",
@@ -3031,7 +3677,7 @@
   },
   {
     "id": "kazaliTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/4/46/Kazali.png/400px-Kazali.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/kazali.png",
     "name": "卡扎力",
     "edition": "custom",
     "team": "demon",
@@ -3044,11 +3690,33 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]"
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
+    "jinxes": [
+      {
+        "id": "bounty_hunterTRANS",
+        "reason": "在卡扎力行动完毕后，如果赏金猎人仍然在场，才会创造邪恶镇民。"
+      },
+      {
+        "id": "goonTRANS",
+        "reason": "如果卡扎力在选择爪牙时选择了莽夫，接下来的爪牙转变由说书人来做出决定。"
+      },
+      {
+        "id": "marionetteTRANS",
+        "reason": "如果卡扎力选择创造提线木偶，他只能选择将自己的邻座玩家变成提线木偶。"
+      },
+      {
+        "id": "choirboyTRANS",
+        "reason": "如果唱诗男孩在场，卡扎力在选择国王后无法将他变成爪牙。"
+      },
+      {
+        "id": "huntsmanTRANS",
+        "reason": "如果卡扎力将落难少女变成了爪牙，并且巡山人在场，一名善良的玩家会变成落难少女。"
+      }
+    ]
   },
   {
     "id": "villageidiotTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/7/78/Villageidiot.png/400px-Villageidiot.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/villageidiot.png",
     "name": "村夫",
     "edition": "custom",
     "team": "townsfolk",
@@ -3065,7 +3733,7 @@
   },
   {
     "id": "yaggababbleTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/5/50/Yaggababble.png/400px-Yaggababble.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/yaggababble.png",
     "name": "牙噶巴卜",
     "edition": "custom",
     "team": "demon",
@@ -3078,11 +3746,17 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。"
+    "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
+    "jinxes": [
+      {
+        "id": "exorcistTRANS",
+        "reason": "如果驱魔人选中了牙噶巴卜，那么牙噶巴卜的能力在当晚无法造成死亡。"
+      }
+    ]
   },
   {
     "id": "summonerTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/2/2f/Summoner.png/400px-Summoner.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/summoner.png",
     "name": "召唤师",
     "edition": "custom",
     "team": "minion",
@@ -3097,11 +3771,57 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]"
+    "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]",
+    "jinxes": [
+      {
+        "id": "alchemistTRANS",
+        "reason": "如果炼金术士获得了召唤师的能力，游戏会以初始有恶魔在场进行。炼金术士召唤师选择的玩家会变成恶魔但不会改变阵营。"
+      },
+      {
+        "id": "clockmakerTRANS",
+        "reason": "如果召唤师在场，在创造恶魔之后钟表匠才会得知信息。"
+      },
+      {
+        "id": "poppy_growerTRANS",
+        "reason": "如果召唤师创造恶魔时罂粟种植者存活，由召唤师来选择创造哪种恶魔，由说书人来决定哪名玩家发生转变。"
+      },
+      {
+        "id": "marionetteTRANS",
+        "reason": "在初始设置时，提线木偶会与召唤师邻座。召唤师会得知谁是提线木偶。"
+      },
+      {
+        "id": "pit-hagTRANS",
+        "reason": "召唤师无法创造已经在场的恶魔。如果召唤师创造了一个不在场的恶魔，当晚的死亡由说书人决定。"
+      },
+      {
+        "id": "kazaliTRANS",
+        "reason": "召唤师无法创造已经在场的恶魔。如果召唤师创造了一个不在场的恶魔，当晚的死亡由说书人决定。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "召唤师无法创造已经在场的恶魔。如果召唤师创造了一个不在场的恶魔，当晚的死亡由说书人决定。"
+      },
+      {
+        "id": "courtierTRANS",
+        "reason": "如果召唤师因为侍臣的能力在第三个夜晚醉酒，由召唤师来选择创造哪种恶魔，由说书人来决定哪名玩家发生转变。"
+      },
+      {
+        "id": "zombuulTRANS",
+        "reason": "如果召唤师将一名已死亡的玩家变成了僵怖，该玩家会变成“已经死过一次”的僵怖。"
+      },
+      {
+        "id": "pukkaTRANS",
+        "reason": "召唤师可以选择在第二个夜晚将一名玩家变成普卡。"
+      },
+      {
+        "id": "engineerTRANS",
+        "reason": "如果工程师的能力使得召唤师在使用自己的能力前离场，召唤师会在此前立即使用自己的能力。"
+      }
+    ]
   },
   {
     "id": "bansheeTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/d3/Banshee.png/400px-Banshee.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/banshee.png",
     "name": "报丧女妖",
     "edition": "custom",
     "team": "townsfolk",

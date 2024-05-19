@@ -9,15 +9,13 @@ image/color_red
 change_color.py
 token_jinx_tri.py
 
-json/全角色_冲突规则.json
-json/全角色_hr_冲突规则.json
+json/全角色_hr_jinx_冲突规则.json
 json/冲突规则.json
 json/冲突规则_github.json
 json/全员失忆.json
 json/全员失忆_水印.json
 json/心理博弈.json
 json/心理博弈_tf.json
-json/心理博弈_tf_copy.json
 json/横行霸道.json
 json/横行霸道_tf.json
 

@@ -67,7 +67,7 @@ python download_img.py
 ### 相克规则相关信息爬取
 python download_jinx.py
 ### 角色行动顺序表
-python write_md.py
+python md_write.py
 ### 角色变换阵营图标生成
 python token_change_team.py
 ### 角色获得能力图标生成
@@ -75,13 +75,15 @@ python token_get_ability.py
 ### 相克规则图标生成
 python token_get_jinx.py
 ### 官方剧本工具转化
-python transform_json.py
+python json_transform.py
 ### json文件融合
-python merge_json.py
+python json_merge.py
 ### json文件(角色更新至新版国王，相克规则更新至召唤师)
 json/全角色.json
+json/全角色_hr.json
+json/全角色_hr_jinx.json
+json/全角色_hr_jinx_冲突规则_水印.json
 json/冲突规则_水印.json
-json/全角色_冲突规则_水印.json
 
 
 角色夜间行动顺序如需高清无水印版请联系邮箱just_kevin2022@163.com

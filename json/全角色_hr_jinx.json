@@ -236,7 +236,13 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。"
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
+    "jinxes": [
+      {
+        "id": "cannibalTRANS",
+        "reason": "如果食人族获得了管家的能力，他会得知这一信息。"
+      }
+    ]
   },
   {
     "id": "drunkTRANS",
@@ -315,7 +321,29 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。"
+    "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
+    "jinxes": [
+      {
+        "id": "magicianTRANS",
+        "reason": "当间谍查看魔典时，魔术师和恶魔的角色标记会被说书人移除。"
+      },
+      {
+        "id": "alchemistTRANS",
+        "reason": "炼金术士无法获得间谍的能力。"
+      },
+      {
+        "id": "poppy_growerTRANS",
+        "reason": "如果罂粟种植者在场，直到其死亡前间谍无法查看魔典。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "如果间谍正在场或曾经在场，落难少女中毒。"
+      },
+      {
+        "id": "hereticTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      }
+    ]
   },
   {
     "id": "scarlet_womanTRANS",
@@ -347,7 +375,13 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "会有额外的外来者在场。[+2外来者]"
+    "ability": "会有额外的外来者在场。[+2外来者]",
+    "jinxes": [
+      {
+        "id": "hereticTRANS",
+        "reason": "如果异端分子在剧本中，男爵的效果可能会只增加一个而非两个外来者。"
+      }
+    ]
   },
   {
     "id": "impTRANS",
@@ -493,7 +527,13 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。"
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+    "jinxes": [
+      {
+        "id": "mathematicianTRANS",
+        "reason": "侍女会得知数学家是否醒来，即使她是在数学家之前醒来。"
+      }
+    ]
   },
   {
     "id": "exorcistTRANS",
@@ -736,7 +776,13 @@
       "是疯子"
     ],
     "setup": false,
-    "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。"
+    "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
+    "jinxes": [
+      {
+        "id": "mathematicianTRANS",
+        "reason": "数学家会得知疯子是否攻击了与真正的恶魔不同的目标。"
+      }
+    ]
   },
   {
     "id": "godfatherTRANS",
@@ -754,7 +800,13 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]"
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "jinxes": [
+      {
+        "id": "hereticTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      }
+    ]
   },
   {
     "id": "devils_advocateTRANS",
@@ -1222,7 +1274,25 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。"
+    "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
+    "jinxes": [
+      {
+        "id": "cult_leaderTRANS",
+        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+      },
+      {
+        "id": "goonTRANS",
+        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+      },
+      {
+        "id": "politicianTRANS",
+        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "参考麻脸巫婆。建议“如果恶魔选择交换落难少女的角色，参与角色交换的另一名玩家改为由说书人来决定”。"
+      }
+    ]
   },
   {
     "id": "klutzTRANS",
@@ -1288,7 +1358,13 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。"
+    "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
+    "jinxes": [
+      {
+        "id": "goblinTRANS",
+        "reason": "洗脑师可以选择将玩家洗脑成哥布林。"
+      }
+    ]
   },
   {
     "id": "pit-hagTRANS",
@@ -1303,7 +1379,37 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。"
+    "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
+    "jinxes": [
+      {
+        "id": "hereticTRANS",
+        "reason": "麻脸巫婆无法创造异端分子。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "如果麻脸巫婆创造了落难少女，改为由说书人来决定哪一名玩家变成落难少女。"
+      },
+      {
+        "id": "politicianTRANS",
+        "reason": "被麻脸巫婆创造的邪恶政客无法因为自身能力转变为善良阵营。"
+      },
+      {
+        "id": "cult_leaderTRANS",
+        "reason": "被麻脸巫婆创造的邪恶异教领袖无法因为自身能力转变为善良阵营。"
+      },
+      {
+        "id": "goonTRANS",
+        "reason": "被麻脸巫婆创造的邪恶莽夫无法因为自身能力转变为善良阵营。"
+      },
+      {
+        "id": "villageidiotTRANS",
+        "reason": "如果村夫在场数量不足3人，麻脸巫婆可以创造新的村夫。如果她这么做，村夫的醉酒效果可能会更换目标。"
+      },
+      {
+        "id": "lycanthropeTRANS",
+        "reason": "如果半兽人使得当晚无法造成额外的死亡，麻脸巫婆便能肆无忌惮地创造更多的邪恶恶魔。建议“如果半兽人攻击了善良玩家，当晚麻脸巫婆无法将非恶魔玩家变成恶魔角色”。（等到半兽人行动后再通知相应的角色变化即可）"
+      }
+    ]
   },
   {
     "id": "fang_guTRANS",
@@ -1322,7 +1428,13 @@
       "限一次"
     ],
     "setup": true,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]"
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
+    "jinxes": [
+      {
+        "id": "scarlet_womanTRANS",
+        "reason": "如果方古成功转化了外来者并因此死去，红唇女郎不会变成方古。"
+      }
+    ]
   },
   {
     "id": "vigormortisTRANS",
@@ -1376,7 +1488,13 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。"
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
+    "jinxes": [
+      {
+        "id": "bansheeTRANS",
+        "reason": "如果恶魔杀死报丧女妖时涡流在场，玩家仍然会得知正确信息。（中文百科上的“通用简化原则”已涵盖包括多角色互动下的涡流信息的简化处理方式，此条仅做说明。）"
+      }
+    ]
   },
   {
     "id": "deviantTRANS",
@@ -1476,7 +1594,21 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名存活的玩家，如果他是善良的，他死亡，并且当晚不会再有其他玩家死亡。"
+    "ability": "每个夜晚*，你要选择一名存活的玩家，如果他是善良的，他死亡，并且当晚不会再有其他玩家死亡。",
+    "jinxes": [
+      {
+        "id": "gamblerTRANS",
+        "reason": "赌徒会先于半兽人行动。如果赌徒赌博失败且半兽人存活，那么无论半兽人选择了哪名玩家，当晚只会有赌徒死亡。"
+      },
+      {
+        "id": "dagengrenTRANS",
+        "reason": "如果打更人猜测正确的玩家是半兽人攻击的玩家，那么当晚只会有打更人死亡。"
+      },
+      {
+        "id": "jinyiweiTRANS",
+        "reason": "如果半兽人选择了锦衣卫保护的善良玩家，那么当晚只会有锦衣卫死亡。"
+      }
+    ]
   },
   {
     "id": "choirboyTRANS",
@@ -1892,7 +2024,13 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "所有本来获胜的玩家，改为落败；所有本来落败的玩家，改为获胜，即使你已死亡。"
+    "ability": "所有本来获胜的玩家，改为落败；所有本来落败的玩家，改为获胜，即使你已死亡。",
+    "jinxes": [
+      {
+        "id": "humeiniangTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      }
+    ]
   },
   {
     "id": "acrobatTRANS",
@@ -1937,7 +2075,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "已公开声明"
+      "已宣称"
     ],
     "remindersGlobal": [],
     "setup": false,
@@ -1959,7 +2097,29 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。"
+    "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
+    "jinxes": [
+      {
+        "id": "magicianTRANS",
+        "reason": "当寡妇查看魔典时，魔术师和恶魔的标记会被说书人移除。"
+      },
+      {
+        "id": "poppy_growerTRANS",
+        "reason": "如果罂粟种植者在场，直到其死亡前寡妇无法查看魔典。寡妇会在罂粟种植者死后的首个夜晚触发自身的能力。"
+      },
+      {
+        "id": "alchemistTRANS",
+        "reason": "炼金术士无法获得寡妇的能力。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "如果寡妇正在场或曾经在场，落难少女中毒。"
+      },
+      {
+        "id": "hereticTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      }
+    ]
   },
   {
     "id": "psychopathTRANS",
@@ -2026,7 +2186,33 @@
       "是提线木偶"
     ],
     "setup": true,
-    "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]"
+    "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
+    "jinxes": [
+      {
+        "id": "lil_monstaTRANS",
+        "reason": "提线木偶会与一名爪牙玩家邻座，而不是恶魔。提线木偶不会被唤醒来决定是否照看小怪宝，也不会在照看小怪宝时得知自己是提线木偶。"
+      },
+      {
+        "id": "poppy_growerTRANS",
+        "reason": "当罂粟种植者死亡后，恶魔会知道谁是提线木偶，但提线木偶什么都不会知道。"
+      },
+      {
+        "id": "snitchTRANS",
+        "reason": "提线木偶不会得知三个不在场的角色，如果提线木偶与告密者均在场，改为由恶魔额外得知三个不在场角色。"
+      },
+      {
+        "id": "balloonistTRANS",
+        "reason": "如果提线木偶抽到了气球驾驶员，也会+1外来者。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "提线木偶不会得知落难少女在场。"
+      },
+      {
+        "id": "huntsmanTRANS",
+        "reason": "如果提线木偶抽到了巡山人，也会增加落难少女。"
+      }
+    ]
   },
   {
     "id": "boomdandyTRANS",
@@ -2056,7 +2242,149 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "被提名的玩家死亡，但他可以立刻再次发起提名（第三天白天他必须这么做）。在第三个白天结束时，邪恶阵营获胜。[所有爪牙都是暴乱]"
+    "ability": "被提名的玩家死亡，但他可以立刻再次发起提名（第三天白天他必须这么做）。在第三个白天结束时，邪恶阵营获胜。[所有爪牙都是暴乱]",
+    "jinxes": [
+      {
+        "id": "engineerTRANS",
+        "reason": "暴乱和工程师不能在初始时同时在场。如果工程师创造了暴乱，所有邪恶玩家都会变成暴乱。"
+      },
+      {
+        "id": "golemTRANS",
+        "reason": "如果魔像提名了暴乱，暴乱不会死亡。"
+      },
+      {
+        "id": "snitchTRANS",
+        "reason": "如果告密者在场，所有暴乱玩家都会分别得知三个不在场角色。"
+      },
+      {
+        "id": "saintTRANS",
+        "reason": "如果善良玩家提名并杀死了圣徒，圣徒的阵营落败。"
+      },
+      {
+        "id": "butlerTRANS",
+        "reason": "管家无法提名主人。"
+      },
+      {
+        "id": "mayorTRANS",
+        "reason": "如果在第三天开始时只有三名玩家存活，所有玩家可以针对今天不发起提名进行表决。如果表决通过且镇长存活，镇长的阵营获胜。"
+      },
+      {
+        "id": "monkTRANS",
+        "reason": "如果暴乱提名了一名前一晚曾被僧侣成功保护的玩家，那名玩家不会死亡。"
+      },
+      {
+        "id": "farmerTRANS",
+        "reason": "如果暴乱提名并杀死了农夫，当晚会有一名存活的善良玩家变成农夫。"
+      },
+      {
+        "id": "innkeeperTRANS",
+        "reason": "如果暴乱提名了一名前一晚曾被旅店老板成功保护的玩家，那名玩家不会死亡。"
+      },
+      {
+        "id": "sageTRANS",
+        "reason": "如果暴乱提名并杀死了贤者，当晚贤者会被唤醒并使用其能力。"
+      },
+      {
+        "id": "ravenkeeperTRANS",
+        "reason": "如果暴乱提名并杀死了守鸦人，当晚守鸦人会被唤醒并使用其能力。"
+      },
+      {
+        "id": "bansheeTRANS",
+        "reason": "如果暴乱提名并杀死了报丧女妖，所有玩家都会得知报丧女妖死亡，随后报丧女妖可以立即提名两名玩家。（同时或按顺序结算这两条提名链。）"
+      },
+      {
+        "id": "soldierTRANS",
+        "reason": "如果暴乱提名了士兵，士兵不会死亡。"
+      },
+      {
+        "id": "grandmotherTRANS",
+        "reason": "如果暴乱提名并杀死了孙子，祖母会一同死亡。"
+      },
+      {
+        "id": "kingTRANS",
+        "reason": "如果暴乱提名并杀死了国王且唱诗男孩存活，当晚唱诗男孩会被唤醒并使用其能力。"
+      },
+      {
+        "id": "exorcistTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "minstrelTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "flowergirlTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "undertakerTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      },
+      {
+        "id": "cannibalTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      },
+      {
+        "id": "pacifistTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      },
+      {
+        "id": "devils_advocateTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      },
+      {
+        "id": "investigatorTRANS",
+        "reason": "暴乱被调查员当作爪牙。"
+      },
+      {
+        "id": "clockmakerTRANS",
+        "reason": "暴乱被钟表匠当作爪牙。"
+      },
+      {
+        "id": "town_crierTRANS",
+        "reason": "暴乱被城镇公告员当作爪牙。"
+      },
+      {
+        "id": "damselTRANS",
+        "reason": "暴乱被落难少女当作爪牙。"
+      },
+      {
+        "id": "preacherTRANS",
+        "reason": "暴乱被传教士当作爪牙。"
+      },
+      {
+        "id": "pit-hagTRANS",
+        "reason": "如果麻脸巫婆创造了暴乱，所有邪恶玩家都会变成暴乱。如果麻脸巫婆在游戏的第三天之后创造了暴乱，则游戏还会再进行一天。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "如果帽匠死亡时暴乱在场，一名暴乱选择变成其他恶魔，则其他所有暴乱需要选择变成其他爪牙。如果帽匠死亡时恶魔选择变成暴乱，所有爪牙会一同变成暴乱（如果发生在第三天后，则游戏会多进行一天）。"
+      },
+      {
+        "id": "summonerTRANS",
+        "reason": "如果召唤师创造了暴乱，被选择的玩家和所有邪恶玩家都变成邪恶的暴乱。被选择的玩家必须是与召唤师邻近的存活善良玩家。"
+      },
+      {
+        "id": "banxianTRANS",
+        "reason": "当且仅当暴乱提名了半仙时，半仙不会死亡，而是让另一名存活的邪恶玩家死亡。（随后那名死亡的邪恶玩家可以立即发起新的提名。如果场上已经没有其他存活的邪恶玩家，那么半仙在被唯一存活的暴乱提名时会正常死亡。）"
+      },
+      {
+        "id": "dagengrenTRANS",
+        "reason": "如果在夜晚无人死亡，打更人的能力能保护下一个白天首次死亡的玩家（如果打更人的猜测正确）。然而集体免死的效果不会在白天触发，打更人也不会因此在白天死亡。"
+      },
+      {
+        "id": "heshangTRANS",
+        "reason": "如果暴乱提名了与和尚邻近的存活玩家，那么那名玩家不会死亡，并且当晚和尚得知他的能力被触发。（如常在和尚旁放置“已生效”提示标记，因为黎明时才会移除此标记，因此当晚和尚无法再触发他的能力。）"
+      },
+      {
+        "id": "nichenTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      },
+      {
+        "id": "humeiniangTRANS",
+        "reason": "被提名且死亡的玩家算作被处决。"
+      }
+    ]
   },
   {
     "id": "al-hadikhiaTRANS",
@@ -2077,7 +2405,17 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。"
+    "ability": "每个夜晚*，你要选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
+    "jinxes": [
+      {
+        "id": "scarlet_womanTRANS",
+        "reason": "如果出现两名存活的哈迪寂亚，则红唇女郎变成的哈迪寂亚会变回红唇女郎。"
+      },
+      {
+        "id": "mastermindTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。邪恶阵营玩家在游戏开始时知道这两者中是什么角色在场，是哪一名玩家。"
+      }
+    ]
   },
   {
     "id": "legionTRANS",
@@ -2095,7 +2433,25 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[半数以上玩家为军团]"
+    "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[半数以上玩家为军团]",
+    "jinxes": [
+      {
+        "id": "engineerTRANS",
+        "reason": "军团和工程师不能在初始时同时在场。如果工程师创造了军团，那么包括所有邪恶玩家在内的绝大多数玩家都会变成邪恶的军团。"
+      },
+      {
+        "id": "preacherTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "如果帽匠死亡时军团在场，则无事发生。如果帽匠死亡时一名邪恶玩家选择变成军团，当前所有邪恶玩家都会一同变成军团。"
+      },
+      {
+        "id": "summonerTRANS",
+        "reason": "如果召唤师创造了军团，包括所有邪恶玩家在内的绝大多数玩家都会变成邪恶的军团。"
+      }
+    ]
   },
   {
     "id": "leviathanTRANS",
@@ -2118,7 +2474,53 @@
       "第五天"
     ],
     "setup": false,
-    "ability": "如果多于一名善良玩家被处决，邪恶阵营获胜。所有玩家都知道利维坦在场。在第五个白天结束时，邪恶阵营获胜。"
+    "ability": "如果多于一名善良玩家被处决，邪恶阵营获胜。所有玩家都知道利维坦在场。在第五个白天结束时，邪恶阵营获胜。",
+    "jinxes": [
+      {
+        "id": "soldierTRANS",
+        "reason": "如果利维坦发起的提名中士兵被处决，士兵不会死亡。"
+      },
+      {
+        "id": "monkTRANS",
+        "reason": "如果利维坦发起的提名中被处决的玩家在前一晚曾被僧侣成功保护，那么那名玩家不会死亡。"
+      },
+      {
+        "id": "innkeeperTRANS",
+        "reason": "如果利维坦发起的提名中被处决的玩家在前一晚曾被旅店老板成功保护，那么那名玩家不会死亡。"
+      },
+      {
+        "id": "ravenkeeperTRANS",
+        "reason": "如果利维坦在场且守鸦人死于处决，那么他当晚会被唤醒并使用自己的能力。如果提名者是善良阵营，守鸦人会醉酒。"
+      },
+      {
+        "id": "sageTRANS",
+        "reason": "如果利维坦在场且贤者死于处决，那么他当晚会被唤醒并使用自己的能力。如果提名者是善良阵营，贤者会醉酒。"
+      },
+      {
+        "id": "bansheeTRANS",
+        "reason": "如果利维坦在场且报丧女妖死于处决，所有玩家都会得知报丧女妖死亡，随后报丧女妖获得她死亡后的能力。"
+      },
+      {
+        "id": "farmerTRANS",
+        "reason": "如果利维坦在场且农夫死于处决，当晚会有一名存活的善良玩家变成农夫。"
+      },
+      {
+        "id": "mayorTRANS",
+        "reason": "如果利维坦在场，镇长存活且第五天没有处决发生，则善良阵营获胜。"
+      },
+      {
+        "id": "pit-hagTRANS",
+        "reason": "在第五个白天之后，麻脸巫婆无法创造利维坦。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "如果帽匠在第五个白天或之后死亡，恶魔不能选择变成利维坦。"
+      },
+      {
+        "id": "heshangTRANS",
+        "reason": "如果利维坦发起的提名中被处决的玩家是与和尚邻近的存活玩家，那么那名玩家不会死亡，并且当晚和尚得知他的能力被触发。（如常在和尚旁放置“已生效”提示标记，因为黎明时才会移除此标记，因此当晚和尚无法再触发他的能力。）"
+      }
+    ]
   },
   {
     "id": "lleechTRANS",
@@ -2136,7 +2538,21 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有他死亡时你才会一同死亡。"
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有他死亡时你才会一同死亡。",
+    "jinxes": [
+      {
+        "id": "mastermindTRANS",
+        "reason": "如果主谋存活且痢蛭的宿主死于处决，痢蛭存活但失去能力。"
+      },
+      {
+        "id": "slayerTRANS",
+        "reason": "如果猎手选择了痢蛭的宿主，则宿主会死亡。"
+      },
+      {
+        "id": "hereticTRANS",
+        "reason": "如果痢蛭选择异端分子作为宿主，痢蛭死亡时异端分子仍会中毒。"
+      }
+    ]
   },
   {
     "id": "lil_monstaTRANS",
@@ -2154,7 +2570,33 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]"
+    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
+    "jinxes": [
+      {
+        "id": "poppy_growerTRANS",
+        "reason": "如果罂粟种植者在场，爪牙们不会同时醒来选择照看小怪宝。他们会依次单独被唤醒，直到其中一人选择照看小怪宝。"
+      },
+      {
+        "id": "magicianTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "scarlet_womanTRANS",
+        "reason": "如果在五名及以上的玩家存活时照看小怪宝的玩家死亡，当晚红唇女郎必须要照看小怪宝。"
+      },
+      {
+        "id": "organ_grinderTRANS",
+        "reason": "如果街头风琴手在照看小怪宝，对街头风琴手的提名即使他自己没有投票，票数也会被统计。"
+      },
+      {
+        "id": "vizierTRANS",
+        "reason": "照看小怪宝的维齐尔能够死于处决。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "如果恶魔选择了小怪宝，则还需要选择一个爪牙角色，他变成这个爪牙且当晚照看小怪宝。"
+      }
+    ]
   },
   {
     "id": "gangsterTRANS",
@@ -2569,7 +3011,13 @@
       "是悟道者"
     ],
     "setup": false,
-    "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，你会立即变成一个不在场的镇民角色。"
+    "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，你会立即变成一个不在场的镇民角色。",
+    "jinxes": [
+      {
+        "id": "villageidiotTRANS",
+        "reason": "如果村夫在场数量不足3人，悟道者可以变成新的村夫。如果因此使得村夫的在场数量超过1人，会有一名村夫醉酒。"
+      }
+    ]
   },
   {
     "id": "xiziTRANS",
@@ -2584,7 +3032,69 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "所有戏子互相认识。不论在场的戏子数量多少或存活与否，胜负结果会被对调。[所有善良玩家都是戏子]"
+    "ability": "所有戏子互相认识。不论在场的戏子数量多少或存活与否，胜负结果会被对调。[所有善良玩家都是戏子]",
+    "jinxes": [
+      {
+        "id": "spyTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "godfatherTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "evil_twinTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "widowTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "summonerTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "riotTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "legionTRANS",
+        "reason": "在戏子存在于剧本中时，军团可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在夜晚一同唤醒所有军团，并询问他们是否要一同死亡。"
+      },
+      {
+        "id": "leviathanTRANS",
+        "reason": "在戏子存在于剧本中时，利维坦可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在当晚杀死这名玩家。"
+      },
+      {
+        "id": "lil_monstaTRANS",
+        "reason": "在戏子存在于剧本中时，照看小怪宝的玩家可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在当晚将小怪宝从游戏中移除。"
+      },
+      {
+        "id": "pukkaTRANS",
+        "reason": "在戏子存在于剧本中时，普卡可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在当晚杀死这名玩家。"
+      },
+      {
+        "id": "kazaliTRANS",
+        "reason": "卡扎力和戏子不能在初始时同时在场。如果有角色能力能够使得善良玩家在第一个夜晚变成戏子，卡扎力会在这一效果生效之前先进行转变爪牙的行动。"
+      },
+      {
+        "id": "pit-hagTRANS",
+        "reason": "麻脸巫婆无法创造戏子。"
+      },
+      {
+        "id": "atheistTRANS",
+        "reason": "无神论者在剧本中时，处决说书人导致的胜负结果不会被反转。"
+      },
+      {
+        "id": "goblinTRANS",
+        "reason": "戏子无法反转由哥布林的能力产生的胜负结果。"
+      },
+      {
+        "id": "fearmongerTRANS",
+        "reason": "戏子无法反转由恐惧之灵的能力产生的胜负结果。"
+      }
+    ]
   },
   {
     "id": "xionghaiziTRANS",
@@ -2828,7 +3338,49 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你将要死亡时，改为一名存活且具有能力的爪牙失去能力。你不会得知恶魔信息。"
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你将要死亡时，改为一名存活且具有能力的爪牙失去能力。你不会得知恶魔信息。",
+    "jinxes": [
+      {
+        "id": "scarlet_womanTRANS",
+        "reason": "红唇女郎在梼杌的能力判断中被当作“不具有能力”。"
+      },
+      {
+        "id": "evil_twinTRANS",
+        "reason": "镜像双子在梼杌的能力判断中被当作“不具有能力”。"
+      },
+      {
+        "id": "mastermindTRANS",
+        "reason": "主谋在梼杌的能力判断中被当作“不具有能力”。"
+      },
+      {
+        "id": "organ_grinderTRANS",
+        "reason": "当梼杌被处决时，如果街头风琴手具有能力，说书人会宣布“无人被处决”。"
+      },
+      {
+        "id": "marionetteTRANS",
+        "reason": "梼杌不会得知谁是提线木偶。在梼杌使得提线木偶失去能力后，梼杌会得知对应的那一名提线木偶是谁，但提线木偶会仍然以为自己是一个善良角色。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "如果梼杌变成了其他角色，因为梼杌而失去能力的爪牙会立即死亡。"
+      },
+      {
+        "id": "pit-hagTRANS",
+        "reason": "如果梼杌变成了其他角色，因为梼杌而失去能力的爪牙会立即死亡。"
+      },
+      {
+        "id": "engineerTRANS",
+        "reason": "如果梼杌变成了其他恶魔，因为梼杌而失去能力的爪牙会立即死亡。"
+      },
+      {
+        "id": "snake_charmerTRANS",
+        "reason": "如果梼杌的角色发生了交换，不会因此移除原本梼杌的“失去能力”提示标记。"
+      },
+      {
+        "id": "barberTRANS",
+        "reason": "如果梼杌的角色发生了交换，不会因此移除原本梼杌的“失去能力”提示标记。"
+      }
+    ]
   },
   {
     "id": "jiaohuaziTRANS",
@@ -2879,7 +3431,25 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "所有玩家在投票时闭眼，且票数会秘密统计。对你的提名只在你投票时才会统计票数。"
+    "ability": "所有玩家在投票时闭眼，且票数会秘密统计。对你的提名只在你投票时才会统计票数。",
+    "jinxes": [
+      {
+        "id": "butlerTRANS",
+        "reason": "如果街头风琴手使得玩家需要闭眼投票，管家可以自由举手投票，但只在他的主人投票时他的票才会被统计。"
+      },
+      {
+        "id": "flowergirlTRANS",
+        "reason": "如果街头风琴手使得玩家需要闭眼投票，卖花女孩在夜晚会改为得知恶魔在白天投票的总次数。"
+      },
+      {
+        "id": "minstrelTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "preacherTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      }
+    ]
   },
   {
     "id": "vizierTRANS",
@@ -2894,7 +3464,37 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "所有玩家都知道你是维齐尔。你在白天时不会死亡。如果一次提名中有善良玩家投票，你可以让被提名者立即被处决。"
+    "ability": "所有玩家都知道你是维齐尔。你在白天时不会死亡。如果一次提名中有善良玩家投票，你可以让被提名者立即被处决。",
+    "jinxes": [
+      {
+        "id": "investigatorTRANS",
+        "reason": "如果调查员的能力使其得知了维齐尔，则说书人不会告知所有人维齐尔在场。"
+      },
+      {
+        "id": "preacherTRANS",
+        "reason": "如果维齐尔失去能力，他会得知这一信息。如果传教士在剧本列表中，且维齐尔在具有能力时被处决，他的阵营获胜。"
+      },
+      {
+        "id": "courtierTRANS",
+        "reason": "如果维齐尔失去能力，他会得知这一信息。如果侍臣在剧本列表中，且维齐尔在具有能力时被处决，他的阵营获胜。"
+      },
+      {
+        "id": "alchemistTRANS",
+        "reason": "如果炼金术士拥有维齐尔的能力，他只能在三名或更多玩家投票时选择立即处决，不论这些玩家的阵营如何。（不仅如此，实际上所有初始阵营为善良的玩家获得维齐尔的能力，都应该参照这种方式来执行。）"
+      },
+      {
+        "id": "magicianTRANS",
+        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "fearmongerTRANS",
+        "reason": "在恐惧之灵因为自己的能力被唤醒时，维齐尔会一同被唤醒。他会得知恐惧之灵选择了哪名玩家，并且无法使用自己的能力让那名玩家立即被处决。"
+      },
+      {
+        "id": "politicianTRANS",
+        "reason": "维齐尔的能力可能会将政客当作邪恶阵营。"
+      }
+    ]
   },
   {
     "id": "knightTRANS",
@@ -2978,7 +3578,53 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "如果你死亡，说书人获得一个不在场的爪牙能力。"
+    "ability": "如果你死亡，说书人获得一个不在场的爪牙能力。",
+    "jinxes": [
+      {
+        "id": "baronTRANS",
+        "reason": "如果说书人获得了男爵的能力，至多两名玩家会变成不在场的外来者。"
+      },
+      {
+        "id": "boomdandyTRANS",
+        "reason": "如果瘟疫医生死于处决且说书人会因此获得炸弹人的能力，那么炸弹人的能力会立即被触发。"
+      },
+      {
+        "id": "evil_twinTRANS",
+        "reason": "说书人无法在瘟疫医生死亡时获得镜像双子的能力。"
+      },
+      {
+        "id": "marionetteTRANS",
+        "reason": "如果在瘟疫医生死亡时说书人获得了提线木偶的能力，且与恶魔邻座的存活玩家中有镇民或外来者，其中一名玩家会变成邪恶的提线木偶。如果此时场上的邪恶玩家数量比初始设置时的数量超出一名或更多，改为无事发生。"
+      },
+      {
+        "id": "fearmongerTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得恐惧之灵的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "goblinTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得哥布林的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "scarlet_womanTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得红唇女郎的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "spyTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得间谍的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "ganshirenTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得赶尸人的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "humeiniangTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得狐媚娘的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      },
+      {
+        "id": "yanggurenTRANS",
+        "reason": "如果瘟疫医生死亡且说书人会因此获得养蛊人的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
+      }
+    ]
   },
   {
     "id": "shugenjaTRANS",
@@ -3044,7 +3690,29 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]"
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
+    "jinxes": [
+      {
+        "id": "bounty_hunterTRANS",
+        "reason": "在卡扎力行动完毕后，如果赏金猎人仍然在场，才会创造邪恶镇民。"
+      },
+      {
+        "id": "goonTRANS",
+        "reason": "如果卡扎力在选择爪牙时选择了莽夫，接下来的爪牙转变由说书人来做出决定。"
+      },
+      {
+        "id": "marionetteTRANS",
+        "reason": "如果卡扎力选择创造提线木偶，他只能选择将自己的邻座玩家变成提线木偶。"
+      },
+      {
+        "id": "choirboyTRANS",
+        "reason": "如果唱诗男孩在场，卡扎力在选择国王后无法将他变成爪牙。"
+      },
+      {
+        "id": "huntsmanTRANS",
+        "reason": "如果卡扎力将落难少女变成了爪牙，并且巡山人在场，一名善良的玩家会变成落难少女。"
+      }
+    ]
   },
   {
     "id": "villageidiotTRANS",
@@ -3078,7 +3746,13 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。"
+    "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
+    "jinxes": [
+      {
+        "id": "exorcistTRANS",
+        "reason": "如果驱魔人选中了牙噶巴卜，那么牙噶巴卜的能力在当晚无法造成死亡。"
+      }
+    ]
   },
   {
     "id": "summonerTRANS",
@@ -3097,7 +3771,53 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]"
+    "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]",
+    "jinxes": [
+      {
+        "id": "alchemistTRANS",
+        "reason": "如果炼金术士获得了召唤师的能力，游戏会以初始有恶魔在场进行。炼金术士召唤师选择的玩家会变成恶魔但不会改变阵营。"
+      },
+      {
+        "id": "clockmakerTRANS",
+        "reason": "如果召唤师在场，在创造恶魔之后钟表匠才会得知信息。"
+      },
+      {
+        "id": "poppy_growerTRANS",
+        "reason": "如果召唤师创造恶魔时罂粟种植者存活，由召唤师来选择创造哪种恶魔，由说书人来决定哪名玩家发生转变。"
+      },
+      {
+        "id": "marionetteTRANS",
+        "reason": "在初始设置时，提线木偶会与召唤师邻座。召唤师会得知谁是提线木偶。"
+      },
+      {
+        "id": "pit-hagTRANS",
+        "reason": "召唤师无法创造已经在场的恶魔。如果召唤师创造了一个不在场的恶魔，当晚的死亡由说书人决定。"
+      },
+      {
+        "id": "kazaliTRANS",
+        "reason": "召唤师无法创造已经在场的恶魔。如果召唤师创造了一个不在场的恶魔，当晚的死亡由说书人决定。"
+      },
+      {
+        "id": "hatterTRANS",
+        "reason": "召唤师无法创造已经在场的恶魔。如果召唤师创造了一个不在场的恶魔，当晚的死亡由说书人决定。"
+      },
+      {
+        "id": "courtierTRANS",
+        "reason": "如果召唤师因为侍臣的能力在第三个夜晚醉酒，由召唤师来选择创造哪种恶魔，由说书人来决定哪名玩家发生转变。"
+      },
+      {
+        "id": "zombuulTRANS",
+        "reason": "如果召唤师将一名已死亡的玩家变成了僵怖，该玩家会变成“已经死过一次”的僵怖。"
+      },
+      {
+        "id": "pukkaTRANS",
+        "reason": "召唤师可以选择在第二个夜晚将一名玩家变成普卡。"
+      },
+      {
+        "id": "engineerTRANS",
+        "reason": "如果工程师的能力使得召唤师在使用自己的能力前离场，召唤师会在此前立即使用自己的能力。"
+      }
+    ]
   },
   {
     "id": "bansheeTRANS",
@@ -3115,1325 +3835,5 @@
     "remindersGlobal": [],
     "setup": false,
     "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。"
-  },
-  {
-    "id": "chambermaid+mathematician",
-    "image": "https://i.postimg.cc/ZnQLHDL2/chambermaid-mathematician.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "侍女&数学家",
-    "ability": "侍女会得知数学家是否醒来，即使她是在数学家之前醒来。"
-  },
-  {
-    "id": "lycanthrope+gambler",
-    "image": "https://i.postimg.cc/433QCgFq/lycanthrope-gambler.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "半兽人&赌徒",
-    "ability": "赌徒会先于半兽人行动。如果赌徒赌博失败且半兽人存活，那么无论半兽人选择了哪名玩家，当晚只会有赌徒死亡。"
-  },
-  {
-    "id": "butler+cannibal",
-    "image": "https://i.postimg.cc/4dJwxcdL/butler-cannibal.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "管家&食人族",
-    "ability": "如果食人族获得了管家的能力，他会得知这一信息。"
-  },
-  {
-    "id": "lunatic+mathematician",
-    "image": "https://i.postimg.cc/T3fc9mjR/lunatic-mathematician.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "疯子&数学家",
-    "ability": "数学家会得知疯子是否攻击了与真正的恶魔不同的目标。"
-  },
-  {
-    "id": "plague_doctor+baron",
-    "image": "https://i.postimg.cc/ZKcNJQ3S/plague-doctor-baron.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "瘟疫医生&男爵",
-    "ability": "如果说书人获得了男爵的能力，至多两名玩家会变成不在场的外来者。"
-  },
-  {
-    "id": "plague_doctor+boomdandy",
-    "image": "https://i.postimg.cc/3wP4LQMg/plague-doctor-boomdandy.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "瘟疫医生&炸弹人",
-    "ability": "如果瘟疫医生死于处决且说书人会因此获得炸弹人的能力，那么炸弹人的能力会立即被触发。"
-  },
-  {
-    "id": "plague_doctor+evil_twin",
-    "image": "https://i.postimg.cc/9024hPQ0/plague-doctor-evil-twin.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "瘟疫医生&镜像双子",
-    "ability": "说书人无法在瘟疫医生死亡时获得镜像双子的能力。"
-  },
-  {
-    "id": "plague_doctor+marionette",
-    "image": "https://i.postimg.cc/wx5ykrwm/plague-doctor-marionette.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "瘟疫医生&提线木偶",
-    "ability": "如果在瘟疫医生死亡时说书人获得了提线木偶的能力，且与恶魔邻座的存活玩家中有镇民或外来者，其中一名玩家会变成邪恶的提线木偶。如果此时场上的邪恶玩家数量比初始设置时的数量超出一名或更多，改为无事发生。"
-  },
-  {
-    "id": "plague_doctor+fearmonger",
-    "image": "https://i.postimg.cc/rpdRCFHV/plague-doctor-fearmonger.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "瘟疫医生&恐惧之灵",
-    "ability": "如果瘟疫医生死亡且说书人会因此获得恐惧之灵的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
-  },
-  {
-    "id": "plague_doctor+goblin",
-    "image": "https://i.postimg.cc/rmxd3Zc7/plague-doctor-goblin.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "瘟疫医生&哥布林",
-    "ability": "如果瘟疫医生死亡且说书人会因此获得哥布林的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
-  },
-  {
-    "id": "plague_doctor+scarlet_woman",
-    "image": "https://i.postimg.cc/0286XC4H/plague-doctor-scarlet-woman.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "瘟疫医生&红唇女郎",
-    "ability": "如果瘟疫医生死亡且说书人会因此获得红唇女郎的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
-  },
-  {
-    "id": "plague_doctor+spy",
-    "image": "https://i.postimg.cc/mgntDWg0/plague-doctor-spy.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "瘟疫医生&间谍",
-    "ability": "如果瘟疫医生死亡且说书人会因此获得间谍的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
-  },
-  {
-    "id": "pit-hag+heretic",
-    "image": "https://i.postimg.cc/gjyZXST3/pit-hag-heretic.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "麻脸巫婆&异端分子",
-    "ability": "麻脸巫婆无法创造异端分子。"
-  },
-  {
-    "id": "pit-hag+damsel",
-    "image": "https://i.postimg.cc/K80tDWvN/pit-hag-damsel.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "麻脸巫婆&落难少女",
-    "ability": "如果麻脸巫婆创造了落难少女，改为由说书人来决定哪一名玩家变成落难少女。"
-  },
-  {
-    "id": "pit-hag+politician",
-    "image": "https://i.postimg.cc/X73FSWrL/pit-hag-politician.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "麻脸巫婆&政客",
-    "ability": "被麻脸巫婆创造的邪恶政客无法因为自身能力转变为善良阵营。"
-  },
-  {
-    "id": "pit-hag+cult_leader",
-    "image": "https://i.postimg.cc/VN5nGFJc/pit-hag-cult-leader.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "麻脸巫婆&异教领袖",
-    "ability": "被麻脸巫婆创造的邪恶异教领袖无法因为自身能力转变为善良阵营。"
-  },
-  {
-    "id": "pit-hag+goon",
-    "image": "https://i.postimg.cc/qqHK7Vjk/pit-hag-goon.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "麻脸巫婆&莽夫",
-    "ability": "被麻脸巫婆创造的邪恶莽夫无法因为自身能力转变为善良阵营。"
-  },
-  {
-    "id": "pit-hag+villageidiot",
-    "image": "https://i.postimg.cc/P5V8w82V/pit-hag-villageidiot.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "麻脸巫婆&村夫",
-    "ability": "如果村夫在场数量不足3人，麻脸巫婆可以创造新的村夫。如果她这么做，村夫的醉酒效果可能会更换目标。"
-  },
-  {
-    "id": "cerenovus+goblin",
-    "image": "https://i.postimg.cc/j22Xzryy/cerenovus-goblin.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "洗脑师&哥布林",
-    "ability": "洗脑师可以选择将玩家洗脑成哥布林。"
-  },
-  {
-    "id": "spy+magician",
-    "image": "https://i.postimg.cc/hGnNVfvx/spy-magician.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "间谍&魔术师",
-    "ability": "当间谍查看魔典时，魔术师和恶魔的角色标记会被说书人移除。"
-  },
-  {
-    "id": "spy+alchemist",
-    "image": "https://i.postimg.cc/K8BdKnGx/spy-alchemist.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "间谍&炼金术士",
-    "ability": "炼金术士无法获得间谍的能力。"
-  },
-  {
-    "id": "spy+poppy_grower",
-    "image": "https://i.postimg.cc/qqW5q7WN/spy-poppy-grower.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "间谍&罂粟种植者",
-    "ability": "如果罂粟种植者在场，直到其死亡前间谍无法查看魔典。"
-  },
-  {
-    "id": "spy+damsel",
-    "image": "https://i.postimg.cc/SQt0HS1F/spy-damsel.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "间谍&落难少女",
-    "ability": "如果间谍正在场或曾经在场，落难少女中毒。"
-  },
-  {
-    "id": "spy+heretic",
-    "image": "https://i.postimg.cc/kX6rm0LV/spy-heretic.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "间谍&异端分子",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "widow+magician",
-    "image": "https://i.postimg.cc/fRD69VJd/widow-magician.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "寡妇&魔术师",
-    "ability": "当寡妇查看魔典时，魔术师和恶魔的标记会被说书人移除。"
-  },
-  {
-    "id": "widow+poppy_grower",
-    "image": "https://i.postimg.cc/PrsGd3H2/widow-poppy-grower.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "寡妇&罂粟种植者",
-    "ability": "如果罂粟种植者在场，直到其死亡前寡妇无法查看魔典。寡妇会在罂粟种植者死后的首个夜晚触发自身的能力。"
-  },
-  {
-    "id": "widow+alchemist",
-    "image": "https://i.postimg.cc/FKW5mhFL/widow-alchemist.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "寡妇&炼金术士",
-    "ability": "炼金术士无法获得寡妇的能力。"
-  },
-  {
-    "id": "widow+damsel",
-    "image": "https://i.postimg.cc/Px9gpKwf/widow-damsel.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "寡妇&落难少女",
-    "ability": "如果寡妇正在场或曾经在场，落难少女中毒。"
-  },
-  {
-    "id": "widow+heretic",
-    "image": "https://i.postimg.cc/nVQbb8yX/widow-heretic.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "寡妇&异端分子",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "godfather+heretic",
-    "image": "https://i.postimg.cc/jdGXJm2J/godfather-heretic.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "教父&异端分子",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "marionette+lil_monsta",
-    "image": "https://i.postimg.cc/gJCV66kb/marionette-lil-monsta.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "提线木偶&小怪宝",
-    "ability": "提线木偶会与一名爪牙玩家邻座，而不是恶魔。提线木偶不会被唤醒来决定是否照看小怪宝，也不会在照看小怪宝时得知自己是提线木偶。"
-  },
-  {
-    "id": "marionette+poppy_grower",
-    "image": "https://i.postimg.cc/nL576Qm9/marionette-poppy-grower.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "提线木偶&罂粟种植者",
-    "ability": "当罂粟种植者死亡后，恶魔会知道谁是提线木偶，但提线木偶什么都不会知道。"
-  },
-  {
-    "id": "marionette+snitch",
-    "image": "https://i.postimg.cc/rmrWcFGn/marionette-snitch.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "提线木偶&告密者",
-    "ability": "提线木偶不会得知三个不在场的角色，如果提线木偶与告密者均在场，改为由恶魔额外得知三个不在场角色。"
-  },
-  {
-    "id": "marionette+balloonist",
-    "image": "https://i.postimg.cc/W4f6THB3/marionette-balloonist.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "提线木偶&气球驾驶员",
-    "ability": "如果提线木偶抽到了气球驾驶员，也会+1外来者。"
-  },
-  {
-    "id": "marionette+damsel",
-    "image": "https://i.postimg.cc/xjmyVgtf/marionette-damsel.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "提线木偶&落难少女",
-    "ability": "提线木偶不会得知落难少女在场。"
-  },
-  {
-    "id": "marionette+huntsman",
-    "image": "https://i.postimg.cc/DZJQZchc/marionette-huntsman.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "提线木偶&巡山人",
-    "ability": "如果提线木偶抽到了巡山人，也会增加落难少女。"
-  },
-  {
-    "id": "baron+heretic",
-    "image": "https://i.postimg.cc/CKCm07Fn/baron-heretic.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "男爵&异端分子",
-    "ability": "如果异端分子在剧本中，男爵的效果可能会只增加一个而非两个外来者。"
-  },
-  {
-    "id": "organ_grinder+butler",
-    "image": "https://i.postimg.cc/8PVdpW0h/organ-grinder-butler.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "街头风琴手&管家",
-    "ability": "如果街头风琴手使得玩家需要闭眼投票，管家可以自由举手投票，但只在他的主人投票时他的票才会被统计。"
-  },
-  {
-    "id": "organ_grinder+flowergirl",
-    "image": "https://i.postimg.cc/qMXszRPW/organ-grinder-flowergirl.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "街头风琴手&卖花女孩",
-    "ability": "如果街头风琴手使得玩家需要闭眼投票，卖花女孩在夜晚会改为得知恶魔在白天投票的总次数。"
-  },
-  {
-    "id": "organ_grinder+minstrel",
-    "image": "https://i.postimg.cc/kgJx8C9G/organ-grinder-minstrel.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "街头风琴手&吟游诗人",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "organ_grinder+preacher",
-    "image": "https://i.postimg.cc/ZY63Mn50/organ-grinder-preacher.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "街头风琴手&传教士",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "vizier+investigator",
-    "image": "https://i.postimg.cc/tRLbYR3d/vizier-investigator.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "维齐尔&调查员",
-    "ability": "如果调查员的能力使其得知了维齐尔，则说书人不会告知所有人维齐尔在场。"
-  },
-  {
-    "id": "vizier+preacher",
-    "image": "https://i.postimg.cc/HnMfQ5ww/vizier-preacher.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "维齐尔&传教士",
-    "ability": "如果维齐尔失去能力，他会得知这一信息。如果传教士在剧本列表中，且维齐尔在具有能力时被处决，他的阵营获胜。"
-  },
-  {
-    "id": "vizier+courtier",
-    "image": "https://i.postimg.cc/8s8ZD0rW/vizier-courtier.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "维齐尔&侍臣",
-    "ability": "如果维齐尔失去能力，他会得知这一信息。如果侍臣在剧本列表中，且维齐尔在具有能力时被处决，他的阵营获胜。"
-  },
-  {
-    "id": "vizier+alchemist",
-    "image": "https://i.postimg.cc/JzQC6b9K/vizier-alchemist.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "维齐尔&炼金术士",
-    "ability": "如果炼金术士拥有维齐尔的能力，他只能在三名或更多玩家投票时选择立即处决，不论这些玩家的阵营如何。（不仅如此，实际上所有初始阵营为善良的玩家获得维齐尔的能力，都应该参照这种方式来执行。）"
-  },
-  {
-    "id": "vizier+magician",
-    "image": "https://i.postimg.cc/LXJd8Gh0/vizier-magician.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "维齐尔&魔术师",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "vizier+fearmonger",
-    "image": "https://i.postimg.cc/bYG8yStN/vizier-fearmonger.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "维齐尔&恐惧之灵",
-    "ability": "在恐惧之灵因为自己的能力被唤醒时，维齐尔会一同被唤醒。他会得知恐惧之灵选择了哪名玩家，并且无法使用自己的能力让那名玩家立即被处决。"
-  },
-  {
-    "id": "vizier+politician",
-    "image": "https://i.postimg.cc/vHfs9RhJ/vizier-politician.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "维齐尔&政客",
-    "ability": "维齐尔的能力可能会将政客当作邪恶阵营。"
-  },
-  {
-    "id": "summoner+alchemist",
-    "image": "https://i.postimg.cc/15Lk5WZv/summoner-alchemist.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&炼金术士",
-    "ability": "如果炼金术士获得了召唤师的能力，游戏会以初始有恶魔在场进行。炼金术士召唤师选择的玩家会变成恶魔但不会改变阵营。"
-  },
-  {
-    "id": "summoner+clockmaker",
-    "image": "https://i.postimg.cc/wBkZ2gRr/summoner-clockmaker.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&钟表匠",
-    "ability": "如果召唤师在场，在创造恶魔之后钟表匠才会得知信息。"
-  },
-  {
-    "id": "summoner+poppy_grower",
-    "image": "https://i.postimg.cc/mkPnT9px/summoner-poppy-grower.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&罂粟种植者",
-    "ability": "如果召唤师创造恶魔时罂粟种植者存活，由召唤师来选择创造哪种恶魔，由说书人来决定哪名玩家发生转变。"
-  },
-  {
-    "id": "summoner+marionette",
-    "image": "https://i.postimg.cc/G27N0KQJ/summoner-marionette.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&提线木偶",
-    "ability": "在初始设置时，提线木偶会与召唤师邻座。召唤师会得知谁是提线木偶。"
-  },
-  {
-    "id": "summoner+pit-hag",
-    "image": "https://i.postimg.cc/ydY5rtF8/summoner-pit-hag.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&麻脸巫婆",
-    "ability": "召唤师无法创造已经在场的恶魔。如果召唤师创造了一个不在场的恶魔，当晚的死亡由说书人决定。"
-  },
-  {
-    "id": "summoner+kazali",
-    "image": "https://i.postimg.cc/sfL8ZmBh/summoner-kazali.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&卡扎力",
-    "ability": "召唤师无法创造已经在场的恶魔。如果召唤师创造了一个不在场的恶魔，当晚的死亡由说书人决定。"
-  },
-  {
-    "id": "summoner+hatter",
-    "image": "https://i.postimg.cc/j5g1cQZB/summoner-hatter.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&帽匠",
-    "ability": "召唤师无法创造已经在场的恶魔。如果召唤师创造了一个不在场的恶魔，当晚的死亡由说书人决定。"
-  },
-  {
-    "id": "summoner+courtier",
-    "image": "https://i.postimg.cc/vmvkgd9Y/summoner-courtier.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&侍臣",
-    "ability": "如果召唤师因为侍臣的能力在第三个夜晚醉酒，由召唤师来选择创造哪种恶魔，由说书人来决定哪名玩家发生转变。"
-  },
-  {
-    "id": "summoner+zombuul",
-    "image": "https://i.postimg.cc/qqN55hFq/summoner-zombuul.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&僵怖",
-    "ability": "如果召唤师将一名已死亡的玩家变成了僵怖，该玩家会变成“已经死过一次”的僵怖。"
-  },
-  {
-    "id": "summoner+pukka",
-    "image": "https://i.postimg.cc/pr36bVNZ/summoner-pukka.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&普卡",
-    "ability": "召唤师可以选择在第二个夜晚将一名玩家变成普卡。"
-  },
-  {
-    "id": "summoner+engineer",
-    "image": "https://i.postimg.cc/Y9qVQyf1/summoner-engineer.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&工程师",
-    "ability": "如果工程师的能力使得召唤师在使用自己的能力前离场，召唤师会在此前立即使用自己的能力。"
-  },
-  {
-    "id": "leviathan+soldier",
-    "image": "https://i.postimg.cc/7ZkKWj4r/leviathan-soldier.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "利维坦&士兵",
-    "ability": "如果利维坦发起的提名中士兵被处决，士兵不会死亡。"
-  },
-  {
-    "id": "leviathan+monk",
-    "image": "https://i.postimg.cc/KzHLh3gg/leviathan-monk.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "利维坦&僧侣",
-    "ability": "如果利维坦发起的提名中被处决的玩家在前一晚曾被僧侣成功保护，那么那名玩家不会死亡。"
-  },
-  {
-    "id": "leviathan+innkeeper",
-    "image": "https://i.postimg.cc/6q4ZW6db/leviathan-innkeeper.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "利维坦&旅店老板",
-    "ability": "如果利维坦发起的提名中被处决的玩家在前一晚曾被旅店老板成功保护，那么那名玩家不会死亡。"
-  },
-  {
-    "id": "leviathan+ravenkeeper",
-    "image": "https://i.postimg.cc/FFwWj7nR/leviathan-ravenkeeper.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "利维坦&守鸦人",
-    "ability": "如果利维坦在场且守鸦人死于处决，那么他当晚会被唤醒并使用自己的能力。如果提名者是善良阵营，守鸦人会醉酒。"
-  },
-  {
-    "id": "leviathan+sage",
-    "image": "https://i.postimg.cc/J4JTKM9Q/leviathan-sage.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "利维坦&贤者",
-    "ability": "如果利维坦在场且贤者死于处决，那么他当晚会被唤醒并使用自己的能力。如果提名者是善良阵营，贤者会醉酒。"
-  },
-  {
-    "id": "leviathan+banshee",
-    "image": "https://i.postimg.cc/15N0PBBR/leviathan-banshee.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "利维坦&报丧女妖",
-    "ability": "如果利维坦在场且报丧女妖死于处决，所有玩家都会得知报丧女妖死亡，随后报丧女妖获得她死亡后的能力。"
-  },
-  {
-    "id": "leviathan+farmer",
-    "image": "https://i.postimg.cc/qqW8y6Jd/leviathan-farmer.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "利维坦&农夫",
-    "ability": "如果利维坦在场且农夫死于处决，当晚会有一名存活的善良玩家变成农夫。"
-  },
-  {
-    "id": "leviathan+mayor",
-    "image": "https://i.postimg.cc/PNGwPGyX/leviathan-mayor.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "利维坦&镇长",
-    "ability": "如果利维坦在场，镇长存活且第五天没有处决发生，则善良阵营获胜。"
-  },
-  {
-    "id": "leviathan+pit-hag",
-    "image": "https://i.postimg.cc/G34g8kKV/leviathan-pit-hag.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "利维坦&麻脸巫婆",
-    "ability": "在第五个白天之后，麻脸巫婆无法创造利维坦。"
-  },
-  {
-    "id": "leviathan+hatter",
-    "image": "https://i.postimg.cc/L8tzgsGr/leviathan-hatter.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "利维坦&帽匠",
-    "ability": "如果帽匠在第五个白天或之后死亡，恶魔不能选择变成利维坦。"
-  },
-  {
-    "id": "al-hadikhia+scarlet_woman",
-    "image": "https://i.postimg.cc/G2qK8pTc/al-hadikhia-scarlet-woman.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "哈迪寂亚&红唇女郎",
-    "ability": "如果出现两名存活的哈迪寂亚，则红唇女郎变成的哈迪寂亚会变回红唇女郎。"
-  },
-  {
-    "id": "al-hadikhia+mastermind",
-    "image": "https://i.postimg.cc/nV3SM3qv/al-hadikhia-mastermind.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "哈迪寂亚&主谋",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。邪恶阵营玩家在游戏开始时知道这两者中是什么角色在场，是哪一名玩家。"
-  },
-  {
-    "id": "lil_monsta+poppy_grower",
-    "image": "https://i.postimg.cc/N0GpgTLN/lil-monsta-poppy-grower.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "小怪宝&罂粟种植者",
-    "ability": "如果罂粟种植者在场，爪牙们不会同时醒来选择照看小怪宝。他们会依次单独被唤醒，直到其中一人选择照看小怪宝。"
-  },
-  {
-    "id": "lil_monsta+magician",
-    "image": "https://i.postimg.cc/kXxcKwb1/lil-monsta-magician.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "小怪宝&魔术师",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "lil_monsta+scarlet_woman",
-    "image": "https://i.postimg.cc/QtHm73Q1/lil-monsta-scarlet-woman.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "小怪宝&红唇女郎",
-    "ability": "如果在五名及以上的玩家存活时照看小怪宝的玩家死亡，当晚红唇女郎必须要照看小怪宝。"
-  },
-  {
-    "id": "lil_monsta+organ_grinder",
-    "image": "https://i.postimg.cc/3wL9WRv3/lil-monsta-organ-grinder.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "小怪宝&街头风琴手",
-    "ability": "如果街头风琴手在照看小怪宝，对街头风琴手的提名即使他自己没有投票，票数也会被统计。"
-  },
-  {
-    "id": "lil_monsta+vizier",
-    "image": "https://i.postimg.cc/QtwbkymP/lil-monsta-vizier.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "小怪宝&维齐尔",
-    "ability": "照看小怪宝的维齐尔能够死于处决。"
-  },
-  {
-    "id": "lil_monsta+hatter",
-    "image": "https://i.postimg.cc/dVj5PnQk/lil-monsta-hatter.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "小怪宝&帽匠",
-    "ability": "如果恶魔选择了小怪宝，则还需要选择一个爪牙角色，他变成这个爪牙且当晚照看小怪宝。"
-  },
-  {
-    "id": "legion+engineer",
-    "image": "https://i.postimg.cc/bJJb59dh/legion-engineer.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "军团&工程师",
-    "ability": "军团和工程师不能在初始时同时在场。如果工程师创造了军团，那么包括所有邪恶玩家在内的绝大多数玩家都会变成邪恶的军团。"
-  },
-  {
-    "id": "legion+preacher",
-    "image": "https://i.postimg.cc/bvLkLByg/legion-preacher.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "军团&传教士",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "legion+hatter",
-    "image": "https://i.postimg.cc/0jzYz0qf/legion-hatter.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "军团&帽匠",
-    "ability": "如果帽匠死亡时军团在场，则无事发生。如果帽匠死亡时一名邪恶玩家选择变成军团，当前所有邪恶玩家都会一同变成军团。"
-  },
-  {
-    "id": "legion+summoner",
-    "image": "https://i.postimg.cc/NGn8WS1P/legion-summoner.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "军团&召唤师",
-    "ability": "如果召唤师创造了军团，包括所有邪恶玩家在内的绝大多数玩家都会变成邪恶的军团。"
-  },
-  {
-    "id": "fang_gu+scarlet_woman",
-    "image": "https://i.postimg.cc/ZYsjJChH/fang-gu-scarlet-woman.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "方古&红唇女郎",
-    "ability": "如果方古成功转化了外来者并因此死去，红唇女郎不会变成方古。"
-  },
-  {
-    "id": "riot+engineer",
-    "image": "https://i.postimg.cc/7hPx9KL3/riot-engineer.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&工程师",
-    "ability": "暴乱和工程师不能在初始时同时在场。如果工程师创造了暴乱，所有邪恶玩家都会变成暴乱。"
-  },
-  {
-    "id": "riot+golem",
-    "image": "https://i.postimg.cc/j28RFyWG/riot-golem.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&魔像",
-    "ability": "如果魔像提名了暴乱，暴乱不会死亡。"
-  },
-  {
-    "id": "riot+snitch",
-    "image": "https://i.postimg.cc/1tvxms9F/riot-snitch.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&告密者",
-    "ability": "如果告密者在场，所有暴乱玩家都会分别得知三个不在场角色。"
-  },
-  {
-    "id": "riot+saint",
-    "image": "https://i.postimg.cc/XJjS6p03/riot-saint.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&圣徒",
-    "ability": "如果善良玩家提名并杀死了圣徒，圣徒的阵营落败。"
-  },
-  {
-    "id": "riot+butler",
-    "image": "https://i.postimg.cc/qRsRjtxT/riot-butler.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&管家",
-    "ability": "管家无法提名主人。"
-  },
-  {
-    "id": "riot+mayor",
-    "image": "https://i.postimg.cc/cHhWvfcr/riot-mayor.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&镇长",
-    "ability": "如果在第三天开始时只有三名玩家存活，所有玩家可以针对今天不发起提名进行表决。如果表决通过且镇长存活，镇长的阵营获胜。"
-  },
-  {
-    "id": "riot+monk",
-    "image": "https://i.postimg.cc/3wMYV8RJ/riot-monk.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&僧侣",
-    "ability": "如果暴乱提名了一名前一晚曾被僧侣成功保护的玩家，那名玩家不会死亡。"
-  },
-  {
-    "id": "riot+farmer",
-    "image": "https://i.postimg.cc/YqnSnBYh/riot-farmer.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&农夫",
-    "ability": "如果暴乱提名并杀死了农夫，当晚会有一名存活的善良玩家变成农夫。"
-  },
-  {
-    "id": "riot+innkeeper",
-    "image": "https://i.postimg.cc/G3z3tnMq/riot-innkeeper.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&旅店老板",
-    "ability": "如果暴乱提名了一名前一晚曾被旅店老板成功保护的玩家，那名玩家不会死亡。"
-  },
-  {
-    "id": "riot+sage",
-    "image": "https://i.postimg.cc/htmq9krF/riot-sage.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&贤者",
-    "ability": "如果暴乱提名并杀死了贤者，当晚贤者会被唤醒并使用其能力。"
-  },
-  {
-    "id": "riot+ravenkeeper",
-    "image": "https://i.postimg.cc/0jHqfxFv/riot-ravenkeeper.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&守鸦人",
-    "ability": "如果暴乱提名并杀死了守鸦人，当晚守鸦人会被唤醒并使用其能力。"
-  },
-  {
-    "id": "riot+banshee",
-    "image": "https://i.postimg.cc/j2hDdWDX/riot-banshee.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&报丧女妖",
-    "ability": "如果暴乱提名并杀死了报丧女妖，所有玩家都会得知报丧女妖死亡，随后报丧女妖可以立即提名两名玩家。（同时或按顺序结算这两条提名链。）"
-  },
-  {
-    "id": "riot+soldier",
-    "image": "https://i.postimg.cc/PJ7BDyvr/riot-soldier.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&士兵",
-    "ability": "如果暴乱提名了士兵，士兵不会死亡。"
-  },
-  {
-    "id": "riot+grandmother",
-    "image": "https://i.postimg.cc/9MYmy6cX/riot-grandmother.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&祖母",
-    "ability": "如果暴乱提名并杀死了孙子，祖母会一同死亡。"
-  },
-  {
-    "id": "riot+king",
-    "image": "https://i.postimg.cc/SKWkpB2L/riot-king.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&国王",
-    "ability": "如果暴乱提名并杀死了国王且唱诗男孩存活，当晚唱诗男孩会被唤醒并使用其能力。"
-  },
-  {
-    "id": "riot+exorcist",
-    "image": "https://i.postimg.cc/ydH6g14r/riot-exorcist.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&驱魔人",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "riot+minstrel",
-    "image": "https://i.postimg.cc/HxdHW6Xq/riot-minstrel.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&吟游诗人",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "riot+flowergirl",
-    "image": "https://i.postimg.cc/pLmL3cJk/riot-flowergirl.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&卖花女孩",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "riot+undertaker",
-    "image": "https://i.postimg.cc/SRRBj3sv/riot-undertaker.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&送葬者",
-    "ability": "被提名且死亡的玩家算作被处决。"
-  },
-  {
-    "id": "riot+cannibal",
-    "image": "https://i.postimg.cc/sxK2CtLH/riot-cannibal.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&食人族",
-    "ability": "被提名且死亡的玩家算作被处决。"
-  },
-  {
-    "id": "riot+pacifist",
-    "image": "https://i.postimg.cc/66HwwL3P/riot-pacifist.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&和平主义者",
-    "ability": "被提名且死亡的玩家算作被处决。"
-  },
-  {
-    "id": "riot+devils_advocate",
-    "image": "https://i.postimg.cc/52D2J5PJ/riot-devils-advocate.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&魔鬼代言人",
-    "ability": "被提名且死亡的玩家算作被处决。"
-  },
-  {
-    "id": "riot+investigator",
-    "image": "https://i.postimg.cc/dVZJ5kJx/riot-investigator.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&调查员",
-    "ability": "暴乱被调查员当作爪牙。"
-  },
-  {
-    "id": "riot+clockmaker",
-    "image": "https://i.postimg.cc/prPd72sn/riot-clockmaker.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&钟表匠",
-    "ability": "暴乱被钟表匠当作爪牙。"
-  },
-  {
-    "id": "riot+town_crier",
-    "image": "https://i.postimg.cc/VNcP4KGJ/riot-town-crier.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&城镇公告员",
-    "ability": "暴乱被城镇公告员当作爪牙。"
-  },
-  {
-    "id": "riot+damsel",
-    "image": "https://i.postimg.cc/Hssx9kJq/riot-damsel.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&落难少女",
-    "ability": "暴乱被落难少女当作爪牙。"
-  },
-  {
-    "id": "riot+preacher",
-    "image": "https://i.postimg.cc/xTcQdJN1/riot-preacher.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&传教士",
-    "ability": "暴乱被传教士当作爪牙。"
-  },
-  {
-    "id": "riot+pit-hag",
-    "image": "https://i.postimg.cc/NfSc2sR7/riot-pit-hag.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&麻脸巫婆",
-    "ability": "如果麻脸巫婆创造了暴乱，所有邪恶玩家都会变成暴乱。如果麻脸巫婆在游戏的第三天之后创造了暴乱，则游戏还会再进行一天。"
-  },
-  {
-    "id": "riot+hatter",
-    "image": "https://i.postimg.cc/MGRKpc4Q/riot-hatter.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&帽匠",
-    "ability": "如果帽匠死亡时暴乱在场，一名暴乱选择变成其他恶魔，则其他所有暴乱需要选择变成其他爪牙。如果帽匠死亡时恶魔选择变成暴乱，所有爪牙会一同变成暴乱（如果发生在第三天后，则游戏会多进行一天）。"
-  },
-  {
-    "id": "riot+summoner",
-    "image": "https://i.postimg.cc/ZqFtQ62V/riot-summoner.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&召唤师",
-    "ability": "如果召唤师创造了暴乱，被选择的玩家和所有邪恶玩家都变成邪恶的暴乱。被选择的玩家必须是与召唤师邻近的存活善良玩家。"
-  },
-  {
-    "id": "lleech+mastermind",
-    "image": "https://i.postimg.cc/PrGyC0Pv/lleech-mastermind.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "痢蛭&主谋",
-    "ability": "如果主谋存活且痢蛭的宿主死于处决，痢蛭存活但失去能力。"
-  },
-  {
-    "id": "lleech+slayer",
-    "image": "https://i.postimg.cc/SQYVNmNp/lleech-slayer.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "痢蛭&猎手",
-    "ability": "如果猎手选择了痢蛭的宿主，则宿主会死亡。"
-  },
-  {
-    "id": "lleech+heretic",
-    "image": "https://i.postimg.cc/0jSCt0HN/lleech-heretic.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "痢蛭&异端分子",
-    "ability": "如果痢蛭选择异端分子作为宿主，痢蛭死亡时异端分子仍会中毒。"
-  },
-  {
-    "id": "kazali+bounty_hunter",
-    "image": "https://i.postimg.cc/1zSrvFpm/kazali-bounty-hunter.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "卡扎力&赏金猎人",
-    "ability": "在卡扎力行动完毕后，如果赏金猎人仍然在场，才会创造邪恶镇民。"
-  },
-  {
-    "id": "kazali+goon",
-    "image": "https://i.postimg.cc/wBkcZBVh/kazali-goon.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "卡扎力&莽夫",
-    "ability": "如果卡扎力在选择爪牙时选择了莽夫，接下来的爪牙转变由说书人来做出决定。"
-  },
-  {
-    "id": "kazali+marionette",
-    "image": "https://i.postimg.cc/j5g6qkB2/kazali-marionette.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "卡扎力&提线木偶",
-    "ability": "如果卡扎力选择创造提线木偶，他只能选择将自己的邻座玩家变成提线木偶。"
-  },
-  {
-    "id": "kazali+choirboy",
-    "image": "https://i.postimg.cc/RZKT1dJp/kazali-choirboy.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "卡扎力&唱诗男孩",
-    "ability": "如果唱诗男孩在场，卡扎力在选择国王后无法将他变成爪牙。"
-  },
-  {
-    "id": "kazali+huntsman",
-    "image": "https://i.postimg.cc/Pxrzjk30/kazali-huntsman.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "卡扎力&巡山人",
-    "ability": "如果卡扎力将落难少女变成了爪牙，并且巡山人在场，一名善良的玩家会变成落难少女。"
-  },
-  {
-    "id": "yaggababble+exorcist",
-    "image": "https://i.postimg.cc/90PLmBPn/yaggababble-exorcist.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "牙噶巴卜&驱魔人",
-    "ability": "如果驱魔人选中了牙噶巴卜，那么牙噶巴卜的能力在当晚无法造成死亡。"
-  },
-  {
-    "id": "vortox+banshee",
-    "image": "https://i.postimg.cc/pdXbgmvv/vortox-banshee.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "涡流&报丧女妖",
-    "ability": "如果恶魔杀死报丧女妖时涡流在场，玩家仍然会得知正确信息。（中文百科上的“通用简化原则”已涵盖包括多角色互动下的涡流信息的简化处理方式，此条仅做说明。）"
-  },
-  {
-    "id": "pit-hag+lycanthrope",
-    "image": "https://i.postimg.cc/3xxvNZCD/pit-hag-lycanthrope.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "麻脸巫婆&半兽人",
-    "ability": "如果半兽人使得当晚无法造成额外的死亡，麻脸巫婆便能肆无忌惮地创造更多的邪恶恶魔。建议“如果半兽人攻击了善良玩家，当晚麻脸巫婆无法将非恶魔玩家变成恶魔角色”。（等到半兽人行动后再通知相应的角色变化即可）"
-  },
-  {
-    "id": "barber+cult_leader",
-    "image": "https://i.postimg.cc/pXyGjKB3/barber-cult-leader.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "理发师&异教领袖",
-    "ability": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
-  },
-  {
-    "id": "barber+goon",
-    "image": "https://i.postimg.cc/sghT6yqc/barber-goon.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "理发师&莽夫",
-    "ability": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
-  },
-  {
-    "id": "barber+politician",
-    "image": "https://i.postimg.cc/gk5MHrSj/barber-politician.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "理发师&政客",
-    "ability": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
-  },
-  {
-    "id": "barber+damsel",
-    "image": "https://i.postimg.cc/SKbDH3pp/barber-damsel.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "理发师&落难少女",
-    "ability": "参考麻脸巫婆。建议“如果恶魔选择交换落难少女的角色，参与角色交换的另一名玩家改为由说书人来决定”。"
-  },
-  {
-    "id": "xizi+spy",
-    "image": "https://i.postimg.cc/cJj9XC4X/xizi-spy.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&间谍",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "xizi+godfather",
-    "image": "https://i.postimg.cc/RZd2QvHD/xizi-godfather.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&教父",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "xizi+evil_twin",
-    "image": "https://i.postimg.cc/FRM6sRM7/xizi-evil-twin.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&镜像双子",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "xizi+widow",
-    "image": "https://i.postimg.cc/9M7xS2DV/xizi-widow.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&寡妇",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "xizi+summoner",
-    "image": "https://i.postimg.cc/4yR8R0cc/xizi-summoner.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&召唤师",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "xizi+riot",
-    "image": "https://i.postimg.cc/43n26VZY/xizi-riot.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&暴乱",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "xizi+legion",
-    "image": "https://i.postimg.cc/wxNP4XNJ/xizi-legion.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&军团",
-    "ability": "在戏子存在于剧本中时，军团可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在夜晚一同唤醒所有军团，并询问他们是否要一同死亡。"
-  },
-  {
-    "id": "xizi+leviathan",
-    "image": "https://i.postimg.cc/TYqsfTC3/xizi-leviathan.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&利维坦",
-    "ability": "在戏子存在于剧本中时，利维坦可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在当晚杀死这名玩家。"
-  },
-  {
-    "id": "xizi+lil_monsta",
-    "image": "https://i.postimg.cc/DwvMzRMd/xizi-lil-monsta.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&小怪宝",
-    "ability": "在戏子存在于剧本中时，照看小怪宝的玩家可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在当晚将小怪宝从游戏中移除。"
-  },
-  {
-    "id": "xizi+pukka",
-    "image": "https://i.postimg.cc/jdr1pD61/xizi-pukka.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&普卡",
-    "ability": "在戏子存在于剧本中时，普卡可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在当晚杀死这名玩家。"
-  },
-  {
-    "id": "xizi+kazali",
-    "image": "https://i.postimg.cc/T1n4yxxQ/xizi-kazali.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&卡扎力",
-    "ability": "卡扎力和戏子不能在初始时同时在场。如果有角色能力能够使得善良玩家在第一个夜晚变成戏子，卡扎力会在这一效果生效之前先进行转变爪牙的行动。"
-  },
-  {
-    "id": "xizi+pit-hag",
-    "image": "https://i.postimg.cc/t4Bmn200/xizi-pit-hag.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&麻脸巫婆",
-    "ability": "麻脸巫婆无法创造戏子。"
-  },
-  {
-    "id": "xizi+atheist",
-    "image": "https://i.postimg.cc/7LQcdXX1/xizi-atheist.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&无神论者",
-    "ability": "无神论者在剧本中时，处决说书人导致的胜负结果不会被反转。"
-  },
-  {
-    "id": "xizi+goblin",
-    "image": "https://i.postimg.cc/HsQqnwsH/xizi-goblin.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&哥布林",
-    "ability": "戏子无法反转由哥布林的能力产生的胜负结果。"
-  },
-  {
-    "id": "xizi+fearmonger",
-    "image": "https://i.postimg.cc/W3FKvrfB/xizi-fearmonger.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "戏子&恐惧之灵",
-    "ability": "戏子无法反转由恐惧之灵的能力产生的胜负结果。"
-  },
-  {
-    "id": "lycanthrope+dagengren",
-    "image": "https://i.postimg.cc/sgm40XK5/lycanthrope-dagengren.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "半兽人&打更人",
-    "ability": "如果打更人猜测正确的玩家是半兽人攻击的玩家，那么当晚只会有打更人死亡。"
-  },
-  {
-    "id": "lycanthrope+jinyiwei",
-    "image": "https://i.postimg.cc/0j7pG2bM/lycanthrope-jinyiwei.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "半兽人&锦衣卫",
-    "ability": "如果半兽人选择了锦衣卫保护的善良玩家，那么当晚只会有锦衣卫死亡。"
-  },
-  {
-    "id": "wudaozhe+villageidiot",
-    "image": "https://i.postimg.cc/LsswxGk6/wudaozhe-villageidiot.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "悟道者&村夫",
-    "ability": "如果村夫在场数量不足3人，悟道者可以变成新的村夫。如果因此使得村夫的在场数量超过1人，会有一名村夫醉酒。"
-  },
-  {
-    "id": "plague_doctor+ganshiren",
-    "image": "https://i.postimg.cc/15J8kqhR/plague-doctor-ganshiren.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "瘟疫医生&赶尸人",
-    "ability": "如果瘟疫医生死亡且说书人会因此获得赶尸人的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
-  },
-  {
-    "id": "plague_doctor+humeiniang",
-    "image": "https://i.postimg.cc/kgG2qgqQ/plague-doctor-humeiniang.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "瘟疫医生&狐媚娘",
-    "ability": "如果瘟疫医生死亡且说书人会因此获得狐媚娘的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
-  },
-  {
-    "id": "plague_doctor+yangguren",
-    "image": "https://i.postimg.cc/CKfdnrZd/plague-doctor-yangguren.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "瘟疫医生&养蛊人",
-    "ability": "如果瘟疫医生死亡且说书人会因此获得养蛊人的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
-  },
-  {
-    "id": "heretic+humeiniang",
-    "image": "https://i.postimg.cc/gkwsjmzW/heretic-humeiniang.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "异端分子&狐媚娘",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "riot+banxian",
-    "image": "https://i.postimg.cc/zBZvCwW7/riot-banxian.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&半仙",
-    "ability": "当且仅当暴乱提名了半仙时，半仙不会死亡，而是让另一名存活的邪恶玩家死亡。（随后那名死亡的邪恶玩家可以立即发起新的提名。如果场上已经没有其他存活的邪恶玩家，那么半仙在被唯一存活的暴乱提名时会正常死亡。）"
-  },
-  {
-    "id": "riot+dagengren",
-    "image": "https://i.postimg.cc/VsFvtCN9/riot-dagengren.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&打更人",
-    "ability": "如果在夜晚无人死亡，打更人的能力能保护下一个白天首次死亡的玩家（如果打更人的猜测正确）。然而集体免死的效果不会在白天触发，打更人也不会因此在白天死亡。"
-  },
-  {
-    "id": "riot+heshang",
-    "image": "https://i.postimg.cc/3JR8DfV7/riot-heshang.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&和尚",
-    "ability": "如果暴乱提名了与和尚邻近的存活玩家，那么那名玩家不会死亡，并且当晚和尚得知他的能力被触发。（如常在和尚旁放置“已生效”提示标记，因为黎明时才会移除此标记，因此当晚和尚无法再触发他的能力。）"
-  },
-  {
-    "id": "riot+nichen",
-    "image": "https://i.postimg.cc/cCJSw6DT/riot-nichen.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&逆臣",
-    "ability": "被提名且死亡的玩家算作被处决。"
-  },
-  {
-    "id": "riot+humeiniang",
-    "image": "https://i.postimg.cc/KvHZ7rhT/riot-humeiniang.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&狐媚娘",
-    "ability": "被提名且死亡的玩家算作被处决。"
-  },
-  {
-    "id": "leviathan+heshang",
-    "image": "https://i.postimg.cc/Lsmjtpph/leviathan-heshang.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "利维坦&和尚",
-    "ability": "如果利维坦发起的提名中被处决的玩家是与和尚邻近的存活玩家，那么那名玩家不会死亡，并且当晚和尚得知他的能力被触发。（如常在和尚旁放置“已生效”提示标记，因为黎明时才会移除此标记，因此当晚和尚无法再触发他的能力。）"
-  },
-  {
-    "id": "taowu+scarlet_woman",
-    "image": "https://i.postimg.cc/Hn86qgjd/taowu-scarlet-woman.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "梼杌&红唇女郎",
-    "ability": "红唇女郎在梼杌的能力判断中被当作“不具有能力”。"
-  },
-  {
-    "id": "taowu+evil_twin",
-    "image": "https://i.postimg.cc/DwkNK8qD/taowu-evil-twin.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "梼杌&镜像双子",
-    "ability": "镜像双子在梼杌的能力判断中被当作“不具有能力”。"
-  },
-  {
-    "id": "taowu+mastermind",
-    "image": "https://i.postimg.cc/FKhn78CV/taowu-mastermind.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "梼杌&主谋",
-    "ability": "主谋在梼杌的能力判断中被当作“不具有能力”。"
-  },
-  {
-    "id": "taowu+organ_grinder",
-    "image": "https://i.postimg.cc/3RcLfR8t/taowu-organ-grinder.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "梼杌&街头风琴手",
-    "ability": "当梼杌被处决时，如果街头风琴手具有能力，说书人会宣布“无人被处决”。"
-  },
-  {
-    "id": "taowu+marionette",
-    "image": "https://i.postimg.cc/PqKVZyBs/taowu-marionette.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "梼杌&提线木偶",
-    "ability": "梼杌不会得知谁是提线木偶。在梼杌使得提线木偶失去能力后，梼杌会得知对应的那一名提线木偶是谁，但提线木偶会仍然以为自己是一个善良角色。"
-  },
-  {
-    "id": "taowu+hatter",
-    "image": "https://i.postimg.cc/pLf6VRCd/taowu-hatter.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "梼杌&帽匠",
-    "ability": "如果梼杌变成了其他角色，因为梼杌而失去能力的爪牙会立即死亡。"
-  },
-  {
-    "id": "taowu+pit-hag",
-    "image": "https://i.postimg.cc/XJJHgFbZ/taowu-pit-hag.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "梼杌&麻脸巫婆",
-    "ability": "如果梼杌变成了其他角色，因为梼杌而失去能力的爪牙会立即死亡。"
-  },
-  {
-    "id": "taowu+engineer",
-    "image": "https://i.postimg.cc/bN25MQ2k/taowu-engineer.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "梼杌&工程师",
-    "ability": "如果梼杌变成了其他恶魔，因为梼杌而失去能力的爪牙会立即死亡。"
-  },
-  {
-    "id": "taowu+snake_charmer",
-    "image": "https://i.postimg.cc/Bn3GBhwX/taowu-snake-charmer.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "梼杌&舞蛇人",
-    "ability": "如果梼杌的角色发生了交换，不会因此移除原本梼杌的“失去能力”提示标记。"
-  },
-  {
-    "id": "taowu+barber",
-    "image": "https://i.postimg.cc/BZzyMhtJ/taowu-barber.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "梼杌&理发师",
-    "ability": "如果梼杌的角色发生了交换，不会因此移除原本梼杌的“失去能力”提示标记。"
   }
 ]

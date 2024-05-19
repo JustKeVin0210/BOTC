@@ -27,7 +27,7 @@ def transform_json(origin_json_file, all_rloe_json_file, save_path, logo_url="")
         index = bisect_left(all_role_id, role_info.get("id") + "TRANS")
         assert all_role_json[index].get("id") == role_info.get("id") + "TRANS"
         tf_json.append(all_role_json[index])
-    new_json_name = os.path.basename(origin_json_file).replace(".json", "_tf.json")
+    new_json_name = os.path.basename(origin_json_file).replace(".json", "_tf1.json")
     with open(os.path.join(save_path, new_json_name), "w", encoding='utf-8') as f:
         json.dump(tf_json, f, ensure_ascii=False, indent=2)
     print(f"json文件已经保存到{new_json_name}")
@@ -36,7 +36,7 @@ def transform_json(origin_json_file, all_rloe_json_file, save_path, logo_url="")
 
 if __name__ == '__main__':
     origin_json_file = r"json/心理博弈.json"
-    all_role_json_file = r"json/全角色.json"
+    all_role_json_file = r"json/全角色_hr_jinx.json"
     save_path = r"./json"
     logo_url = r"https://oss.gstonegames.com/data_file/clocktower/upload/1689598305_197011_6023.png"
     transform_json(origin_json_file, all_role_json_file, save_path, logo_url=logo_url)
