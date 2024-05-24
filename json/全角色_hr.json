@@ -3048,7 +3048,7 @@
   },
   {
     "id": "villageidiotTRANS",
-    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/villageidiot.png",
+    "image": "https://wiki.bloodontheclocktower.com/images/d/da/Icon_villageidiot.png",
     "name": "村夫",
     "edition": "custom",
     "team": "townsfolk",
@@ -3115,5 +3115,20 @@
     "remindersGlobal": [],
     "setup": false,
     "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。"
+  },
+  {
+    "id": "ogreTRANS",
+    "image": "https://wiki.bloodontheclocktower.com/images/2/25/Icon_ogre.png",
+    "name": "食人魔",
+    "edition": "custom",
+    "team": "outsider",
+    "firstNight": 11800,
+    "firstNightReminder": "唤醒食人魔。让食人魔指向一名玩家。让食人魔重新入睡。如果食人魔指向了一名邪恶玩家，将食人魔的角色标记倒转放置，代表食人魔现在属于邪恶阵营。",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：你转变为他的阵营，即使你已醉酒或中毒，但你不知道你转变后的阵营。"
   }
 ]

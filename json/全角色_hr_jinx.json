@@ -274,7 +274,13 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。"
+    "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "jinxes": [
+      {
+        "id": "ogreTRANS",
+        "reason": "如果陌客被食人魔当作邪恶阵营，食人魔会得知自己转变为邪恶。"
+      }
+    ]
   },
   {
     "id": "saintTRANS",
@@ -342,6 +348,10 @@
       {
         "id": "hereticTRANS",
         "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+      },
+      {
+        "id": "ogreTRANS",
+        "reason": "间谍必定被食人魔当作邪恶阵营。"
       }
     ]
   },
@@ -1278,15 +1288,19 @@
     "jinxes": [
       {
         "id": "cult_leaderTRANS",
-        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客/食人魔交换角色，理发师的能力会因此被浪费”。"
       },
       {
         "id": "goonTRANS",
-        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客/食人魔交换角色，理发师的能力会因此被浪费”。"
       },
       {
         "id": "politicianTRANS",
-        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客/食人魔交换角色，理发师的能力会因此被浪费”。"
+      },
+      {
+        "id": "ogreTRANS",
+        "reason": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客/食人魔交换角色，理发师的能力会因此被浪费”。"
       },
       {
         "id": "damselTRANS",
@@ -1400,6 +1414,10 @@
       {
         "id": "goonTRANS",
         "reason": "被麻脸巫婆创造的邪恶莽夫无法因为自身能力转变为善良阵营。"
+      },
+      {
+        "id": "ogreTRANS",
+        "reason": "被麻脸巫婆创造的邪恶食人魔无法因为自身能力转变为善良阵营。"
       },
       {
         "id": "villageidiotTRANS",
@@ -1825,7 +1843,13 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。"
+    "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
+    "jinxes": [
+      {
+        "id": "jugglerTRANS",
+        "reason": "如果杂耍艺人在自己的首个白天猜测后在当天死于处决，当晚食人族会替杂耍艺人得知对应的信息。"
+      }
+    ]
   },
   {
     "id": "nightwatchmanTRANS",
@@ -3484,7 +3508,7 @@
       },
       {
         "id": "magicianTRANS",
-        "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+        "reason": "如果维齐尔和魔术师都在场，恶魔不会得知谁是爪牙。"
       },
       {
         "id": "fearmongerTRANS",
@@ -3716,7 +3740,7 @@
   },
   {
     "id": "villageidiotTRANS",
-    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/villageidiot.png",
+    "image": "https://wiki.bloodontheclocktower.com/images/d/da/Icon_villageidiot.png",
     "name": "村夫",
     "edition": "custom",
     "team": "townsfolk",
@@ -3835,5 +3859,20 @@
     "remindersGlobal": [],
     "setup": false,
     "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。"
+  },
+  {
+    "id": "ogreTRANS",
+    "image": "https://wiki.bloodontheclocktower.com/images/2/25/Icon_ogre.png",
+    "name": "食人魔",
+    "edition": "custom",
+    "team": "outsider",
+    "firstNight": 11800,
+    "firstNightReminder": "唤醒食人魔。让食人魔指向一名玩家。让食人魔重新入睡。如果食人魔指向了一名邪恶玩家，将食人魔的角色标记倒转放置，代表食人魔现在属于邪恶阵营。",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：你转变为他的阵营，即使你已醉酒或中毒，但你不知道你转变后的阵营。"
   }
 ]

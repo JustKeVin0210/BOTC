@@ -16,7 +16,6 @@ https://i.postimg.cc/RZKT1dJp/kazali-choirboy.png
 https://i.postimg.cc/wBkcZBVh/kazali-goon.png
 https://i.postimg.cc/Pxrzjk30/kazali-huntsman.png
 https://i.postimg.cc/j5g6qkB2/kazali-marionette.png
-https://i.postimg.cc/GmwFpDgF/kazali-summoner.png
 https://i.postimg.cc/bJJb59dh/legion-engineer.png
 https://i.postimg.cc/0jzYz0qf/legion-hatter.png
 https://i.postimg.cc/bvLkLByg/legion-preacher.png
@@ -165,3 +164,9 @@ https://i.postimg.cc/j5g1cQZB/summoner-hatter.png
 https://i.postimg.cc/sfL8ZmBh/summoner-kazali.png
 https://i.postimg.cc/pr36bVNZ/summoner-pukka.png
 https://i.postimg.cc/qqN55hFq/summoner-zombuul.png
+
+https://i.postimg.cc/MGQpWV2X/barber-ogre.png
+https://i.postimg.cc/d1ctD3w6/cannibal-juggler.png
+https://i.postimg.cc/0j8kd46J/pit-hag-ogre.png
+https://i.postimg.cc/Jn37X8hL/recluse-ogre.png
+https://i.postimg.cc/hvpSC0xZ/spy-ogre.png

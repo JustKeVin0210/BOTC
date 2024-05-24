@@ -1,13 +1,22 @@
 .DS_Store
 .idea/
 
+data/
 image_cn/
 image_all/
 image/color_blue
 image/color_red
+image/jinx
+image/jinx_new
+image/change_team_new
+image/get_ability_new
+image_watermark/jinx_new
+image_watermark/change_team_new
+image_watermark/get_ability_new
 
 change_color.py
 token_jinx_tri.py
+animate.py
 
 json/全角色_hr_jinx_冲突规则.json
 json/冲突规则.json

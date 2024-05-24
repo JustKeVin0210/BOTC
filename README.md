@@ -78,7 +78,7 @@ python token_get_jinx.py
 python json_transform.py
 ### json文件融合
 python json_merge.py
-### json文件(角色更新至新版国王，相克规则更新至召唤师)
+### json文件(角色更新至食人魔)
 json/全角色.json
 json/全角色_hr.json
 json/全角色_hr_jinx.json

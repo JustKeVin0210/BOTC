@@ -98,7 +98,7 @@ def get_ability_role(img_real_dir, ability_role_folder, save_folder, watermark="
             img_ability = image_watermark(img_ability, cv2.imread(watermark, -1))
         if not os.path.exists(os.path.join(save_folder, img_ability_new_name)):
             cv2.imwrite(os.path.join(save_folder, img_ability_new_name), img_ability)
-            save_folder_new = save_folder.replace("get_ability", "get_ability_new")
+            save_folder_new = os.path.join(save_folder.split("get_ability")[0], "get_ability_new")
             os.makedirs(save_folder_new, exist_ok=True)
             cv2.imwrite(os.path.join(save_folder_new, img_ability_new_name), img_ability)
             print(f"{img_ability_new_name}图片处理完成")

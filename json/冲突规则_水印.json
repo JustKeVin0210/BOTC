@@ -24,6 +24,14 @@
     "ability": "赌徒会先于半兽人行动。如果赌徒赌博失败且半兽人存活，那么无论半兽人选择了哪名玩家，当晚只会有赌徒死亡。"
   },
   {
+    "id": "cannibal+juggler",
+    "image": "https://i.postimg.cc/d1ctD3w6/cannibal-juggler.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "食人族&杂耍艺人",
+    "ability": "如果杂耍艺人在自己的首个白天猜测后在当天死于处决，当晚食人族会替杂耍艺人得知对应的信息。"
+  },
+  {
     "id": "butler+cannibal",
     "image": "https://i.postimg.cc/4dJwxcdL/butler-cannibal.png",
     "edition": "custom",
@@ -38,6 +46,14 @@
     "team": "a jinxed",
     "name": "疯子&数学家",
     "ability": "数学家会得知疯子是否攻击了与真正的恶魔不同的目标。"
+  },
+  {
+    "id": "recluse+ogre",
+    "image": "https://i.postimg.cc/Jn37X8hL/recluse-ogre.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "陌客&食人魔",
+    "ability": "如果陌客被食人魔当作邪恶阵营，食人魔会得知自己转变为邪恶。"
   },
   {
     "id": "plague_doctor+baron",
@@ -144,6 +160,14 @@
     "ability": "被麻脸巫婆创造的邪恶莽夫无法因为自身能力转变为善良阵营。"
   },
   {
+    "id": "pit-hag+ogre",
+    "image": "https://i.postimg.cc/0j8kd46J/pit-hag-ogre.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "麻脸巫婆&食人魔",
+    "ability": "被麻脸巫婆创造的邪恶食人魔无法因为自身能力转变为善良阵营。"
+  },
+  {
     "id": "pit-hag+villageidiot",
     "image": "https://i.postimg.cc/P5V8w82V/pit-hag-villageidiot.png",
     "edition": "custom",
@@ -198,6 +222,14 @@
     "team": "a jinxed",
     "name": "间谍&异端分子",
     "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+  },
+  {
+    "id": "spy+ogre",
+    "image": "https://i.postimg.cc/hvpSC0xZ/spy-ogre.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "间谍&食人魔",
+    "ability": "间谍必定被食人魔当作邪恶阵营。"
   },
   {
     "id": "widow+magician",
@@ -373,7 +405,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "维齐尔&魔术师",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+    "ability": "如果维齐尔和魔术师都在场，恶魔不会得知谁是爪牙。"
   },
   {
     "id": "vizier+fearmonger",
@@ -997,7 +1029,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "理发师&异教领袖",
-    "ability": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+    "ability": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客/食人魔交换角色，理发师的能力会因此被浪费”。"
   },
   {
     "id": "barber+goon",
@@ -1005,7 +1037,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "理发师&莽夫",
-    "ability": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+    "ability": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客/食人魔交换角色，理发师的能力会因此被浪费”。"
   },
   {
     "id": "barber+politician",
@@ -1013,7 +1045,15 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "理发师&政客",
-    "ability": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客交换角色，理发师的能力会因此被浪费”。"
+    "ability": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客/食人魔交换角色，理发师的能力会因此被浪费”。"
+  },
+  {
+    "id": "barber+ogre",
+    "image": "https://i.postimg.cc/MGQpWV2X/barber-ogre.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "理发师&食人魔",
+    "ability": "参考麻脸巫婆。建议“恶魔无法将一名邪恶玩家与异教领袖/莽夫/政客/食人魔交换角色，理发师的能力会因此被浪费”。"
   },
   {
     "id": "barber+damsel",
