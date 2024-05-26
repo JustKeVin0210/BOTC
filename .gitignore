@@ -6,6 +6,8 @@ image_cn/
 image_all/
 image/color_blue
 image/color_red
+image/origin/new
+image_hr/origin/new
 image/jinx
 image/jinx_new
 image/change_team_new
@@ -18,7 +20,8 @@ change_color.py
 token_jinx_tri.py
 animate.py
 
-json/全角色_hr_jinx_冲突规则.json
+json/全角色_origin.json
+json/全角色_hr_冲突规则.json
 json/冲突规则.json
 json/冲突规则_github.json
 json/全员失忆.json

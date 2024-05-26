@@ -3,10 +3,10 @@ import json
 from bisect import bisect_left
 
 
-def transform_json(origin_json_file, all_rloe_json_file, save_path, logo_url=""):
+def transform_json(origin_json_file, all_role_json_file, save_path, logo_url=""):
     with open(origin_json_file, "r", encoding='utf-8') as f:
         origin_json = json.load(f)
-    with open(all_rloe_json_file, "r", encoding='utf-8') as f:
+    with open(all_role_json_file, "r", encoding='utf-8') as f:
         all_role_json = json.load(f)
     tf_json = [
         {
@@ -36,7 +36,7 @@ def transform_json(origin_json_file, all_rloe_json_file, save_path, logo_url="")
 
 if __name__ == '__main__':
     origin_json_file = r"json/心理博弈.json"
-    all_role_json_file = r"json/全角色_hr_jinx.json"
+    all_role_json_file = r"json/全角色_hr.json"
     save_path = r"./json"
     logo_url = r"https://oss.gstonegames.com/data_file/clocktower/upload/1689598305_197011_6023.png"
     transform_json(origin_json_file, all_role_json_file, save_path, logo_url=logo_url)

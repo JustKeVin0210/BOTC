@@ -66,8 +66,10 @@ pip install -r requirements.txt
 python download_img.py
 ### 相克规则相关信息爬取
 python download_jinx.py
-### 角色行动顺序表
-python md_write.py
+### 角色行动顺序表(md文件)
+python write_md.py
+### 角色行动顺序表(xlsx文件)
+python write_excel.py
 ### 角色变换阵营图标生成
 python token_change_team.py
 ### 角色获得能力图标生成
@@ -80,13 +82,16 @@ python json_transform.py
 python json_merge.py
 ### json文件(角色更新至食人魔)
 json/全角色.json
+
 json/全角色_hr.json
-json/全角色_hr_jinx.json
-json/全角色_hr_jinx_冲突规则_水印.json
+
+json/全角色_hr_冲突规则_水印.json
+
 json/冲突规则_水印.json
 
+json/script_dict.json
 
-角色夜间行动顺序如需高清无水印版请联系邮箱just_kevin2022@163.com
+交流邮箱just_kevin2022@163.com
 
 实际情况如存在争议请以[钟楼百科](https://clocktower-wiki.gstonegames.com/)为准
 
