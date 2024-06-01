@@ -3913,7 +3913,7 @@
   },
   {
     "id": "villageidiotTRANS",
-    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/villageidiot.png",
+    "image": "https://wiki.bloodontheclocktower.com/images/d/da/Icon_villageidiot.png",
     "name": "村夫",
     "edition": "custom",
     "team": "townsfolk",
@@ -4039,7 +4039,7 @@
   },
   {
     "id": "ogreTRANS",
-    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/ogre.png",
+    "image": "https://wiki.bloodontheclocktower.com/images/2/25/Icon_ogre.png",
     "name": "食人魔",
     "edition": "custom",
     "team": "outsider",

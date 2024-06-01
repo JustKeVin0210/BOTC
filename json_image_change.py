@@ -1,6 +1,11 @@
 import json
 import os
 
+wrong_image = {
+    "villageidiot": "https://wiki.bloodontheclocktower.com/images/d/da/Icon_villageidiot.png",
+    "ogre": "https://wiki.bloodontheclocktower.com/images/2/25/Icon_ogre.png",
+}
+
 
 def image_change(origin_json_file, save_path):
     with open(origin_json_file, "r", encoding='utf-8') as f:
@@ -10,7 +15,10 @@ def image_change(origin_json_file, save_path):
             continue
         if role_info.get("team") in ["townsfolk", "outsider", "minion", "demon", "traveler"]:
             role_id = role_info.get("id").replace("TRANS", "")
-            role_info["image"] = f"https://oss.gstonegames.com/data_file/clocktower/web/icons/{role_id}.png"
+            if role_id in wrong_image.keys():
+                role_info["image"] = wrong_image[role_id]
+            else:
+                role_info["image"] = f"https://oss.gstonegames.com/data_file/clocktower/web/icons/{role_id}.png"
     new_json_name = os.path.basename(origin_json_file).replace(".json", "_hr.json")
     with open(os.path.join(save_path, new_json_name), "w", encoding='utf-8') as f:
         json.dump(origin_json, f, ensure_ascii=False, indent=2)

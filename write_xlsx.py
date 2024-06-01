@@ -159,6 +159,17 @@ def write_excel(json_file, image_dir, save_dir):
                 cell.alignment = format_dict.get(role_other_team).get("alignment")
                 cell.border = format_dict.get(role_other_team).get("border")
                 cell.font = format_dict.get(role_other_team).get("font")
+    # 修改打印样式
+    ws.print_options.horizontalCentered = True
+    ws.print_options.verticalCentered = True
+    ws.page_margins.left = 0
+    ws.page_margins.right = 0
+    ws.page_margins.top = 0
+    ws.page_margins.bottom = 0
+    ws.page_margins.header = 0
+    ws.page_margins.footer = 0
+    ws.page_setup.fitToPage = True
+    # 保存
     wb.save(os.path.join(save_dir, "角色行动顺序表.xlsx"))
     print(f"写入{os.path.join(save_dir, '角色行动顺序表.xlsx')}完成")
     return
