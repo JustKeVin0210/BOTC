@@ -5,7 +5,7 @@ https://i.postimg.cc/SKbDH3pp/barber-damsel.png
 https://i.postimg.cc/sghT6yqc/barber-goon.png
 https://i.postimg.cc/gk5MHrSj/barber-politician.png
 https://i.postimg.cc/CKCm07Fn/baron-heretic.png
-https://i.postimg.cc/4dJwxcdL/butler-cannibal.png
+https://i.postimg.cc/hPQQL6bC/cannibal-butler.png
 https://i.postimg.cc/j22Xzryy/cerenovus-goblin.png
 https://i.postimg.cc/ZnQLHDL2/chambermaid-mathematician.png
 https://i.postimg.cc/ZYsjJChH/fang-gu-scarlet-woman.png
@@ -170,3 +170,5 @@ https://i.postimg.cc/d1ctD3w6/cannibal-juggler.png
 https://i.postimg.cc/0j8kd46J/pit-hag-ogre.png
 https://i.postimg.cc/Jn37X8hL/recluse-ogre.png
 https://i.postimg.cc/hvpSC0xZ/spy-ogre.png
+
+https://i.postimg.cc/7PWTTw7G/philosopher-bounty-hunter.png

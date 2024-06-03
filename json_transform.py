@@ -27,7 +27,7 @@ def transform_json(origin_json_file, all_role_json_file, save_path, logo_url="")
         index = bisect_left(all_role_id, role_info.get("id") + "TRANS")
         assert all_role_json[index].get("id") == role_info.get("id") + "TRANS"
         tf_json.append(all_role_json[index])
-    new_json_name = os.path.basename(origin_json_file).replace(".json", "_tf1.json")
+    new_json_name = os.path.basename(origin_json_file).replace(".json", "_tf.json")
     with open(os.path.join(save_path, new_json_name), "w", encoding='utf-8') as f:
         json.dump(tf_json, f, ensure_ascii=False, indent=2)
     print(f"json文件已经保存到{new_json_name}")

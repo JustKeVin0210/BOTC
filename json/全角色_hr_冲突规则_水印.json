@@ -3913,7 +3913,7 @@
   },
   {
     "id": "villageidiotTRANS",
-    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/villageidiot.png",
+    "image": "https://wiki.bloodontheclocktower.com/images/d/da/Icon_villageidiot.png",
     "name": "村夫",
     "edition": "custom",
     "team": "townsfolk",
@@ -4039,7 +4039,7 @@
   },
   {
     "id": "ogreTRANS",
-    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/ogre.png",
+    "image": "https://wiki.bloodontheclocktower.com/images/2/25/Icon_ogre.png",
     "name": "食人魔",
     "edition": "custom",
     "team": "outsider",
@@ -4062,6 +4062,14 @@
     "ability": "侍女会得知数学家是否醒来，即使她是在数学家之前醒来。"
   },
   {
+    "id": "philosopher+bounty_hunter",
+    "image": "https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/philosopher_bounty_hunter.png?raw=true",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "哲学家&赏金猎人",
+    "ability": "如果哲学家获得了赏金猎人的能力，可能会有一名镇民玩家转变为邪恶。"
+  },
+  {
     "id": "lycanthrope+gambler",
     "image": "https://i.postimg.cc/433QCgFq/lycanthrope-gambler.png",
     "edition": "custom",
@@ -4078,11 +4086,11 @@
     "ability": "如果杂耍艺人在自己的首个白天猜测后在当天死于处决，当晚食人族会替杂耍艺人得知对应的信息。"
   },
   {
-    "id": "butler+cannibal",
-    "image": "https://i.postimg.cc/4dJwxcdL/butler-cannibal.png",
+    "id": "cannibal+butler",
+    "image": "https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/cannibal_butler.png?raw=true",
     "edition": "custom",
     "team": "a jinxed",
-    "name": "管家&食人族",
+    "name": "食人族&管家",
     "ability": "如果食人族获得了管家的能力，他会得知这一信息。"
   },
   {
