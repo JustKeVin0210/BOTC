@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from bisect import bisect_left
 
 
-JINX_URL = "https://clocktower-wiki.gstonegames.com/index.php?title=%E7%9B%B8%E5%85%8B%E8%A7%84%E5%88%99"
+JINX_URL = "https://clocktower-wiki.gstonegames.com/index.php?title=相克规则"
 
 
 def crawl_info(jinx_url=JINX_URL):
@@ -72,9 +72,9 @@ def download_jinx(role_file, save_file, url_file=None):
             if image_index < len(url_basename_list) and url_basename_list[image_index] == url_basename:
                 jinx_dict["image"] = f"{url_list[image_index]}"
             else:
-                jinx_dict["image"] = f"https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/{jinx_image}?raw=true"
+                jinx_dict["image"] = f"https://github.com/JustKeVin0210/BOTC/blob/main/image_watermark/jinx/{jinx_image}?raw=true"
         else:
-            jinx_dict["image"] = f"https://github.com/JustKeVin0210/BOTC/blob/main/image/jinx/{jinx_image}?raw=true"
+            jinx_dict["image"] = f"https://github.com/JustKeVin0210/BOTC/blob/main/image_watermark/jinx/{jinx_image}?raw=true"
         jinx_dict["edition"] = "custom"
         jinx_dict["team"] = "a jinxed"
         jinx_dict["name"] = role_info[index_1].get("name") + "&" + role_info[index_2].get("name")

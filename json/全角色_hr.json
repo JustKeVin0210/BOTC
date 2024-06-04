@@ -1,5 +1,13 @@
 [
   {
+    "id": "_meta",
+    "name": "全角色",
+    "author": "Just_KeVin",
+    "logo": "https://i.postimg.cc/HxddzTWc/Marionette-Atheist.png",
+    "a jinxed": "相克规则",
+    "a role": "衍生角色"
+  },
+  {
     "id": "washerwomanTRANS",
     "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/washerwoman.png",
     "name": "洗衣妇",

@@ -20,10 +20,8 @@ change_color.py
 token_jinx_tri.py
 animate.py
 
-json/全角色_origin.json
 json/全角色_hr_冲突规则.json
 json/冲突规则.json
-json/冲突规则_github.json
 json/全员失忆.json
 json/全员失忆_水印.json
 json/心理博弈.json
