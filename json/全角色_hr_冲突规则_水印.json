@@ -2721,7 +2721,7 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
+    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，可能会有一名玩家死亡。[+1爪牙]",
     "script": "实验性角色",
     "jinxes": [
       {
@@ -4047,7 +4047,7 @@
   },
   {
     "id": "ogreTRANS",
-    "image": "https://wiki.bloodontheclocktower.com/images/2/25/Icon_ogre.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/ogre.png",
     "name": "食人魔",
     "edition": "custom",
     "team": "outsider",
@@ -4283,7 +4283,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "间谍&异端分子",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+    "ability": "异端分子会被间谍当作一个不在场的外来者，异端分子会知道是哪个外来者。"
   },
   {
     "id": "spy+ogre",
@@ -4331,7 +4331,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "寡妇&异端分子",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+    "ability": "异端分子会被寡妇当作一个不在场的外来者，异端分子会知道是哪个外来者。"
   },
   {
     "id": "godfather+heretic",
@@ -4339,7 +4339,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "教父&异端分子",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+    "ability": "异端分子会被教父当作一个不在场的外来者，异端分子会知道是哪个外来者。"
   },
   {
     "id": "marionette+lil_monsta",
@@ -4411,7 +4411,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "街头风琴手&卖花女孩",
-    "ability": "如果街头风琴手使得玩家需要闭眼投票，当晚卖花女孩会被唤醒且要选择一名玩家：她会得知该玩家是否在今天白天投过票。"
+    "ability": "如果街头风琴手使得玩家需要闭眼投票，当晚卖花女孩会被唤醒且要选择一名玩家：她会得知该玩家是否在今天白天投过票。（因为没有相关提示标记，说书人可以使用这种方式来记录谁投了票：在夜晚唤醒玩家并对他展示“今天你投票了吗”信息标记进行询问。即使卖花女孩不在场，说书人也可以分别唤醒一些玩家，对他们展示这个信息标记，以假装卖花女孩在场并选择了他们。如果有邪恶玩家伪装成卖花女孩，这一点会显得尤为重要。）"
   },
   {
     "id": "organ_grinder+minstrel",
@@ -4683,7 +4683,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "小怪宝&魔术师",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+    "ability": "每个夜晚，由魔术师来选择一个爪牙角色：如果他和小怪宝均存活，由他来照看小怪宝。（进阶可选规则：否则，由魔术师来照看小怪宝，但如果魔术师在照看小怪宝时死亡，邪恶阵营获胜。）"
   },
   {
     "id": "lil_monsta+scarlet_woman",

@@ -3,7 +3,6 @@ import os
 
 wrong_image = {
     "villageidiot": "https://wiki.bloodontheclocktower.com/images/d/da/Icon_villageidiot.png",
-    "ogre": "https://wiki.bloodontheclocktower.com/images/2/25/Icon_ogre.png",
 }
 
 
