@@ -4406,20 +4406,12 @@
     "ability": "如果街头风琴手使得玩家需要闭眼投票，管家可以自由举手投票，但只在他的主人投票时他的票才会被统计。"
   },
   {
-    "id": "organ_grinder+flowergirl",
-    "image": "https://i.postimg.cc/qMXszRPW/organ-grinder-flowergirl.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "街头风琴手&卖花女孩",
-    "ability": "如果街头风琴手使得玩家需要闭眼投票，当晚卖花女孩会被唤醒且要选择一名玩家：她会得知该玩家是否在今天白天投过票。（因为没有相关提示标记，说书人可以使用这种方式来记录谁投了票：在夜晚唤醒玩家并对他展示“今天你投票了吗”信息标记进行询问。即使卖花女孩不在场，说书人也可以分别唤醒一些玩家，对他们展示这个信息标记，以假装卖花女孩在场并选择了他们。如果有邪恶玩家伪装成卖花女孩，这一点会显得尤为重要。）"
-  },
-  {
     "id": "organ_grinder+minstrel",
     "image": "https://i.postimg.cc/kgJx8C9G/organ-grinder-minstrel.png",
     "edition": "custom",
     "team": "a jinxed",
     "name": "街头风琴手&吟游诗人",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+    "ability": "如果吟游诗人让全员醉酒，街头风琴手会保留能力，但吟游诗人可以在投票期间睁眼。（说书人需要在夜晚唤醒他对他进行提示）"
   },
   {
     "id": "organ_grinder+preacher",
@@ -4427,7 +4419,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "街头风琴手&传教士",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+    "ability": "如果传教士选中了街头风琴手，街头风琴手会保留能力，但传教士可以在投票期间睁眼。（说书人需要在夜晚唤醒他对他进行提示）"
   },
   {
     "id": "vizier+investigator",
@@ -4731,7 +4723,15 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "军团&传教士",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+    "ability": "如果传教士选中了军团，军团仍然保留能力，但传教士可能会得知自己选中了军团。"
+  },
+  {
+    "id": "legion+minstrel",
+    "image": "https://i.postimg.cc/GtR1sFYn/legion-minstrel.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "军团&吟游诗人",
+    "ability": "如果军团死于处决，所有军团保留能力，但吟游诗人可能会在当晚得知今天白天死于处决的玩家是军团。"
   },
   {
     "id": "legion+hatter",

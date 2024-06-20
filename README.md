@@ -80,7 +80,7 @@ python token_get_jinx.py
 python json_transform.py
 ### json文件融合
 python json_merge.py
-### json文件(角色更新至食人魔，相克规则更新至哈迪寂亚&主谋相克规则修改)
+### json文件(角色更新至食人魔，相克规则更新至街头风琴手&吟游诗人，街头风琴手&传教士相克规则修改)
 json/全角色.json
 
 json/全角色_hr.json
