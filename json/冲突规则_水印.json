@@ -448,6 +448,22 @@
     "ability": "如果召唤师创造恶魔时罂粟种植者存活，由召唤师来选择创造哪种恶魔，由说书人来决定哪名玩家发生转变。"
   },
   {
+    "id": "summoner+courtier",
+    "image": "https://i.postimg.cc/vmvkgd9Y/summoner-courtier.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "召唤师&侍臣",
+    "ability": "如果召唤师因为侍臣的能力在第三个夜晚醉酒，由召唤师来选择创造哪种恶魔，由说书人来决定哪名玩家发生转变。"
+  },
+  {
+    "id": "summoner+preacher",
+    "image": "https://i.postimg.cc/Y0rbXkMb/summoner-preacher.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "召唤师&传教士",
+    "ability": "如果召唤师在第三个夜晚或之前被传教士选中，由召唤师来选择创造哪种恶魔，由说书人来决定哪名玩家发生转变。"
+  },
+  {
     "id": "summoner+marionette",
     "image": "https://i.postimg.cc/G27N0KQJ/summoner-marionette.png",
     "edition": "custom",
@@ -478,14 +494,6 @@
     "team": "a jinxed",
     "name": "召唤师&帽匠",
     "ability": "召唤师无法创造已经在场的恶魔。如果召唤师创造了一个不在场的恶魔，当晚的死亡由说书人决定。"
-  },
-  {
-    "id": "summoner+courtier",
-    "image": "https://i.postimg.cc/vmvkgd9Y/summoner-courtier.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "召唤师&侍臣",
-    "ability": "如果召唤师因为侍臣的能力在第三个夜晚醉酒，由召唤师来选择创造哪种恶魔，由说书人来决定哪名玩家发生转变。"
   },
   {
     "id": "summoner+zombuul",
