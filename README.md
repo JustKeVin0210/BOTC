@@ -80,7 +80,7 @@ python token_get_jinx.py
 python json_transform.py
 ### json文件融合
 python json_merge.py
-### json文件(角色更新至气球驾驶员能力修改，相克规则更新至召唤师&传教士相克规则添加)
+### json文件(角色更新至瘟疫医生，鹰身女妖能力修改，相克规则更新至召唤师&传教士相克规则添加)
 json/全角色.json
 
 json/全角色_hr.json
