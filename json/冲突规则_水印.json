@@ -408,6 +408,14 @@
     "ability": "如果维齐尔和魔术师都在场，恶魔不会得知谁是爪牙。"
   },
   {
+    "id": "vizier+alsaahir",
+    "image": "https://i.postimg.cc/QN5htqGN/vizier-alsaahir.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "维齐尔&戏法师",
+    "ability": "如果维齐尔在场，戏法师在进行猜测时还需要猜测恶魔的具体角色。"
+  },
+  {
     "id": "vizier+fearmonger",
     "image": "https://i.postimg.cc/bYG8yStN/vizier-fearmonger.png",
     "edition": "custom",

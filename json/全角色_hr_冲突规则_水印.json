@@ -4062,6 +4062,22 @@
     "script": "实验性角色"
   },
   {
+    "id": "alsaahirTRANS",
+    "image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_alsaahir.png",
+    "name": "戏法师",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
+    "script": "实验性角色"
+  },
+  {
     "id": "chambermaid+mathematician",
     "image": "https://i.postimg.cc/ZnQLHDL2/chambermaid-mathematician.png",
     "edition": "custom",
@@ -4460,6 +4476,14 @@
     "team": "a jinxed",
     "name": "维齐尔&魔术师",
     "ability": "如果维齐尔和魔术师都在场，恶魔不会得知谁是爪牙。"
+  },
+  {
+    "id": "vizier+alsaahir",
+    "image": "https://i.postimg.cc/QN5htqGN/vizier-alsaahir.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "维齐尔&戏法师",
+    "ability": "如果维齐尔在场，戏法师在进行猜测时还需要猜测恶魔的具体角色。"
   },
   {
     "id": "vizier+fearmonger",

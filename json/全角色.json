@@ -4060,5 +4060,21 @@
     "setup": false,
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：你转变为他的阵营，即使你已醉酒或中毒，但你不知道你转变后的阵营。",
     "script": "实验性角色"
+  },
+  {
+    "id": "alsaahirTRANS",
+    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/d/d6/Alsaahir.png/400px-Alsaahir.png",
+    "name": "戏法师",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
+    "script": "实验性角色"
   }
 ]
