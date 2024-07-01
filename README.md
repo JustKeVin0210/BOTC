@@ -80,7 +80,7 @@ python token_get_jinx.py
 python json_transform.py
 ### json文件融合
 python json_merge.py
-### json文件(角色更新至戏法师，相克规则更新至维齐尔&戏法师)
+### json文件(角色更新至戏法师，相克规则更新至召唤师&钟表匠建议相克)
 json/全角色.json
 
 json/全角色_hr.json

@@ -5110,6 +5110,14 @@
     "ability": "如果恶魔杀死报丧女妖时涡流在场，玩家仍然会得知正确信息。（中文百科上的“通用简化原则”已涵盖包括多角色互动下的涡流信息的简化处理方式，此条仅做说明。）"
   },
   {
+    "id": "summoner+clockmaker",
+    "image": "https://i.postimg.cc/wBkZ2gRr/summoner-clockmaker.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "召唤师&钟表匠",
+    "ability": "目前的相克规则难以处理多角色互动的问题，这里给出建议的调整方式：“如果没有恶魔在场，召唤师会被钟表匠当作恶魔”。"
+  },
+  {
     "id": "pit-hag+lycanthrope",
     "image": "https://i.postimg.cc/3xxvNZCD/pit-hag-lycanthrope.png",
     "edition": "custom",

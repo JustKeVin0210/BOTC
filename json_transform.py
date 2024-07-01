@@ -35,8 +35,8 @@ def transform_json(origin_json_file, all_role_json_file, save_path, logo_url="")
 
 
 if __name__ == '__main__':
-    origin_json_file = r"json/心理博弈.json"
+    origin_json_file = r"json_script/长夜险恶.json"
     all_role_json_file = r"json/全角色_hr.json"
     save_path = r"./json"
-    logo_url = r"https://oss.gstonegames.com/data_file/clocktower/upload/1689598305_197011_6023.png"
+    logo_url = r"https://i.postimg.cc/GtZVBcXQ/image.png"
     transform_json(origin_json_file, all_role_json_file, save_path, logo_url=logo_url)
