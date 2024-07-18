@@ -1096,6 +1096,22 @@
     "ability": "参考麻脸巫婆。建议“如果恶魔选择交换落难少女的角色，参与角色交换的另一名玩家改为由说书人来决定”。"
   },
   {
+    "id": "cannibal+moonchild",
+    "image": "https://i.postimg.cc/tR6WBqQv/cannibal-moonchild.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "食人族&月之子",
+    "ability": "参考食人族&管家。建议“如果食人族获得了月之子/呆瓜的能力，他会得知这一信息。”"
+  },
+  {
+    "id": "cannibal+klutz",
+    "image": "https://i.postimg.cc/kXd8Z07J/cannibal-klutz.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "食人族&呆瓜",
+    "ability": "参考食人族&管家。建议“如果食人族获得了月之子/呆瓜的能力，他会得知这一信息。”"
+  },
+  {
     "id": "xizi+spy",
     "image": "https://i.postimg.cc/cJj9XC4X/xizi-spy.png",
     "edition": "custom",
