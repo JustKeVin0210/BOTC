@@ -3,7 +3,9 @@ import os
 
 wrong_image = {
     "villageidiot": "https://wiki.bloodontheclocktower.com/images/d/da/Icon_villageidiot.png",
-    "alsaahir": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_alsaahir.png",
+    # "villageidiot": "https://oss.gstonegames.com/data_file/clocktower/web/icons/villageidiot.png",
+    "zealot": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_zealot.png",
+    # "zealot": "https://oss.gstonegames.com/data_file/clocktower/web/icons/zealot.png",
 }
 
 

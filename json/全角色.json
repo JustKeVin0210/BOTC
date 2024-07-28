@@ -3472,7 +3472,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，所有善良玩家会中毒直到下个黄昏。",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，除旅行者外的所有善良玩家会中毒直到下个黄昏。",
     "script": "华灯初上"
   },
   {
@@ -4075,6 +4075,22 @@
     "remindersGlobal": [],
     "setup": false,
     "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
+    "script": "实验性角色"
+  },
+  {
+    "id": "zealotTRANS",
+    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/1/1a/Zealot.png/400px-Zealot.png",
+    "name": "狂热者",
+    "edition": "custom",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
     "script": "实验性角色"
   }
 ]

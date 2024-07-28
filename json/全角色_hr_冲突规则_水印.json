@@ -3472,7 +3472,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，所有善良玩家会中毒直到下个黄昏。",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，除旅行者外的所有善良玩家会中毒直到下个黄昏。",
     "script": "华灯初上"
   },
   {
@@ -4063,7 +4063,7 @@
   },
   {
     "id": "alsaahirTRANS",
-    "image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_alsaahir.png",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/alsaahir.png",
     "name": "戏法师",
     "edition": "custom",
     "team": "townsfolk",
@@ -4075,6 +4075,22 @@
     "remindersGlobal": [],
     "setup": false,
     "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
+    "script": "实验性角色"
+  },
+  {
+    "id": "zealotTRANS",
+    "image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_zealot.png",
+    "name": "狂热者",
+    "edition": "custom",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
     "script": "实验性角色"
   },
   {
@@ -4116,6 +4132,14 @@
     "team": "a jinxed",
     "name": "食人族&管家",
     "ability": "如果食人族获得了管家的能力，他会得知这一信息。"
+  },
+  {
+    "id": "cannibal+zealot",
+    "image": "https://i.postimg.cc/63mRFZC8/cannibal-zealot.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "食人族&狂热者",
+    "ability": "如果食人族获得了狂热者的能力，他会得知这一信息。"
   },
   {
     "id": "lunatic+mathematician",
@@ -4502,6 +4526,14 @@
     "ability": "维齐尔的能力可能会将政客当作邪恶阵营。"
   },
   {
+    "id": "vizier+zealot",
+    "image": "https://i.postimg.cc/jqDk2Qgk/vizier-zealot.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "维齐尔&狂热者",
+    "ability": "维齐尔的能力可能会将狂热者当作邪恶阵营。"
+  },
+  {
     "id": "summoner+alchemist",
     "image": "https://i.postimg.cc/15Lk5WZv/summoner-alchemist.png",
     "edition": "custom",
@@ -4774,6 +4806,14 @@
     "ability": "如果帽匠死亡时军团在场，则无事发生。如果帽匠死亡时一名邪恶玩家选择变成军团，当前所有邪恶玩家都会一同变成军团。"
   },
   {
+    "id": "legion+zealot",
+    "image": "https://i.postimg.cc/5yQvJtmn/legion-zealot.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "军团&狂热者",
+    "ability": "军团的能力可能会将狂热者当作邪恶阵营。"
+  },
+  {
     "id": "legion+summoner",
     "image": "https://i.postimg.cc/NGn8WS1P/legion-summoner.png",
     "edition": "custom",
@@ -4828,6 +4868,14 @@
     "team": "a jinxed",
     "name": "暴乱&管家",
     "ability": "管家无法提名主人。"
+  },
+  {
+    "id": "riot+zealot",
+    "image": "https://i.postimg.cc/WtRZ1PWj/riot-zealot.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "暴乱&狂热者",
+    "ability": "狂热者在被提名后必须立马发起提名，即使自己已死亡。"
   },
   {
     "id": "riot+mayor",
@@ -5164,6 +5212,22 @@
     "team": "a jinxed",
     "name": "理发师&落难少女",
     "ability": "参考麻脸巫婆。建议“如果恶魔选择交换落难少女的角色，参与角色交换的另一名玩家改为由说书人来决定”。"
+  },
+  {
+    "id": "cannibal+moonchild",
+    "image": "https://i.postimg.cc/tR6WBqQv/cannibal-moonchild.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "食人族&月之子",
+    "ability": "参考食人族&管家。建议“如果食人族获得了月之子/呆瓜的能力，他会得知这一信息。”"
+  },
+  {
+    "id": "cannibal+klutz",
+    "image": "https://i.postimg.cc/kXd8Z07J/cannibal-klutz.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "食人族&呆瓜",
+    "ability": "参考食人族&管家。建议“如果食人族获得了月之子/呆瓜的能力，他会得知这一信息。”"
   },
   {
     "id": "xizi+spy",

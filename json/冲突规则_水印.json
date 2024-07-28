@@ -48,6 +48,14 @@
     "ability": "如果食人族获得了管家的能力，他会得知这一信息。"
   },
   {
+    "id": "cannibal+zealot",
+    "image": "https://i.postimg.cc/63mRFZC8/cannibal-zealot.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "食人族&狂热者",
+    "ability": "如果食人族获得了狂热者的能力，他会得知这一信息。"
+  },
+  {
     "id": "lunatic+mathematician",
     "image": "https://i.postimg.cc/T3fc9mjR/lunatic-mathematician.png",
     "edition": "custom",
@@ -432,6 +440,14 @@
     "ability": "维齐尔的能力可能会将政客当作邪恶阵营。"
   },
   {
+    "id": "vizier+zealot",
+    "image": "https://i.postimg.cc/jqDk2Qgk/vizier-zealot.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "维齐尔&狂热者",
+    "ability": "维齐尔的能力可能会将狂热者当作邪恶阵营。"
+  },
+  {
     "id": "summoner+alchemist",
     "image": "https://i.postimg.cc/15Lk5WZv/summoner-alchemist.png",
     "edition": "custom",
@@ -704,6 +720,14 @@
     "ability": "如果帽匠死亡时军团在场，则无事发生。如果帽匠死亡时一名邪恶玩家选择变成军团，当前所有邪恶玩家都会一同变成军团。"
   },
   {
+    "id": "legion+zealot",
+    "image": "https://i.postimg.cc/5yQvJtmn/legion-zealot.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "军团&狂热者",
+    "ability": "军团的能力可能会将狂热者当作邪恶阵营。"
+  },
+  {
     "id": "legion+summoner",
     "image": "https://i.postimg.cc/NGn8WS1P/legion-summoner.png",
     "edition": "custom",
@@ -758,6 +782,14 @@
     "team": "a jinxed",
     "name": "暴乱&管家",
     "ability": "管家无法提名主人。"
+  },
+  {
+    "id": "riot+zealot",
+    "image": "https://i.postimg.cc/WtRZ1PWj/riot-zealot.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "暴乱&狂热者",
+    "ability": "狂热者在被提名后必须立马发起提名，即使自己已死亡。"
   },
   {
     "id": "riot+mayor",
