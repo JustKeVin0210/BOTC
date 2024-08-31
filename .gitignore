@@ -19,12 +19,16 @@ image_watermark/get_ability_new
 change_color.py
 token_jinx_tri.py
 animate.py
+write_md.py
+脚本执行顺序.md
 
 json/全角色_hr_冲突规则.json
 json/冲突规则.json
 json/全员失忆.json
 json/全员失忆_水印.json
 json/山雨欲来.json
+json/戏如人生*
+json/逢场作戏*
 json_script
 
 url/url_change_team.txt

@@ -2,10 +2,8 @@ import json
 import os
 
 wrong_image = {
-    "villageidiot": "https://wiki.bloodontheclocktower.com/images/d/da/Icon_villageidiot.png",
-    # "villageidiot": "https://oss.gstonegames.com/data_file/clocktower/web/icons/villageidiot.png",
-    "zealot": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_zealot.png",
-    # "zealot": "https://oss.gstonegames.com/data_file/clocktower/web/icons/zealot.png",
+    "lord_of_typhon": "https://wiki.bloodontheclocktower.com/images/c/cf/Icon_lordoftyphon.png",
+    # "lord_of_typhon": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lord_of_typhon.png",
 }
 
 

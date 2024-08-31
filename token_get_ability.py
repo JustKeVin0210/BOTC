@@ -74,11 +74,10 @@ def image_merge(img_real, img_ability):
     img_real_bgr_resize = cv2.resize(img_real_bgr, (w_ability // 2, h_ability // 2), interpolation=cv2.INTER_CUBIC)
     img_real_alpha_resize = cv2.resize(img_real_alpha, (w_ability // 2, h_ability // 2),
                                        interpolation=cv2.INTER_NEAREST)
-
-    img_ability[-h_ability // 2:, -w_ability // 2:, :3][img_real_alpha_resize > 127] = img_real_bgr_resize[
+    img_ability[-(h_ability // 2):, -(w_ability // 2):, :3][img_real_alpha_resize > 127] = img_real_bgr_resize[
         img_real_alpha_resize > 127]
-    img_ability[-h_ability // 2:, -w_ability // 2:, 3:] = np.maximum(
-        img_ability[-h_ability // 2:, -w_ability // 2:, 3:],
+    img_ability[-(h_ability // 2):, -(w_ability // 2):, 3:] = np.maximum(
+        img_ability[-(h_ability // 2):, -(w_ability // 2):, 3:],
         img_real_alpha_resize[..., np.newaxis])
     return img_ability
 
@@ -92,6 +91,7 @@ def get_ability_role(img_real_dir, ability_role_folder, save_folder, watermark="
         img_ability_dir = os.path.join(ability_role_folder, img_ability_name)
         assert os.path.exists(img_ability_dir), f"{os.path.basename(img_ability_dir)}图片不存在"
         img_ability = cv2.imread(img_ability_dir, -1)
+        print(img_ability_dir)
         img_ability = image_merge(img_real, img_ability)
         img_ability_new_name = f"{os.path.splitext(os.path.basename(img_real_dir))[0]}_{img_ability_name}"
         if os.path.exists(watermark):

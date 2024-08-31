@@ -25,7 +25,7 @@ def transform_json(origin_json_file, all_role_json_file, save_path, logo_url="")
     for role_info in origin_json:
         assert role_info.get("id")
         index = bisect_left(all_role_id, role_info.get("id") + "TRANS")
-        assert all_role_json[index].get("id") == role_info.get("id") + "TRANS"
+        assert all_role_json[index].get("id") == role_info.get("id") + "TRANS", (all_role_json[index].get("id"), role_info.get("id"))
         tf_json.append(all_role_json[index])
     new_json_name = os.path.basename(origin_json_file).replace(".json", "_tf.json")
     with open(os.path.join(save_path, new_json_name), "w", encoding='utf-8') as f:
@@ -35,8 +35,8 @@ def transform_json(origin_json_file, all_role_json_file, save_path, logo_url="")
 
 
 if __name__ == '__main__':
-    origin_json_file = r"json_script/长夜险恶.json"
+    origin_json_file = r"json_script/逢场作戏v2.6.json"
     all_role_json_file = r"json/全角色_hr.json"
     save_path = r"./json"
-    logo_url = r"https://i.postimg.cc/GtZVBcXQ/image.png"
-    transform_json(origin_json_file, all_role_json_file, save_path, logo_url=logo_url)
+    # logo_url = r"https://i.postimg.cc/GtZVBcXQ/image.png"
+    transform_json(origin_json_file, all_role_json_file, save_path)

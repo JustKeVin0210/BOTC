@@ -184,8 +184,8 @@
     "ability": "被麻脸巫婆创造的邪恶食人魔无法因为自身能力转变为善良阵营。"
   },
   {
-    "id": "pit-hag+villageidiot",
-    "image": "https://i.postimg.cc/P5V8w82V/pit-hag-villageidiot.png",
+    "id": "pit-hag+village_idiot",
+    "image": "https://i.postimg.cc/YCdMZvMm/pit-hag-village-idiot.png",
     "edition": "custom",
     "team": "a jinxed",
     "name": "麻脸巫婆&村夫",
@@ -534,6 +534,14 @@
     "team": "a jinxed",
     "name": "召唤师&普卡",
     "ability": "召唤师可以选择在第二个夜晚将一名玩家变成普卡。"
+  },
+  {
+    "id": "summoner+lord_of_typhon",
+    "image": "https://i.postimg.cc/1zTPRbgm/summoner-lord-of-typhon.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "召唤师&堤丰之首",
+    "ability": "如果召唤师创造了堤丰之首，则堤丰之首必须与一名爪牙相邻，且堤丰之首另一侧的玩家变成一个不在场的邪恶爪牙。"
   },
   {
     "id": "summoner+engineer",
@@ -1280,8 +1288,8 @@
     "ability": "如果半兽人选择了锦衣卫保护的善良玩家，那么当晚只会有锦衣卫死亡。"
   },
   {
-    "id": "wudaozhe+villageidiot",
-    "image": "https://i.postimg.cc/LsswxGk6/wudaozhe-villageidiot.png",
+    "id": "wudaozhe+village_idiot",
+    "image": "https://i.postimg.cc/vmDbsGZ2/wudaozhe-village-idiot.png",
     "edition": "custom",
     "team": "a jinxed",
     "name": "悟道者&村夫",

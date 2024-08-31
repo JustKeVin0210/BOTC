@@ -13,9 +13,10 @@ def add_jinx_json(json_file, jinx_file, save_path):
     jinx_index_dict = defaultdict(list)
     for i, jinx_info in enumerate(jinx_data):
         jinx_role1, jinx_role2 = jinx_info.get("id").split("+")
+        print(jinx_role1, jinx_role2)
         jinx_index_dict[jinx_role1 + "TRANS"].append((i, jinx_role2 + "TRANS"))
     for json_info in json_data:
-        if json_info.get("id") == "_meta" or json_info.get("jinxes"):
+        if json_info.get("id") == "_meta":
             continue
         role_id = json_info.get("id") + ""
         jinx_list = []
@@ -52,26 +53,26 @@ def merge_json(json_list, json_save_path):
 
 
 if __name__ == '__main__':
-    # json_file = r"json/全角色.json"
-    # jinx_file = r"json/冲突规则_水印.json"
-    # save_path = r"json"
-    # add_jinx_json(json_file, jinx_file, save_path)
+    json_file = r"json/全角色.json"
+    jinx_file = r"json/冲突规则_水印.json"
+    save_path = r"json"
+    add_jinx_json(json_file, jinx_file, save_path)
+
+    json_file = r"json/全角色_hr.json"
+    jinx_file = r"json/冲突规则_水印.json"
+    save_path = r"json"
+    add_jinx_json(json_file, jinx_file, save_path)
+
+    # json_list = [
+    #     r"json/全角色_hr.json",
+    #     r"json/冲突规则_水印.json"
+    # ]
+    # json_save_path = r"json"
+    # merge_json(json_list, json_save_path)
     #
-    # json_file = r"json/全角色_hr.json"
-    # jinx_file = r"json/冲突规则_水印.json"
-    # save_path = r"json"
-    # add_jinx_json(json_file, jinx_file, save_path)
-
-    json_list = [
-        r"json/全角色_hr.json",
-        r"json/冲突规则_水印.json"
-    ]
-    json_save_path = r"json"
-    merge_json(json_list, json_save_path)
-
-    json_list = [
-        r"json/全角色_hr.json",
-        r"json/冲突规则.json"
-    ]
-    json_save_path = r"json"
-    merge_json(json_list, json_save_path)
+    # json_list = [
+    #     r"json/全角色_hr.json",
+    #     r"json/冲突规则.json"
+    # ]
+    # json_save_path = r"json"
+    # merge_json(json_list, json_save_path)

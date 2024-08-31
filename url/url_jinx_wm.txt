@@ -60,7 +60,6 @@ https://i.postimg.cc/qqHK7Vjk/pit-hag-goon.png
 https://i.postimg.cc/gjyZXST3/pit-hag-heretic.png
 https://i.postimg.cc/3xxvNZCD/pit-hag-lycanthrope.png
 https://i.postimg.cc/X73FSWrL/pit-hag-politician.png
-https://i.postimg.cc/P5V8w82V/pit-hag-villageidiot.png
 https://i.postimg.cc/ZKcNJQ3S/plague-doctor-baron.png
 https://i.postimg.cc/3wP4LQMg/plague-doctor-boomdandy.png
 https://i.postimg.cc/9024hPQ0/plague-doctor-evil-twin.png
@@ -140,7 +139,6 @@ https://i.postimg.cc/Px9gpKwf/widow-damsel.png
 https://i.postimg.cc/nVQbb8yX/widow-heretic.png
 https://i.postimg.cc/fRD69VJd/widow-magician.png
 https://i.postimg.cc/PrsGd3H2/widow-poppy-grower.png
-https://i.postimg.cc/LsswxGk6/wudaozhe-villageidiot.png
 https://i.postimg.cc/7LQcdXX1/xizi-atheist.png
 https://i.postimg.cc/FRM6sRM7/xizi-evil-twin.png
 https://i.postimg.cc/W3FKvrfB/xizi-fearmonger.png
@@ -185,3 +183,6 @@ https://i.postimg.cc/5yQvJtmn/legion-zealot.png
 https://i.postimg.cc/WtRZ1PWj/riot-zealot.png
 https://i.postimg.cc/jqDk2Qgk/vizier-zealot.png
 
+https://i.postimg.cc/YCdMZvMm/pit-hag-village-idiot.png
+https://i.postimg.cc/1zTPRbgm/summoner-lord-of-typhon.png
+https://i.postimg.cc/vmDbsGZ2/wudaozhe-village-idiot.png

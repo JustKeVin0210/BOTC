@@ -126,7 +126,6 @@ https://i.postimg.cc/XJLG2X9t/Apprentice-Steward.png
 https://i.postimg.cc/C5KZ9YN5/Apprentice-Tea-lady.png
 https://i.postimg.cc/gjBwW5SD/Apprentice-Town-crier.png
 https://i.postimg.cc/c1Dtwgxn/Apprentice-Undertaker.png
-https://i.postimg.cc/YSwvMQ3J/Apprentice-Villageidiot.png
 https://i.postimg.cc/02bMfkjH/Apprentice-Virgin.png
 https://i.postimg.cc/wTZt4Csx/Apprentice-Washerwoman.png
 https://i.postimg.cc/Qd7F2fpQ/Apprentice-Wudaozhe.png
@@ -232,7 +231,6 @@ https://i.postimg.cc/8P9HdnpM/Bianlianshi-Steward.png
 https://i.postimg.cc/HkMt64nK/Bianlianshi-Tea-lady.png
 https://i.postimg.cc/5tMSTYFt/Bianlianshi-Town-crier.png
 https://i.postimg.cc/yd1X6Mj4/Bianlianshi-Undertaker.png
-https://i.postimg.cc/zvMnjVr8/Bianlianshi-Villageidiot.png
 https://i.postimg.cc/3Rtjktfy/Bianlianshi-Virgin.png
 https://i.postimg.cc/cC6RwfPF/Bianlianshi-Washerwoman.png
 https://i.postimg.cc/SN2LK76s/Bianlianshi-Wudaozhe.png
@@ -338,7 +336,6 @@ https://i.postimg.cc/gjr7jXsW/Cannibal-Steward.png
 https://i.postimg.cc/SR5vMS1z/Cannibal-Tea-lady.png
 https://i.postimg.cc/bYFMMgYN/Cannibal-Town-crier.png
 https://i.postimg.cc/qMhYdKgc/Cannibal-Undertaker.png
-https://i.postimg.cc/yxJfsq66/Cannibal-Villageidiot.png
 https://i.postimg.cc/8zL07VRj/Cannibal-Virgin.png
 https://i.postimg.cc/SKqt8tdV/Cannibal-Washerwoman.png
 https://i.postimg.cc/6Q0bhL1K/Cannibal-Wudaozhe.png
@@ -418,7 +415,6 @@ https://i.postimg.cc/v83gd1Cm/Drunk-Steward.png
 https://i.postimg.cc/MKHcZ68m/Drunk-Tea-lady.png
 https://i.postimg.cc/sDLMvkjd/Drunk-Town-crier.png
 https://i.postimg.cc/L8Znfx5q/Drunk-Undertaker.png
-https://i.postimg.cc/KjzYYNC8/Drunk-Villageidiot.png
 https://i.postimg.cc/LsKhVjgx/Drunk-Virgin.png
 https://i.postimg.cc/R07hpqc4/Drunk-Washerwoman.png
 https://i.postimg.cc/HxTxqH25/Drunk-Wudaozhe.png
@@ -552,7 +548,6 @@ https://i.postimg.cc/GpLtNdzD/Jiaohuazi-Steward.png
 https://i.postimg.cc/Dzx03HYM/Jiaohuazi-Tea-lady.png
 https://i.postimg.cc/qRgRJwPM/Jiaohuazi-Town-crier.png
 https://i.postimg.cc/J0kzJn7f/Jiaohuazi-Undertaker.png
-https://i.postimg.cc/1zmrygy5/Jiaohuazi-Villageidiot.png
 https://i.postimg.cc/9zHFBhrr/Jiaohuazi-Virgin.png
 https://i.postimg.cc/RCNG3nKW/Jiaohuazi-Washerwoman.png
 https://i.postimg.cc/wxZ2DTQ0/Jiaohuazi-Wudaozhe.png
@@ -681,7 +676,6 @@ https://i.postimg.cc/W4y8SNPN/Marionette-Steward.png
 https://i.postimg.cc/B61gVrqx/Marionette-Tea-lady.png
 https://i.postimg.cc/PJWMt1vJ/Marionette-Town-crier.png
 https://i.postimg.cc/VsngBPZw/Marionette-Undertaker.png
-https://i.postimg.cc/6p5hX2W6/Marionette-Villageidiot.png
 https://i.postimg.cc/ncxk3SND/Marionette-Virgin.png
 https://i.postimg.cc/4N11qbTF/Marionette-Washerwoman.png
 https://i.postimg.cc/g2SHkzjV/Marionette-Wudaozhe.png
@@ -787,7 +781,6 @@ https://i.postimg.cc/Nft3R44N/Philosopher-Steward.png
 https://i.postimg.cc/15KLBq7y/Philosopher-Tea-lady.png
 https://i.postimg.cc/Z5KXM5Xp/Philosopher-Town-crier.png
 https://i.postimg.cc/kg1L3ddZ/Philosopher-Undertaker.png
-https://i.postimg.cc/qMQ5ydgR/Philosopher-Villageidiot.png
 https://i.postimg.cc/KYCVjrjD/Philosopher-Virgin.png
 https://i.postimg.cc/V6MhCrbQ/Philosopher-Washerwoman.png
 https://i.postimg.cc/d3jS5bB5/Philosopher-Wudaozhe.png
@@ -867,7 +860,6 @@ https://i.postimg.cc/xTrz5kJp/Pixie-Steward.png
 https://i.postimg.cc/hP975SVD/Pixie-Tea-lady.png
 https://i.postimg.cc/P5T8GBMm/Pixie-Town-crier.png
 https://i.postimg.cc/qvw6pjmW/Pixie-Undertaker.png
-https://i.postimg.cc/hjkf2wjQ/Pixie-Villageidiot.png
 https://i.postimg.cc/6Q17vTx0/Pixie-Virgin.png
 https://i.postimg.cc/nzjXYZHt/Pixie-Washerwoman.png
 https://i.postimg.cc/mZ9cPbXY/Pixie-Wudaozhe.png
@@ -951,3 +943,13 @@ https://i.postimg.cc/6QTCczGk/Jiaohuazi-Zealot.png
 https://i.postimg.cc/t4BhF87d/Marionette-Zealot.png
 https://i.postimg.cc/3w6mcpXd/Philosopher-Zealot.png
 https://i.postimg.cc/bJtkcJgL/Wudaozhe-Zealot.png
+
+https://i.postimg.cc/PfvJDQhV/Apprentice-Village-idiot.png
+https://i.postimg.cc/c4QJ91vQ/Bianlianshi-Village-idiot.png
+https://i.postimg.cc/y8s8wqR2/Cannibal-Village-idiot.png
+https://i.postimg.cc/bNXJ9Swy/Drunk-Village-idiot.png
+https://i.postimg.cc/8CCPzhtH/Jiaohuazi-Village-idiot.png
+https://i.postimg.cc/zG7GNdSv/Lunatic-Lord-of-typhon.png
+https://i.postimg.cc/mr6ZztnG/Marionette-Village-idiot.png
+https://i.postimg.cc/cHgxQdqt/Philosopher-Village-idiot.png
+https://i.postimg.cc/HxqpzFHZ/Pixie-Village-idiot.png
