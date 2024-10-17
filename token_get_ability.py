@@ -91,7 +91,6 @@ def get_ability_role(img_real_dir, ability_role_folder, save_folder, watermark="
         img_ability_dir = os.path.join(ability_role_folder, img_ability_name)
         assert os.path.exists(img_ability_dir), f"{os.path.basename(img_ability_dir)}图片不存在"
         img_ability = cv2.imread(img_ability_dir, -1)
-        print(img_ability_dir)
         img_ability = image_merge(img_real, img_ability)
         img_ability_new_name = f"{os.path.splitext(os.path.basename(img_real_dir))[0]}_{img_ability_name}"
         if os.path.exists(watermark):

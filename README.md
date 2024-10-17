@@ -80,7 +80,7 @@ python token_get_jinx.py
 python json_transform.py
 ### json文件融合
 python json_merge.py
-### json文件(角色更新至堤丰之首，相克规则更新至召唤师&堤丰之首相克)
+### json文件(角色更新至书生能力修改，相克规则更新至卡扎力&莽夫相克修改)
 json/全角色.json
 
 json/全角色_hr.json

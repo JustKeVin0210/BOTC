@@ -1241,7 +1241,7 @@
     "name": "哲学家",
     "edition": "custom",
     "team": "townsfolk",
-    "firstNight": 400,
+    "firstNight": 500,
     "firstNightReminder": "哲学家可以选择一个善良角色。如果选择的角色不在场，将哲学家的角色标记替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
     "otherNight": 400,
     "otherNightReminder": "哲学家可以选择一个善良角色。如果选择的角色不在场，将哲学家的角色标记替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
@@ -1921,7 +1921,7 @@
     "name": "失忆者",
     "edition": "custom",
     "team": "townsfolk",
-    "firstNight": 300,
+    "firstNight": 400,
     "firstNightReminder": "按照失忆者实际的能力定义来决定失忆者该在何时被唤醒以执行相关操作。",
     "otherNight": 300,
     "otherNightReminder": "按照失忆者实际的能力定义来决定失忆者该在何时被唤醒以执行相关操作。",
@@ -2369,7 +2369,7 @@
       },
       {
         "id": "balloonistTRANS",
-        "reason": "如果提线木偶抽到了气球驾驶员，也会+1外来者。"
+        "reason": "如果提线木偶抽到了气球驾驶员，也可能会+1外来者。"
       },
       {
         "id": "damselTRANS",
@@ -2769,10 +2769,6 @@
       {
         "id": "scarlet_womanTRANS",
         "reason": "如果在五名及以上的玩家存活时照看小怪宝的玩家死亡，当晚红唇女郎必须要照看小怪宝。"
-      },
-      {
-        "id": "organ_grinderTRANS",
-        "reason": "如果街头风琴手在照看小怪宝，对街头风琴手的提名即使他自己没有投票，票数也会被统计。"
       },
       {
         "id": "vizierTRANS",
@@ -3416,7 +3412,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "恶魔知道你在场。每局游戏限一次，恶魔可以拜访说书人并猜测谁是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
+    "ability": "恶魔知道书生在场。每局游戏限一次，恶魔可以拜访说书人并猜测你是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
     "script": "华灯初上"
   },
   {
@@ -3659,20 +3655,12 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "所有玩家在投票时闭眼，且票数会秘密统计。对你的提名只在你投票时才会统计票数。",
+    "ability": "所有玩家在投票时闭眼，且票数会秘密统计。每个夜晚，你要选择自己是否醉酒，直到你下次选择。",
     "script": "实验性角色",
     "jinxes": [
       {
         "id": "butlerTRANS",
         "reason": "如果街头风琴手使得玩家需要闭眼投票，管家可以自由举手投票，但只在他的主人投票时他的票才会被统计。"
-      },
-      {
-        "id": "minstrelTRANS",
-        "reason": "如果吟游诗人让全员醉酒，街头风琴手会保留能力，但吟游诗人可以在投票期间睁眼。（说书人需要在夜晚唤醒他对他进行提示）"
-      },
-      {
-        "id": "preacherTRANS",
-        "reason": "如果传教士选中了街头风琴手，街头风琴手会保留能力，但传教士可以在投票期间睁眼。（说书人需要在夜晚唤醒他对他进行提示）"
       }
     ]
   },
@@ -3941,7 +3929,7 @@
       },
       {
         "id": "goonTRANS",
-        "reason": "如果卡扎力在选择爪牙时选择了莽夫，接下来的爪牙转变由说书人来做出决定。"
+        "reason": "卡扎力可以把莽夫变成邪恶的爪牙。"
       },
       {
         "id": "marionetteTRANS",
@@ -3954,6 +3942,10 @@
       {
         "id": "huntsmanTRANS",
         "reason": "如果卡扎力将落难少女变成了爪牙，并且巡山人在场，一名善良的玩家会变成落难少女。"
+      },
+      {
+        "id": "soldierTRANS",
+        "reason": "卡扎力可以把士兵转变成邪恶的爪牙。"
       }
     ]
   },
@@ -4160,5 +4152,55 @@
     "setup": true,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[邪恶玩家全部邻座，你靠近正中，+1爪牙，-或+任意数量外来者]",
     "script": "实验性角色"
+  },
+  {
+    "id": "boffinTRANS",
+    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/f/f1/Boffin.png/400px-Boffin.png",
+    "name": "科学怪人",
+    "edition": "custom",
+    "team": "minion",
+    "firstNight": 300,
+    "firstNightReminder": "在首个夜晚，唤醒科学怪人和恶魔。对他们展示“该角色的能力对你生效”信息标记，然后是科学怪人的角色标记，再是恶魔获得能力的那个善良角色标记。",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
+    "script": "实验性角色",
+    "jinxes": [
+      {
+        "id": "cult_leaderTRANS",
+        "reason": "如果恶魔拥有异教领袖的能力，他无法因为该能力转变为善良阵营。"
+      },
+      {
+        "id": "goonTRANS",
+        "reason": "如果恶魔拥有莽夫的能力，他无法因为该能力转变为善良阵营。"
+      },
+      {
+        "id": "hereticTRANS",
+        "reason": "恶魔无法拥有异端分子的能力。"
+      },
+      {
+        "id": "ogreTRANS",
+        "reason": "恶魔无法拥有食人魔的能力。"
+      },
+      {
+        "id": "politicianTRANS",
+        "reason": "恶魔无法拥有政客的能力。"
+      },
+      {
+        "id": "drunkTRANS",
+        "reason": "如果恶魔拥有酒鬼的能力，改为由科学怪人选择一名玩家：如果他是镇民，他醉酒。"
+      },
+      {
+        "id": "alchemistTRANS",
+        "reason": "如果炼金术士拥有科学怪人的能力，炼金术士不会得知恶魔因此获得了哪个角色的能力。"
+      },
+      {
+        "id": "village_idiotTRANS",
+        "reason": "如果村夫在场数量不足3人，科学怪人可以让恶魔拥有村夫的能力。"
+      }
+    ]
   }
 ]

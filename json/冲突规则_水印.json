@@ -325,7 +325,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "提线木偶&气球驾驶员",
-    "ability": "如果提线木偶抽到了气球驾驶员，也会+1外来者。"
+    "ability": "如果提线木偶抽到了气球驾驶员，也可能会+1外来者。"
   },
   {
     "id": "marionette+damsel",
@@ -358,22 +358,6 @@
     "team": "a jinxed",
     "name": "街头风琴手&管家",
     "ability": "如果街头风琴手使得玩家需要闭眼投票，管家可以自由举手投票，但只在他的主人投票时他的票才会被统计。"
-  },
-  {
-    "id": "organ_grinder+minstrel",
-    "image": "https://i.postimg.cc/kgJx8C9G/organ-grinder-minstrel.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "街头风琴手&吟游诗人",
-    "ability": "如果吟游诗人让全员醉酒，街头风琴手会保留能力，但吟游诗人可以在投票期间睁眼。（说书人需要在夜晚唤醒他对他进行提示）"
-  },
-  {
-    "id": "organ_grinder+preacher",
-    "image": "https://i.postimg.cc/ZY63Mn50/organ-grinder-preacher.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "街头风琴手&传教士",
-    "ability": "如果传教士选中了街头风琴手，街头风琴手会保留能力，但传教士可以在投票期间睁眼。（说书人需要在夜晚唤醒他对他进行提示）"
   },
   {
     "id": "vizier+investigator",
@@ -552,6 +536,70 @@
     "ability": "如果工程师的能力使得召唤师在使用自己的能力前离场，召唤师会在此前立即使用自己的能力。"
   },
   {
+    "id": "boffin+cult_leader",
+    "image": "https://i.postimg.cc/bNnYGMF4/boffin-cult-leader.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "科学怪人&异教领袖",
+    "ability": "如果恶魔拥有异教领袖的能力，他无法因为该能力转变为善良阵营。"
+  },
+  {
+    "id": "boffin+goon",
+    "image": "https://i.postimg.cc/hGDK5GPq/boffin-goon.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "科学怪人&莽夫",
+    "ability": "如果恶魔拥有莽夫的能力，他无法因为该能力转变为善良阵营。"
+  },
+  {
+    "id": "boffin+heretic",
+    "image": "https://i.postimg.cc/QMfjGrHK/boffin-heretic.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "科学怪人&异端分子",
+    "ability": "恶魔无法拥有异端分子的能力。"
+  },
+  {
+    "id": "boffin+ogre",
+    "image": "https://i.postimg.cc/vBjMTL7Q/boffin-ogre.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "科学怪人&食人魔",
+    "ability": "恶魔无法拥有食人魔的能力。"
+  },
+  {
+    "id": "boffin+politician",
+    "image": "https://i.postimg.cc/vBDbGSVq/boffin-politician.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "科学怪人&政客",
+    "ability": "恶魔无法拥有政客的能力。"
+  },
+  {
+    "id": "boffin+drunk",
+    "image": "https://i.postimg.cc/t4tXk6b5/boffin-drunk.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "科学怪人&酒鬼",
+    "ability": "如果恶魔拥有酒鬼的能力，改为由科学怪人选择一名玩家：如果他是镇民，他醉酒。"
+  },
+  {
+    "id": "boffin+alchemist",
+    "image": "https://i.postimg.cc/FHQr0ZMz/boffin-alchemist.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "科学怪人&炼金术士",
+    "ability": "如果炼金术士拥有科学怪人的能力，炼金术士不会得知恶魔因此获得了哪个角色的能力。"
+  },
+  {
+    "id": "boffin+village_idiot",
+    "image": "https://i.postimg.cc/Btf0cSwk/boffin-village-idiot.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "科学怪人&村夫",
+    "ability": "如果村夫在场数量不足3人，科学怪人可以让恶魔拥有村夫的能力。"
+  },
+  {
     "id": "leviathan+soldier",
     "image": "https://i.postimg.cc/7ZkKWj4r/leviathan-soldier.png",
     "edition": "custom",
@@ -670,14 +718,6 @@
     "team": "a jinxed",
     "name": "小怪宝&红唇女郎",
     "ability": "如果在五名及以上的玩家存活时照看小怪宝的玩家死亡，当晚红唇女郎必须要照看小怪宝。"
-  },
-  {
-    "id": "lil_monsta+organ_grinder",
-    "image": "https://i.postimg.cc/3wL9WRv3/lil-monsta-organ-grinder.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "小怪宝&街头风琴手",
-    "ability": "如果街头风琴手在照看小怪宝，对街头风琴手的提名即使他自己没有投票，票数也会被统计。"
   },
   {
     "id": "lil_monsta+vizier",
@@ -1037,7 +1077,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "卡扎力&莽夫",
-    "ability": "如果卡扎力在选择爪牙时选择了莽夫，接下来的爪牙转变由说书人来做出决定。"
+    "ability": "卡扎力可以把莽夫变成邪恶的爪牙。"
   },
   {
     "id": "kazali+marionette",
@@ -1062,6 +1102,14 @@
     "team": "a jinxed",
     "name": "卡扎力&巡山人",
     "ability": "如果卡扎力将落难少女变成了爪牙，并且巡山人在场，一名善良的玩家会变成落难少女。"
+  },
+  {
+    "id": "kazali+soldier",
+    "image": "https://i.postimg.cc/zvgNgbpT/kazali-soldier.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "卡扎力&士兵",
+    "ability": "卡扎力可以把士兵转变成邪恶的爪牙。"
   },
   {
     "id": "yaggababble+exorcist",

@@ -2,7 +2,7 @@ import json
 import os
 
 wrong_image = {
-    "lord_of_typhon": "https://wiki.bloodontheclocktower.com/images/c/cf/Icon_lordoftyphon.png",
+    # "lord_of_typhon": "https://wiki.bloodontheclocktower.com/images/c/cf/Icon_lordoftyphon.png",
     # "lord_of_typhon": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lord_of_typhon.png",
 }
 
