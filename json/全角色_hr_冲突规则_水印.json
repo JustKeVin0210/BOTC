@@ -140,7 +140,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2200,
+    "otherNight": 2100,
     "otherNightReminder": "让僧侣选择除自己外的一名玩家。标记那名玩家被保护。",
     "reminders": [
       "保护"
@@ -601,7 +601,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 1800,
+    "otherNight": 1600,
     "otherNightReminder": "让旅店老板选择两名玩家。标记这两名玩家不会死亡，并标记其中一人醉酒。",
     "reminders": [
       "不会死亡",
@@ -620,7 +620,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2000,
+    "otherNight": 1800,
     "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
     "reminders": [
       "死亡"
@@ -656,7 +656,7 @@
     "team": "townsfolk",
     "firstNight": 5100,
     "firstNightReminder": "侍臣可以选择一个角色。如果他这么做了，标记侍臣失去能力，标记被选择的角色所对应的玩家醉酒。之后的夜晚无需再唤醒侍臣。",
-    "otherNight": 1900,
+    "otherNight": 1700,
     "otherNightReminder": "侍臣可以选择一个角色。如果他这么做了，标记侍臣失去能力，标记被选择的角色所对应的玩家醉酒。之后的夜晚无需再唤醒侍臣。",
     "reminders": [
       "醉酒3",
@@ -844,7 +844,7 @@
     "name": "教父",
     "edition": "custom",
     "team": "minion",
-    "firstNight": 5400,
+    "firstNight": 5300,
     "firstNightReminder": "对他展示所有在场的外来者标记。",
     "otherNight": 8700,
     "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
@@ -1119,7 +1119,7 @@
     "team": "townsfolk",
     "firstNight": 5200,
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
-    "otherNight": 2100,
+    "otherNight": 2000,
     "otherNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "reminders": [
       "中毒"
@@ -2099,6 +2099,25 @@
     "script": "实验性角色"
   },
   {
+    "id": "acrobatTRANS",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/acrobat.png",
+    "name": "杂技演员",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1900,
+    "otherNightReminder": "在整个夜晚都检查与杂技演员左右两侧最近的两名存活善良玩家是否中毒或醉酒了，如果是，标记杂技演员死亡。",
+    "reminders": [
+      "被选择",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "每个夜晚*，你要选择一名玩家：如果当晚他醉酒或中毒，你死亡。",
+    "script": "实验性角色"
+  },
+  {
     "id": "snitchTRANS",
     "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/snitch.png",
     "name": "告密者",
@@ -2190,24 +2209,6 @@
         "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
       }
     ]
-  },
-  {
-    "id": "acrobatTRANS",
-    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/acrobat.png",
-    "name": "杂技演员",
-    "edition": "custom",
-    "team": "outsider",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 8900,
-    "otherNightReminder": "在整个夜晚都检查与杂技演员左右两侧最近的两名存活善良玩家是否中毒或醉酒了，如果是，标记杂技演员死亡。",
-    "reminders": [
-      "死亡"
-    ],
-    "remindersGlobal": [],
-    "setup": false,
-    "ability": "每个夜晚*，如果与你邻近的存活善良玩家之一醉酒或中毒，你死亡。",
-    "script": "实验性角色"
   },
   {
     "id": "politicianTRANS",
@@ -2369,7 +2370,7 @@
       },
       {
         "id": "balloonistTRANS",
-        "reason": "如果提线木偶抽到了气球驾驶员，也会+1外来者。"
+        "reason": "如果提线木偶抽到了气球驾驶员，也可能会+1外来者。"
       },
       {
         "id": "damselTRANS",
@@ -2771,10 +2772,6 @@
         "reason": "如果在五名及以上的玩家存活时照看小怪宝的玩家死亡，当晚红唇女郎必须要照看小怪宝。"
       },
       {
-        "id": "organ_grinderTRANS",
-        "reason": "如果街头风琴手在照看小怪宝，对街头风琴手的提名即使他自己没有投票，票数也会被统计。"
-      },
-      {
         "id": "vizierTRANS",
         "reason": "照看小怪宝的维齐尔能够死于处决。"
       },
@@ -3088,7 +3085,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2300,
+    "otherNight": 2200,
     "otherNightReminder": "唤醒打更人，让打更人猜测距离，在这两名玩家的角色标记旁放置“警惕”提示标记。让打更人重新入睡。检查标记有“警惕”的玩家是否为当晚死亡的第一名玩家，如果是，除打更人以外所有玩家不会死亡。移除所有“警惕”标记。标记打更人“死亡”。",
     "reminders": [
       "警惕",
@@ -3164,7 +3161,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2400,
+    "otherNight": 2300,
     "otherNightReminder": "唤醒锦衣卫，让锦衣卫选择一名玩家，在该玩家角色标记旁放置“保护”提示标记。让锦衣卫重新入睡。",
     "reminders": [
       "保护"
@@ -3316,7 +3313,7 @@
     "team": "townsfolk",
     "firstNight": 7200,
     "firstNightReminder": "唤醒熊孩子，让熊孩子选择一个镇民角色。如果那个角色在场，在对应角色标记旁边放置“捣蛋鬼”提示标记。让熊孩子重新入睡。",
-    "otherNight": 2500,
+    "otherNight": 2400,
     "otherNightReminder": "唤醒熊孩子，让熊孩子选择一个镇民角色。如果那个角色在场，在对应角色标记旁边放置“捣蛋鬼”提示标记。让熊孩子重新入睡。",
     "reminders": [
       "捣蛋"
@@ -3650,12 +3647,13 @@
     "name": "街头风琴手",
     "edition": "custom",
     "team": "minion",
-    "firstNight": 0,
+    "firstNight": 5400,
     "firstNightReminder": "",
-    "otherNight": 0,
+    "otherNight": 2500,
     "otherNightReminder": "",
     "reminders": [
-      "即将被处决"
+      "即将被处决",
+      "醉酒"
     ],
     "remindersGlobal": [],
     "setup": false,
@@ -3665,14 +3663,6 @@
       {
         "id": "butlerTRANS",
         "reason": "如果街头风琴手使得玩家需要闭眼投票，管家可以自由举手投票，但只在他的主人投票时他的票才会被统计。"
-      },
-      {
-        "id": "minstrelTRANS",
-        "reason": "如果吟游诗人让全员醉酒，街头风琴手会保留能力，但吟游诗人可以在投票期间睁眼。（说书人需要在夜晚唤醒他对他进行提示）"
-      },
-      {
-        "id": "preacherTRANS",
-        "reason": "如果传教士选中了街头风琴手，街头风琴手会保留能力，但传教士可以在投票期间睁眼。（说书人需要在夜晚唤醒他对他进行提示）"
       }
     ]
   },
@@ -3941,7 +3931,7 @@
       },
       {
         "id": "goonTRANS",
-        "reason": "如果卡扎力在选择爪牙时选择了莽夫，接下来的爪牙转变由说书人来做出决定。"
+        "reason": "卡扎力可以把莽夫变成邪恶的爪牙。"
       },
       {
         "id": "marionetteTRANS",
@@ -3954,6 +3944,10 @@
       {
         "id": "huntsmanTRANS",
         "reason": "如果卡扎力将落难少女变成了爪牙，并且巡山人在场，一名善良的玩家会变成落难少女。"
+      },
+      {
+        "id": "soldierTRANS",
+        "reason": "卡扎力可以把士兵转变成邪恶的爪牙。"
       }
     ]
   },
@@ -4175,7 +4169,41 @@
     "remindersGlobal": [],
     "setup": false,
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
-    "script": "实验性角色"
+    "script": "实验性角色",
+    "jinxes": [
+      {
+        "id": "cult_leaderTRANS",
+        "reason": "如果恶魔拥有异教领袖的能力，他无法因为该能力转变为善良阵营。"
+      },
+      {
+        "id": "goonTRANS",
+        "reason": "如果恶魔拥有莽夫的能力，他无法因为该能力转变为善良阵营。"
+      },
+      {
+        "id": "hereticTRANS",
+        "reason": "恶魔无法拥有异端分子的能力。"
+      },
+      {
+        "id": "ogreTRANS",
+        "reason": "恶魔无法拥有食人魔的能力。"
+      },
+      {
+        "id": "politicianTRANS",
+        "reason": "恶魔无法拥有政客的能力。"
+      },
+      {
+        "id": "drunkTRANS",
+        "reason": "如果恶魔拥有酒鬼的能力，改为由科学怪人选择一名玩家：如果他是镇民，他醉酒。"
+      },
+      {
+        "id": "alchemistTRANS",
+        "reason": "如果炼金术士拥有科学怪人的能力，炼金术士不会得知恶魔因此获得了哪个角色的能力。"
+      },
+      {
+        "id": "village_idiotTRANS",
+        "reason": "如果村夫在场数量不足3人，科学怪人可以让恶魔拥有村夫的能力。"
+      }
+    ]
   },
   {
     "id": "chambermaid+mathematician",
@@ -5672,5 +5700,21 @@
     "team": "a jinxed",
     "name": "梼杌&理发师",
     "ability": "如果梼杌的角色发生了交换，不会因此移除原本梼杌的“失去能力”提示标记。"
+  },
+  {
+    "id": "kazali+banxian",
+    "image": "https://i.postimg.cc/133Qcxrm/kazali-banxian.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "卡扎力&半仙",
+    "ability": "卡扎力可以把半仙转变成邪恶的爪牙。"
+  },
+  {
+    "id": "kazali+heshang",
+    "image": "https://i.postimg.cc/RZpzgPgc/kazali-heshang.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "卡扎力&和尚",
+    "ability": "卡扎力可以把与和尚邻近的玩家转变成邪恶的爪牙。"
   }
 ]

@@ -1502,5 +1502,21 @@
     "team": "a jinxed",
     "name": "梼杌&理发师",
     "ability": "如果梼杌的角色发生了交换，不会因此移除原本梼杌的“失去能力”提示标记。"
+  },
+  {
+    "id": "kazali+banxian",
+    "image": "https://i.postimg.cc/133Qcxrm/kazali-banxian.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "卡扎力&半仙",
+    "ability": "卡扎力可以把半仙转变成邪恶的爪牙。"
+  },
+  {
+    "id": "kazali+heshang",
+    "image": "https://i.postimg.cc/RZpzgPgc/kazali-heshang.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "卡扎力&和尚",
+    "ability": "卡扎力可以把与和尚邻近的玩家转变成邪恶的爪牙。"
   }
 ]

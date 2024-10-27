@@ -140,7 +140,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2200,
+    "otherNight": 2100,
     "otherNightReminder": "让僧侣选择除自己外的一名玩家。标记那名玩家被保护。",
     "reminders": [
       "保护"
@@ -601,7 +601,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 1800,
+    "otherNight": 1600,
     "otherNightReminder": "让旅店老板选择两名玩家。标记这两名玩家不会死亡，并标记其中一人醉酒。",
     "reminders": [
       "不会死亡",
@@ -620,7 +620,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2000,
+    "otherNight": 1800,
     "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
     "reminders": [
       "死亡"
@@ -656,7 +656,7 @@
     "team": "townsfolk",
     "firstNight": 5100,
     "firstNightReminder": "侍臣可以选择一个角色。如果他这么做了，标记侍臣失去能力，标记被选择的角色所对应的玩家醉酒。之后的夜晚无需再唤醒侍臣。",
-    "otherNight": 1900,
+    "otherNight": 1700,
     "otherNightReminder": "侍臣可以选择一个角色。如果他这么做了，标记侍臣失去能力，标记被选择的角色所对应的玩家醉酒。之后的夜晚无需再唤醒侍臣。",
     "reminders": [
       "醉酒3",
@@ -844,7 +844,7 @@
     "name": "教父",
     "edition": "custom",
     "team": "minion",
-    "firstNight": 5400,
+    "firstNight": 5300,
     "firstNightReminder": "对他展示所有在场的外来者标记。",
     "otherNight": 8700,
     "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
@@ -1119,7 +1119,7 @@
     "team": "townsfolk",
     "firstNight": 5200,
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
-    "otherNight": 2100,
+    "otherNight": 2000,
     "otherNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "reminders": [
       "中毒"
@@ -2099,6 +2099,25 @@
     "script": "实验性角色"
   },
   {
+    "id": "acrobatTRANS",
+    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/8f/Acrobat.png/180px-Acrobat.png",
+    "name": "杂技演员",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1900,
+    "otherNightReminder": "在整个夜晚都检查与杂技演员左右两侧最近的两名存活善良玩家是否中毒或醉酒了，如果是，标记杂技演员死亡。",
+    "reminders": [
+      "被选择",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "每个夜晚*，你要选择一名玩家：如果当晚他醉酒或中毒，你死亡。",
+    "script": "实验性角色"
+  },
+  {
     "id": "snitchTRANS",
     "image": "https://clocktower-wiki.gstonegames.com/images/thumb/0/0c/Snitch.png/180px-Snitch.png",
     "name": "告密者",
@@ -2190,24 +2209,6 @@
         "reason": "互为克星的角色在同一时间里只能有其中一个角色在场。"
       }
     ]
-  },
-  {
-    "id": "acrobatTRANS",
-    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/8/8f/Acrobat.png/180px-Acrobat.png",
-    "name": "杂技演员",
-    "edition": "custom",
-    "team": "outsider",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 8900,
-    "otherNightReminder": "在整个夜晚都检查与杂技演员左右两侧最近的两名存活善良玩家是否中毒或醉酒了，如果是，标记杂技演员死亡。",
-    "reminders": [
-      "死亡"
-    ],
-    "remindersGlobal": [],
-    "setup": false,
-    "ability": "每个夜晚*，如果与你邻近的存活善良玩家之一醉酒或中毒，你死亡。",
-    "script": "实验性角色"
   },
   {
     "id": "politicianTRANS",
@@ -3084,7 +3085,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2300,
+    "otherNight": 2200,
     "otherNightReminder": "唤醒打更人，让打更人猜测距离，在这两名玩家的角色标记旁放置“警惕”提示标记。让打更人重新入睡。检查标记有“警惕”的玩家是否为当晚死亡的第一名玩家，如果是，除打更人以外所有玩家不会死亡。移除所有“警惕”标记。标记打更人“死亡”。",
     "reminders": [
       "警惕",
@@ -3160,7 +3161,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2400,
+    "otherNight": 2300,
     "otherNightReminder": "唤醒锦衣卫，让锦衣卫选择一名玩家，在该玩家角色标记旁放置“保护”提示标记。让锦衣卫重新入睡。",
     "reminders": [
       "保护"
@@ -3312,7 +3313,7 @@
     "team": "townsfolk",
     "firstNight": 7200,
     "firstNightReminder": "唤醒熊孩子，让熊孩子选择一个镇民角色。如果那个角色在场，在对应角色标记旁边放置“捣蛋鬼”提示标记。让熊孩子重新入睡。",
-    "otherNight": 2500,
+    "otherNight": 2400,
     "otherNightReminder": "唤醒熊孩子，让熊孩子选择一个镇民角色。如果那个角色在场，在对应角色标记旁边放置“捣蛋鬼”提示标记。让熊孩子重新入睡。",
     "reminders": [
       "捣蛋"
@@ -3646,12 +3647,13 @@
     "name": "街头风琴手",
     "edition": "custom",
     "team": "minion",
-    "firstNight": 0,
+    "firstNight": 5400,
     "firstNightReminder": "",
-    "otherNight": 0,
+    "otherNight": 2500,
     "otherNightReminder": "",
     "reminders": [
-      "即将被处决"
+      "即将被处决",
+      "醉酒"
     ],
     "remindersGlobal": [],
     "setup": false,
@@ -3946,6 +3948,14 @@
       {
         "id": "soldierTRANS",
         "reason": "卡扎力可以把士兵转变成邪恶的爪牙。"
+      },
+      {
+        "id": "banxianTRANS",
+        "reason": "卡扎力可以把半仙转变成邪恶的爪牙。"
+      },
+      {
+        "id": "heshangTRANS",
+        "reason": "卡扎力可以把与和尚邻近的玩家转变成邪恶的爪牙。"
       }
     ]
   },
