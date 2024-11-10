@@ -24,12 +24,12 @@
     "ability": "如果哲学家获得了赏金猎人的能力，可能会有一名镇民玩家转变为邪恶。"
   },
   {
-    "id": "lycanthrope+gambler",
-    "image": "https://i.postimg.cc/433QCgFq/lycanthrope-gambler.png",
+    "id": "cannibal+poppy_grower",
+    "image": "https://i.postimg.cc/sfwZsVdx/cannibal-poppy-grower.png",
     "edition": "custom",
     "team": "a jinxed",
-    "name": "半兽人&赌徒",
-    "ability": "赌徒会先于半兽人行动。如果赌徒赌博失败且半兽人存活，那么无论半兽人选择了哪名玩家，当晚只会有赌徒死亡。"
+    "name": "食人族&罂粟种植者",
+    "ability": "如果食人族获得了罂粟种植者的能力，当他获得下一个能力时，爪牙和恶魔也会互相认识。"
   },
   {
     "id": "cannibal+juggler",
@@ -1136,14 +1136,6 @@
     "ability": "目前的相克规则难以处理多角色互动的问题，这里给出建议的调整方式：“如果没有恶魔在场，召唤师会被钟表匠当作恶魔”。"
   },
   {
-    "id": "pit-hag+lycanthrope",
-    "image": "https://i.postimg.cc/3xxvNZCD/pit-hag-lycanthrope.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "麻脸巫婆&半兽人",
-    "ability": "如果半兽人使得当晚无法造成额外的死亡，麻脸巫婆便能肆无忌惮地创造更多的邪恶恶魔。建议“如果半兽人攻击了善良玩家，当晚麻脸巫婆无法将非恶魔玩家变成恶魔角色”。（等到半兽人行动后再通知相应的角色变化即可）"
-  },
-  {
     "id": "barber+cult_leader",
     "image": "https://i.postimg.cc/pXyGjKB3/barber-cult-leader.png",
     "edition": "custom",
@@ -1318,22 +1310,6 @@
     "team": "a jinxed",
     "name": "戏子&恐惧之灵",
     "ability": "戏子无法反转由恐惧之灵的能力产生的胜负结果。"
-  },
-  {
-    "id": "lycanthrope+dagengren",
-    "image": "https://i.postimg.cc/sgm40XK5/lycanthrope-dagengren.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "半兽人&打更人",
-    "ability": "如果打更人猜测正确的玩家是半兽人攻击的玩家，那么当晚只会有打更人死亡。"
-  },
-  {
-    "id": "lycanthrope+jinyiwei",
-    "image": "https://i.postimg.cc/0j7pG2bM/lycanthrope-jinyiwei.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "半兽人&锦衣卫",
-    "ability": "如果半兽人选择了锦衣卫保护的善良玩家，那么当晚只会有锦衣卫死亡。"
   },
   {
     "id": "wudaozhe+village_idiot",

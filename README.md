@@ -80,7 +80,7 @@ python token_get_jinx.py
 python json_transform.py
 ### json文件融合
 python json_merge.py
-### json文件(角色更新至杂技演员能力修改，相克规则更新至卡扎力&和尚/半仙相克修改)
+### json文件(角色更新至半兽人能力修改，相克规则更新至食人族&罂粟种植者相克修改)
 json/全角色.json
 
 json/全角色_hr.json

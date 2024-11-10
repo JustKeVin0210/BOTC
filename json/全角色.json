@@ -140,7 +140,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2100,
+    "otherNight": 2300,
     "otherNightReminder": "让僧侣选择除自己外的一名玩家。标记那名玩家被保护。",
     "reminders": [
       "保护"
@@ -620,7 +620,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 1800,
+    "otherNight": 2000,
     "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
     "reminders": [
       "死亡"
@@ -1119,7 +1119,7 @@
     "team": "townsfolk",
     "firstNight": 5200,
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
-    "otherNight": 2000,
+    "otherNight": 2200,
     "otherNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "reminders": [
       "中毒"
@@ -1506,10 +1506,6 @@
       {
         "id": "village_idiotTRANS",
         "reason": "如果村夫在场数量不足3人，麻脸巫婆可以创造新的村夫。如果她这么做，村夫的醉酒效果可能会更换目标。"
-      },
-      {
-        "id": "lycanthropeTRANS",
-        "reason": "如果半兽人使得当晚无法造成额外的死亡，麻脸巫婆便能肆无忌惮地创造更多的邪恶恶魔。建议“如果半兽人攻击了善良玩家，当晚麻脸巫婆无法将非恶魔玩家变成恶魔角色”。（等到半兽人行动后再通知相应的角色变化即可）"
       }
     ]
   },
@@ -1701,11 +1697,12 @@
     "otherNight": 4400,
     "otherNightReminder": "让半兽人选择一名存活的玩家。如果那是一名善良玩家，标记那名玩家死亡。并且今晚不会再有任何死亡。",
     "reminders": [
+      "当作邪恶",
       "死亡"
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个夜晚*，你要选择一名存活的玩家，如果他是善良的，他死亡，并且当晚不会再有其他玩家死亡。",
+    "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。",
     "script": "实验性角色",
     "jinxes": [
       {
@@ -1871,7 +1868,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
+    "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
     "script": "实验性角色"
   },
   {
@@ -1952,6 +1949,10 @@
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
     "script": "实验性角色",
     "jinxes": [
+      {
+        "id": "poppy_growerTRANS",
+        "reason": "如果食人族获得了罂粟种植者的能力，当他获得下一个能力时，爪牙和恶魔也会互相认识。"
+      },
       {
         "id": "jugglerTRANS",
         "reason": "如果杂耍艺人在自己的首个白天猜测后在当天死于处决，当晚食人族会替杂耍艺人得知对应的信息。"
@@ -2106,7 +2107,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 1900,
+    "otherNight": 2100,
     "otherNightReminder": "在整个夜晚都检查与杂技演员左右两侧最近的两名存活善良玩家是否中毒或醉酒了，如果是，标记杂技演员死亡。",
     "reminders": [
       "被选择",
@@ -2395,7 +2396,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。一分钟之后，被最多玩家手指指着的玩家死亡。",
+    "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。倒数十声后，被最多玩家手指指着的玩家死亡。",
     "script": "实验性角色"
   },
   {
@@ -3085,7 +3086,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2200,
+    "otherNight": 1800,
     "otherNightReminder": "唤醒打更人，让打更人猜测距离，在这两名玩家的角色标记旁放置“警惕”提示标记。让打更人重新入睡。检查标记有“警惕”的玩家是否为当晚死亡的第一名玩家，如果是，除打更人以外所有玩家不会死亡。移除所有“警惕”标记。标记打更人“死亡”。",
     "reminders": [
       "警惕",
@@ -3161,7 +3162,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2300,
+    "otherNight": 1900,
     "otherNightReminder": "唤醒锦衣卫，让锦衣卫选择一名玩家，在该玩家角色标记旁放置“保护”提示标记。让锦衣卫重新入睡。",
     "reminders": [
       "保护"
@@ -3806,7 +3807,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "如果你死亡，说书人获得一个爪牙能力。",
+    "ability": "当你死亡时，说书人会获得一个爪牙能力。",
     "script": "实验性角色",
     "jinxes": [
       {
@@ -4126,7 +4127,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
+    "ability": "每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
     "script": "实验性角色"
   },
   {
