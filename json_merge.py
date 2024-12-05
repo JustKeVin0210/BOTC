@@ -26,6 +26,8 @@ def add_jinx_json(json_file, jinx_file, save_path):
             jinx_list.append(jinx_dict)
         if jinx_list:
             json_info["jinxes"] = jinx_list
+        else:
+            json_info.pop("jinxes", None)
     new_json_name = os.path.basename(json_file).replace(".json", "_jinx.json")
     with open(os.path.join(save_path, new_json_name), "w", encoding='utf-8') as f:
         json.dump(json_data, f, ensure_ascii=False, indent=2)

@@ -35,8 +35,8 @@ def transform_json(origin_json_file, all_role_json_file, save_path, logo_url="")
 
 
 if __name__ == '__main__':
-    origin_json_file = r"json_script/逢场作戏v2.6.json"
+    origin_json_file = r"json_script/月照心自明v2.2.json"
     all_role_json_file = r"json/全角色_hr.json"
     save_path = r"./json"
-    # logo_url = r"https://i.postimg.cc/GtZVBcXQ/image.png"
+    logo_url = r"https://i.postimg.cc/L8YFZw35/LOGO.png"
     transform_json(origin_json_file, all_role_json_file, save_path)

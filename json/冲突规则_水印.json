@@ -213,7 +213,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "间谍&炼金术士",
-    "ability": "炼金术士无法获得间谍的能力。"
+    "ability": "如果炼金术士获得了间谍的能力，他无法查看魔典，并且间谍不能被当作善良阵营、镇民角色或外来者角色。（炼金术士可能被当做善良的镇民或外来者角色，并可以因此在间谍查看魔典时被当作不同的角色。）"
   },
   {
     "id": "spy+poppy_grower",
@@ -269,7 +269,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "寡妇&炼金术士",
-    "ability": "炼金术士无法获得寡妇的能力。"
+    "ability": "如果炼金术士获得了寡妇的能力，他无法查看魔典。(炼金术士仍然需要选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。）"
   },
   {
     "id": "widow+damsel",
@@ -382,14 +382,6 @@
     "team": "a jinxed",
     "name": "维齐尔&侍臣",
     "ability": "如果维齐尔失去能力，他会得知这一信息。如果侍臣在剧本列表中，且维齐尔在具有能力时被处决，他的阵营获胜。"
-  },
-  {
-    "id": "vizier+alchemist",
-    "image": "https://i.postimg.cc/JzQC6b9K/vizier-alchemist.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "维齐尔&炼金术士",
-    "ability": "如果炼金术士拥有维齐尔的能力，他只能在三名或更多玩家投票时选择立即处决，不论这些玩家的阵营如何。（不仅如此，实际上所有初始阵营为善良的玩家获得维齐尔的能力，都应该参照这种方式来执行。）"
   },
   {
     "id": "vizier+magician",
@@ -605,7 +597,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "利维坦&士兵",
-    "ability": "如果利维坦发起的提名中士兵被处决，士兵不会死亡。"
+    "ability": "如果利维坦在场，士兵免疫所有邪恶阵营的负面效果。"
   },
   {
     "id": "leviathan+monk",
@@ -613,7 +605,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "利维坦&僧侣",
-    "ability": "如果利维坦发起的提名中被处决的玩家在前一晚曾被僧侣成功保护，那么那名玩家不会死亡。"
+    "ability": "如果利维坦在场，僧侣保护的玩家免疫所有邪恶阵营的负面效果。"
   },
   {
     "id": "leviathan+innkeeper",
@@ -621,7 +613,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "利维坦&旅店老板",
-    "ability": "如果利维坦发起的提名中被处决的玩家在前一晚曾被旅店老板成功保护，那么那名玩家不会死亡。"
+    "ability": "如果利维坦在场，旅店老板保护的玩家免疫所有邪恶阵营的负面效果。"
   },
   {
     "id": "leviathan+ravenkeeper",
@@ -629,7 +621,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "利维坦&守鸦人",
-    "ability": "如果利维坦在场且守鸦人死于处决，那么他当晚会被唤醒并使用自己的能力。如果提名者是善良阵营，守鸦人会醉酒。"
+    "ability": "每个夜晚*，利维坦要选择一名存活的善良玩家（与之前的每个夜晚不同）：如果守鸦人被选择，他的能力生效但不会死亡。"
   },
   {
     "id": "leviathan+sage",
@@ -637,7 +629,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "利维坦&贤者",
-    "ability": "如果利维坦在场且贤者死于处决，那么他当晚会被唤醒并使用自己的能力。如果提名者是善良阵营，贤者会醉酒。"
+    "ability": "每个夜晚*，利维坦要选择一名存活的善良玩家（与之前的每个夜晚不同）：如果贤者被选择，他的能力生效但不会死亡。"
   },
   {
     "id": "leviathan+banshee",
@@ -645,7 +637,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "利维坦&报丧女妖",
-    "ability": "如果利维坦在场且报丧女妖死于处决，所有玩家都会得知报丧女妖死亡，随后报丧女妖获得她死亡后的能力。"
+    "ability": "每个夜晚*，利维坦要选择一名存活的善良玩家（与之前的每个夜晚不同）：如果报丧女妖被选择，他死亡并能力生效。"
   },
   {
     "id": "leviathan+farmer",
@@ -653,7 +645,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "利维坦&农夫",
-    "ability": "如果利维坦在场且农夫死于处决，当晚会有一名存活的善良玩家变成农夫。"
+    "ability": "每个夜晚*，利维坦要选择一名存活玩家（与之前的每个夜晚不同）：如果农夫被选择，他的能力生效但不会死亡。"
   },
   {
     "id": "leviathan+mayor",
@@ -664,20 +656,28 @@
     "ability": "如果利维坦在场，镇长存活且第五天没有处决发生，则善良阵营获胜。"
   },
   {
-    "id": "leviathan+pit-hag",
-    "image": "https://i.postimg.cc/G34g8kKV/leviathan-pit-hag.png",
+    "id": "leviathan+exorcist",
+    "image": "https://i.postimg.cc/yx42r72Q/leviathan-exorcist.png",
     "edition": "custom",
     "team": "a jinxed",
-    "name": "利维坦&麻脸巫婆",
-    "ability": "在第五个白天之后，麻脸巫婆无法创造利维坦。"
+    "name": "利维坦&驱魔人",
+    "ability": "如果驱魔人存活并且成功选中过利维坦，即使有多于一名善良玩家被处决，邪恶阵营也不会获胜。"
   },
   {
-    "id": "leviathan+hatter",
-    "image": "https://i.postimg.cc/L8tzgsGr/leviathan-hatter.png",
+    "id": "leviathan+grandmother",
+    "image": "https://i.postimg.cc/j2HmpGbs/leviathan-grandmother.png",
     "edition": "custom",
     "team": "a jinxed",
-    "name": "利维坦&帽匠",
-    "ability": "如果帽匠在第五个白天或之后死亡，恶魔不能选择变成利维坦。"
+    "name": "利维坦&祖母",
+    "ability": "如果利维坦在场，孙子死于处决，祖母会一同死亡。"
+  },
+  {
+    "id": "leviathan+king",
+    "image": "https://i.postimg.cc/7P0FJTTp/leviathan-king.png",
+    "edition": "custom",
+    "team": "a jinxed",
+    "name": "利维坦&国王",
+    "ability": "如果利维坦在场，当至少一名玩家死亡时，国王每晚就会得知一个存活的角色。"
   },
   {
     "id": "al-hadikhia+scarlet_woman",
@@ -792,60 +792,12 @@
     "ability": "如果方古成功转化了外来者并因此死去，红唇女郎不会变成方古。"
   },
   {
-    "id": "riot+engineer",
-    "image": "https://i.postimg.cc/7hPx9KL3/riot-engineer.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&工程师",
-    "ability": "暴乱和工程师不能在初始时同时在场。如果工程师创造了暴乱，所有邪恶玩家都会变成暴乱。"
-  },
-  {
-    "id": "riot+golem",
-    "image": "https://i.postimg.cc/j28RFyWG/riot-golem.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&魔像",
-    "ability": "如果魔像提名了暴乱，暴乱不会死亡。"
-  },
-  {
-    "id": "riot+snitch",
-    "image": "https://i.postimg.cc/1tvxms9F/riot-snitch.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&告密者",
-    "ability": "如果告密者在场，所有暴乱玩家都会分别得知三个不在场角色。"
-  },
-  {
-    "id": "riot+saint",
-    "image": "https://i.postimg.cc/XJjS6p03/riot-saint.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&圣徒",
-    "ability": "如果善良玩家提名并杀死了圣徒，圣徒的阵营落败。"
-  },
-  {
-    "id": "riot+butler",
-    "image": "https://i.postimg.cc/qRsRjtxT/riot-butler.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&管家",
-    "ability": "管家无法提名主人。"
-  },
-  {
-    "id": "riot+zealot",
-    "image": "https://i.postimg.cc/WtRZ1PWj/riot-zealot.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&狂热者",
-    "ability": "狂热者在被提名后必须立马发起提名，即使自己已死亡。"
-  },
-  {
     "id": "riot+mayor",
     "image": "https://i.postimg.cc/cHhWvfcr/riot-mayor.png",
     "edition": "custom",
     "team": "a jinxed",
     "name": "暴乱&镇长",
-    "ability": "如果在第三天开始时只有三名玩家存活，所有玩家可以针对今天不发起提名进行表决。如果表决通过且镇长存活，镇长的阵营获胜。"
+    "ability": "镇长可以停止提名。如果他这样做了，并且场上只有一名暴乱存活，善良阵营获胜；否则，邪恶阵营获胜。"
   },
   {
     "id": "riot+monk",
@@ -853,7 +805,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "暴乱&僧侣",
-    "ability": "如果暴乱提名了一名前一晚曾被僧侣成功保护的玩家，那名玩家不会死亡。"
+    "ability": "如果暴乱在场，僧侣保护的玩家免疫所有邪恶阵营的负面效果。"
   },
   {
     "id": "riot+farmer",
@@ -861,7 +813,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "暴乱&农夫",
-    "ability": "如果暴乱提名并杀死了农夫，当晚会有一名存活的善良玩家变成农夫。"
+    "ability": "每个夜晚*，暴乱要选择一名存活的善良玩家（与之前的每个夜晚不同）：如果农夫被选择，他的能力生效但不会死亡。"
   },
   {
     "id": "riot+innkeeper",
@@ -869,7 +821,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "暴乱&旅店老板",
-    "ability": "如果暴乱提名了一名前一晚曾被旅店老板成功保护的玩家，那名玩家不会死亡。"
+    "ability": "如果暴乱在场，旅店老板保护的玩家免疫所有邪恶阵营的负面效果。"
   },
   {
     "id": "riot+sage",
@@ -877,7 +829,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "暴乱&贤者",
-    "ability": "如果暴乱提名并杀死了贤者，当晚贤者会被唤醒并使用其能力。"
+    "ability": "每个夜晚*，暴乱要选择一名存活的善良玩家（与之前的每个夜晚不同）：如果贤者被选择，他的能力生效但不会死亡。"
   },
   {
     "id": "riot+ravenkeeper",
@@ -885,7 +837,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "暴乱&守鸦人",
-    "ability": "如果暴乱提名并杀死了守鸦人，当晚守鸦人会被唤醒并使用其能力。"
+    "ability": "每个夜晚*，暴乱要选择一名存活的善良玩家（与之前的每个夜晚不同）：如果守鸦人被选择，他的能力生效但不会死亡。"
   },
   {
     "id": "riot+banshee",
@@ -893,7 +845,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "暴乱&报丧女妖",
-    "ability": "如果暴乱提名并杀死了报丧女妖，所有玩家都会得知报丧女妖死亡，随后报丧女妖可以立即提名两名玩家。（同时或按顺序结算这两条提名链。）"
+    "ability": "每个夜晚*，暴乱要选择一名存活玩家（与之前的每个夜晚不同）：如果报丧女妖被选择，他死亡并能力生效。"
   },
   {
     "id": "riot+soldier",
@@ -901,7 +853,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "暴乱&士兵",
-    "ability": "如果暴乱提名了士兵，士兵不会死亡。"
+    "ability": "如果暴乱在场，士兵免疫所有邪恶阵营的负面效果。"
   },
   {
     "id": "riot+grandmother",
@@ -909,7 +861,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "暴乱&祖母",
-    "ability": "如果暴乱提名并杀死了孙子，祖母会一同死亡。"
+    "ability": "如果暴乱在场，孙子在白天死亡，祖母会一同死亡。"
   },
   {
     "id": "riot+king",
@@ -917,7 +869,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "暴乱&国王",
-    "ability": "如果暴乱提名并杀死了国王且唱诗男孩存活，当晚唱诗男孩会被唤醒并使用其能力。"
+    "ability": "如果暴乱在场，当至少一名玩家死亡时，国王每晚就会得知一个存活的角色。"
   },
   {
     "id": "riot+exorcist",
@@ -925,119 +877,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "暴乱&驱魔人",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "riot+minstrel",
-    "image": "https://i.postimg.cc/HxdHW6Xq/riot-minstrel.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&吟游诗人",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "riot+flowergirl",
-    "image": "https://i.postimg.cc/pLmL3cJk/riot-flowergirl.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&卖花女孩",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
-  },
-  {
-    "id": "riot+undertaker",
-    "image": "https://i.postimg.cc/SRRBj3sv/riot-undertaker.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&送葬者",
-    "ability": "被提名且死亡的玩家算作被处决。"
-  },
-  {
-    "id": "riot+cannibal",
-    "image": "https://i.postimg.cc/sxK2CtLH/riot-cannibal.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&食人族",
-    "ability": "被提名且死亡的玩家算作被处决。"
-  },
-  {
-    "id": "riot+pacifist",
-    "image": "https://i.postimg.cc/66HwwL3P/riot-pacifist.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&和平主义者",
-    "ability": "被提名且死亡的玩家算作被处决。"
-  },
-  {
-    "id": "riot+devils_advocate",
-    "image": "https://i.postimg.cc/52D2J5PJ/riot-devils-advocate.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&魔鬼代言人",
-    "ability": "被提名且死亡的玩家算作被处决。"
-  },
-  {
-    "id": "riot+investigator",
-    "image": "https://i.postimg.cc/dVZJ5kJx/riot-investigator.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&调查员",
-    "ability": "暴乱被调查员当作爪牙。"
-  },
-  {
-    "id": "riot+clockmaker",
-    "image": "https://i.postimg.cc/prPd72sn/riot-clockmaker.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&钟表匠",
-    "ability": "暴乱被钟表匠当作爪牙。"
-  },
-  {
-    "id": "riot+town_crier",
-    "image": "https://i.postimg.cc/VNcP4KGJ/riot-town-crier.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&城镇公告员",
-    "ability": "暴乱被城镇公告员当作爪牙。"
-  },
-  {
-    "id": "riot+damsel",
-    "image": "https://i.postimg.cc/Hssx9kJq/riot-damsel.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&落难少女",
-    "ability": "暴乱被落难少女当作爪牙。"
-  },
-  {
-    "id": "riot+preacher",
-    "image": "https://i.postimg.cc/xTcQdJN1/riot-preacher.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&传教士",
-    "ability": "暴乱被传教士当作爪牙。"
-  },
-  {
-    "id": "riot+pit-hag",
-    "image": "https://i.postimg.cc/NfSc2sR7/riot-pit-hag.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&麻脸巫婆",
-    "ability": "如果麻脸巫婆创造了暴乱，所有邪恶玩家都会变成暴乱。如果麻脸巫婆在游戏的第三天之后创造了暴乱，则游戏还会再进行一天。"
-  },
-  {
-    "id": "riot+hatter",
-    "image": "https://i.postimg.cc/MGRKpc4Q/riot-hatter.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&帽匠",
-    "ability": "如果帽匠死亡时暴乱在场，一名暴乱选择变成其他恶魔，则其他所有暴乱需要选择变成其他爪牙。如果帽匠死亡时恶魔选择变成暴乱，所有爪牙会一同变成暴乱（如果发生在第三天后，则游戏会多进行一天）。"
-  },
-  {
-    "id": "riot+summoner",
-    "image": "https://i.postimg.cc/ZqFtQ62V/riot-summoner.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&召唤师",
-    "ability": "如果召唤师创造了暴乱，被选择的玩家和所有邪恶玩家都变成邪恶的暴乱。被选择的玩家必须是与召唤师邻近的存活善良玩家。"
+    "ability": "如果驱魔人在第三个夜晚选中了暴乱，爪牙不会变成暴乱。"
   },
   {
     "id": "lleech+mastermind",
@@ -1237,7 +1077,7 @@
     "edition": "custom",
     "team": "a jinxed",
     "name": "戏子&暴乱",
-    "ability": "互为克星的角色在同一时间里只能有其中一个角色在场。"
+    "ability": "通过常规方式难以自杀的恶魔，在戏子存在于剧本中时，可以在游戏中任意时候向说书人示意自己“想要死亡”。说书人会在当晚杀死这名玩家。"
   },
   {
     "id": "xizi+legion",
@@ -1374,22 +1214,6 @@
     "team": "a jinxed",
     "name": "暴乱&和尚",
     "ability": "如果暴乱提名了与和尚邻近的存活玩家，那么那名玩家不会死亡，并且当晚和尚得知他的能力被触发。（如常在和尚旁放置“已生效”提示标记，因为黎明时才会移除此标记，因此当晚和尚无法再触发他的能力。）"
-  },
-  {
-    "id": "riot+nichen",
-    "image": "https://i.postimg.cc/cCJSw6DT/riot-nichen.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&逆臣",
-    "ability": "被提名且死亡的玩家算作被处决。"
-  },
-  {
-    "id": "riot+humeiniang",
-    "image": "https://i.postimg.cc/KvHZ7rhT/riot-humeiniang.png",
-    "edition": "custom",
-    "team": "a jinxed",
-    "name": "暴乱&狐媚娘",
-    "ability": "被提名且死亡的玩家算作被处决。"
   },
   {
     "id": "leviathan+heshang",
